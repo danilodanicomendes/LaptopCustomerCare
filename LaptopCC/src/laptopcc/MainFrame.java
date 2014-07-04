@@ -15,6 +15,7 @@ public class MainFrame extends javax.swing.JFrame {
     /**
      * Creates new form MainFrame
      */
+    
     public MainFrame() {
         initComponents();
     }
@@ -120,6 +121,31 @@ public class MainFrame extends javax.swing.JFrame {
                 new MainFrame().setVisible(true);
             }
         });
+        
+       LaptopRecommender recomender = new LaptopRecommender();
+       recomender.loadengine();
+//       recomender.solveQuery(
+//        "Yes",
+//        "",
+//        "",
+//        null,
+//        "",
+//        null,
+//        "",
+//        "",
+//        null,
+//        "",
+//        null,
+//        null,
+//        "",
+//        "",
+//        null,
+//        null,
+//        "",
+//        "",
+//        null,
+//        null,
+//        3);
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
