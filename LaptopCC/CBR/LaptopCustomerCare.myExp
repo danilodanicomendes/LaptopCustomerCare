@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<Project name="LaptopCustomerCare" author="" >
+<exp obj="Laptop" type="Concept" >
+  <desc>
+  </desc>
+</exp>
+<exp obj="Laptop" type="Concept" >
+  <desc>
+  </desc>
+</exp>
+<exp obj="ll" type="Concept" >
+  <desc>
+  </desc>
+</exp>
+<exp obj="LaptopCustomerCare" type="Concept" >
+  <desc>
+  </desc>
+</exp>
+<exp obj="Laptop" type="Concept" >
+  <desc>
+  </desc>
+</exp>
+<exp obj="Laptop" type="Concept" >
+  <desc>
+  </desc>
+</exp>
+<exp obj="Laptop" type="Concept" >
+  <desc>
+  </desc>
+</exp>
+<exp obj="Laptop" type="Concept" >
+  <desc>
+  </desc>
+</exp>
+<exp obj="Laptop" type="Concept" >
+  <desc>
+  </desc>
+</exp>
+<exp obj="Laptop" type="Concept" >
+  <desc>
+  </desc>
+</exp>
+<exp obj="Laptops" type="Concept" >
+  <desc>
+  </desc>
+</exp>
+<exp obj="Laptop" type="Concept" >
+  <desc>
+  </desc>
+</exp>
+<exp obj="Laptops" type="Concept" >
+  <desc>
+  </desc>
+</exp>
+<exp obj="Laptop" type="Concept" >
+  <desc>
+  </desc>
+</exp>
+<exp obj="Laptop" type="Concept" >
+  <desc>
+  </desc>
+</exp>
+<exp obj="LCD Inches" c="Laptop" type="AttributeDesc" >
+  <desc>
+  </desc>
+</exp>
+<exp obj="Segment" c="Laptop" type="AttributeDesc" >
+  <desc>
+  </desc>
+</exp>
+<exp obj="Cache Size" c="Laptop" type="AttributeDesc" >
+  <desc>
+  </desc>
+</exp>
+<exp obj="Model" c="Laptop" type="AttributeDesc" >
+  <desc>
+  </desc>
+</exp>
+<exp obj="HD Size" c="Laptop" type="AttributeDesc" >
+  <desc>
+  </desc>
+</exp>
+<exp obj="Segment" c="Laptop" type="AttributeDesc" >
+  <desc>
+  </desc>
+</exp>
+<exp obj="Weight" c="Laptop" type="AttributeDesc" >
+  <desc>
+  </desc>
+</exp>
+<exp obj="CPU Speed" c="Laptop" type="AttributeDesc" >
+  <desc>
+  </desc>
+</exp>
+<exp obj="Segment" c="Laptop" type="AttributeDesc" >
+  <desc>
+  </desc>
+</exp>
+<exp obj="Weight" c="Laptop" type="AttributeDesc" >
+  <desc>
+  </desc>
+</exp>
+<exp obj="HD Size" c="Laptop" type="AttributeDesc" >
+  <desc>
+  </desc>
+</exp>
+<exp obj="Bluetooth" c="Laptop" type="AttributeDesc" >
+  <desc>
+  </desc>
+</exp>
+<exp obj="Weight" c="Laptop" type="AttributeDesc" >
+  <desc>
+  </desc>
+</exp>
+<exp obj="Graphic Card" c="Laptop" type="AttributeDesc" >
+  <desc>
+  </desc>
+</exp>
+<exp obj="Webcam" c="Laptop" type="AttributeDesc" >
+  <desc>
+  </desc>
+</exp>
+<exp obj="Segment" c="Laptop" type="AttributeDesc" >
+  <desc>
+  </desc>
+</exp>
+<exp obj="Laptop ID" c="Laptop" type="AttributeDesc" >
+  <desc>
+  </desc>
+</exp>
+<exp obj="Model" c="Laptop" type="AttributeDesc" >
+  <desc>
+  </desc>
+</exp>
+<exp obj="Segment" c="Laptop" type="AttributeDesc" >
+  <desc>
+  </desc>
+</exp>
+<exp obj="Cache Size" c="Laptop" type="AttributeDesc" >
+  <desc>
+  </desc>
+</exp>
+<exp obj="CPU Type" c="Laptop" type="AttributeDesc" >
+  <desc>
+  </desc>
+</exp>
+<exp obj="HD Type" c="Laptop" type="AttributeDesc" >
+  <desc>
+  </desc>
+</exp>
+<exp obj="Brand" c="Laptop" type="AttributeDesc" >
+  <desc>
+  </desc>
+</exp>
+<exp obj="OS" c="Laptop" type="AttributeDesc" >
+  <desc>
+  </desc>
+</exp>
+<exp obj="HD Size" c="Laptop" type="AttributeDesc" >
+  <desc>
+  </desc>
+</exp>
+<exp obj="OS" c="Laptop" type="AttributeDesc" >
+  <desc>
+  </desc>
+</exp>
+<exp obj="Model" c="Laptop" type="AttributeDesc" >
+  <desc>
+  </desc>
+</exp>
+<exp obj="CPU Type" c="Laptop" type="AttributeDesc" >
+  <desc>
+  </desc>
+</exp>
+<exp obj="DVD" c="Laptop" type="AttributeDesc" >
+  <desc>
+  </desc>
+</exp>
+<exp obj="Graphic Card" c="Laptop" type="AttributeDesc" >
+  <desc>
+  </desc>
+</exp>
+<exp obj="Laptop13" c="Laptop" type="Instance" >
+  <desc>
+  </desc>
+</exp>
+<exp obj="Laptop0" c="Laptop" type="Instance" >
+  <desc>
+  </desc>
+</exp>
+<exp obj="Laptop1" c="Laptop" type="Instance" >
+  <desc>
+  </desc>
+</exp>
+<exp obj="Laptop10" c="Laptop" type="Instance" >
+  <desc>
+  </desc>
+</exp>
+<exp obj="Laptop132" c="Laptop" type="Instance" >
+  <desc>
+  </desc>
+</exp>
+<exp obj="Laptop103" c="Laptop" type="Instance" >
+  <desc>
+  </desc>
+</exp>
+<exp obj="Laptop131" c="Laptop" type="Instance" >
+  <desc>
+  </desc>
+</exp>
+<exp obj="Laptop133" c="Laptop" type="Instance" >
+  <desc>
+  </desc>
+</exp>
+<exp obj="Laptop1" c="Laptop" type="Instance" >
+  <desc>
+  </desc>
+</exp>
+<exp obj="Laptops1" c="Laptops" type="Instance" >
+  <desc>
+  </desc>
+</exp>
+<exp obj="Laptop130" c="Laptop" type="Instance" >
+  <desc>
+  </desc>
+</exp>
+<exp obj="Laptop0" c="Laptop" type="Instance" >
+  <desc>
+  </desc>
+</exp>
+<exp obj="Laptop53" c="Laptop" type="Instance" >
+  <desc>
+  </desc>
+</exp>
+<exp obj="Laptops10" c="Laptops" type="Instance" >
+  <desc>
+  </desc>
+</exp>
+<exp obj="Laptop129" c="Laptop" type="Instance" >
+  <desc>
+  </desc>
+</exp>
+</Project>

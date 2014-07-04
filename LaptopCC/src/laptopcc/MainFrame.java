@@ -15,6 +15,7 @@ public class MainFrame extends javax.swing.JFrame {
     /**
      * Creates new form MainFrame
      */
+    Negotiation negotiation = new Negotiation();
     public MainFrame() {
         initComponents();
     }
@@ -120,6 +121,8 @@ public class MainFrame extends javax.swing.JFrame {
                 new MainFrame().setVisible(true);
             }
         });
+        
+       
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
