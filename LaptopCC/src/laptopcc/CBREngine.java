@@ -9,18 +9,19 @@ import java.util.List;
 import de.dfki.mycbr.core.Project;    
 import de.dfki.mycbr.core.Project;
 import de.dfki.mycbr.core.casebase.Instance;
+import de.dfki.mycbr.core.casebase.Attribute;
 import de.dfki.mycbr.core.model.Concept;
 import de.dfki.mycbr.core.model.FloatDesc;
 import de.dfki.mycbr.core.model.IntegerDesc;
 import de.dfki.mycbr.core.model.SymbolDesc;
 import de.dfki.mycbr.core.retrieval.Retrieval;
-import de.dfki.mycbr.core.retrieval.Retrieval.RetrievalMethod;
 import de.dfki.mycbr.core.similarity.Similarity;
 import de.dfki.mycbr.io.CSVImporter;
 import de.dfki.mycbr.core.*;
 import de.dfki.mycbr.core.model.*;
 import de.dfki.mycbr.util.Pair;
 import de.dfki.mycbr.io.CSVImporter;
+import java.util.LinkedList;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
@@ -29,14 +30,18 @@ import java.util.logging.Logger;
  *
  * @author mario
  */
-public class Negotiation {
-    Project myProject;
-    Concept myConcept;
-    CSVImporter myCsvImporter;
-    String concept = "Laptop";
-    String columnSeparator = ";";
-    String multipleValueSperator = ",";
-    public Negotiation(){
+public class CBREngine {
+    private Project myProject;
+    private Concept myConcept;
+    private CSVImporter myCsvImporter;
+    private String concept = "Laptop";
+    private String columnSeparator = ";";
+    private String multipleValueSperator = ",";
+    private String laptopsCaseBase = "LaptopsCaseBase";
+    private int countCases;
+    private ICaseBase cb;
+
+    public CBREngine(){
         try {
             //System.out.println(System.getProperty("user.dir"));
              
@@ -51,15 +56,50 @@ public class Negotiation {
             myCsvImporter.addMissingDescriptions(); //add default descriptions
             
             myCsvImporter.doImport();
+            while (myCsvImporter.isImporting()){
+            Thread.sleep(1000);
+            System.out.print(".");
+            }
+            countCases = myProject.getCurrentNumberOfCases();
+ 
+            this.cb = myProject.getCaseBases().get(laptopsCaseBase);
+            
+            //Initiate a query
+            //create a new retrieval
+            Retrieval ret = new Retrieval(myConcept, cb);
+            
+            //specify the retrieval method
+            ret.setRetrievalMethod(Retrieval.RetrievalMethod.RETRIEVE_SORTED);
+            
+            // create a query instance 
+            Instance query = ret.getQueryInstance();
+            
+            //insert values into the query
+            SymbolDesc bluetooth = (SymbolDesc)  myConcept.getAllAttributeDescs().get("Bluetooth");
+            
+            query.addAttribute(bluetooth, bluetooth.getAttribute("Yes"));
+            
+           // LinkedList<Attribute> list = new LinkedList<Attribute>();
+            
+          ret.start();
+          List<Pair<Instance, Similarity>> result = ret.getResult();
+          // get the case name
+            result.get(0).getFirst().getName();
+// get the similarity value
+            result.get(0).getSecond().getValue();
             
             
-            //
+            
+            
+            
+            
+            
             
             
 
         } catch (Exception ex) {
-            //Logger.getLogger(Negotiation.class.getName()).log(Level.SEVERE, null, ex);
-            System.out.println(System.getProperty("user.dir"));
+           // Logger.getLogger(Negotiation.class.getName()).log(Level.SEVERE, null, ex);
         }
     }
 }
+    

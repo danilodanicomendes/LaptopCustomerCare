@@ -15,7 +15,7 @@ public class MainFrame extends javax.swing.JFrame {
     /**
      * Creates new form MainFrame
      */
-    Negotiation negotiation = new Negotiation();
+    CBREngine negotiation = new CBREngine();
     public MainFrame() {
         initComponents();
     }
