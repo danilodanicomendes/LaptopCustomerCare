@@ -151,14 +151,14 @@ public class LaptopRecommender {
         SymbolDesc osDesc = (SymbolDesc) myConcept.getAllAttributeDescs().get("OS");
         query.addAttribute(osDesc, osDesc.getAttribute(os));
 
-        IntegerDesc priceDesc = (IntegerDesc) myConcept.getAllAttributeDescs().get("Price");
+        FloatDesc priceDesc = (FloatDesc) myConcept.getAllAttributeDescs().get("Price");
         try {
             query.addAttribute(priceDesc, priceDesc.getAttribute(price));
         } catch (ParseException ex) {
             ex.printStackTrace();
         }
 
-        IntegerDesc ramSizeDesc = (IntegerDesc) myConcept.getAllAttributeDescs().get("RAM Size");
+        IntegerDesc ramSizeDesc = (IntegerDesc) myConcept.getAllAttributeDescs().get("RAM size");
         try {
             query.addAttribute(ramSizeDesc, ramSizeDesc.getAttribute(ramSize));
         } catch (ParseException ex) {

@@ -506,28 +506,28 @@ public class MainFrame extends javax.swing.JFrame {
         
        LaptopRecommender recomender = new LaptopRecommender();
        recomender.loadengine();
-//       recomender.solveQuery(
-//        "Yes",
-//        "",
-//        "",
-//        null,
-//        "",
-//        null,
-//        "",
-//        "",
-//        null,
-//        "",
-//        null,
-//        null,
-//        "",
-//        "",
-//        null,
-//        null,
-//        "",
-//        "",
-//        null,
-//        null,
-//        3);
+       recomender.solveQuery(
+        "Yes",
+        "",
+        "",
+        0.0f,
+        "",
+        0,
+        "",
+        "",
+        0,
+        "",
+        0f,
+        0,
+        "",
+        "",
+        0f,
+        0,
+        "",
+        "",
+        0f,
+        "",
+        3);
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
