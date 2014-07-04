@@ -31,22 +31,71 @@ import java.util.logging.Logger;
  * @author mario
  */
 public class CBREngine {
-    private Project myProject;
-    private Concept myConcept;
-    private CSVImporter myCsvImporter;
-    private String concept = "Laptop";
-    private String columnSeparator = ";";
-    private String multipleValueSperator = ",";
-    private String laptopsCaseBase = "LaptopsCaseBase";
-    private int countCases;
-    private ICaseBase cb;
+    private static String datapath = System.getProperty("user.dir") + "/CBR/";
+    private static String projectName = "LaptopCustomerCare.prj";
+    private static Concept myConcept;
+    private static CSVImporter myCsvImporter;
+    private static String concept = "Laptop";
+    private static String columnSeparator = ";";
+    private static String multipleValueSperator = ",";
+    private static String laptopsCaseBase = "LaptopsCaseBase";
 
-    public CBREngine(){
+    public static Concept getMyConcept() {
+        return myConcept;
+    }
+
+    public static void setMyConcept(Concept myConcept) {
+        CBREngine.myConcept = myConcept;
+    }
+
+    public static CSVImporter getMyCsvImporter() {
+        return myCsvImporter;
+    }
+
+    public static void setMyCsvImporter(CSVImporter myCsvImporter) {
+        CBREngine.myCsvImporter = myCsvImporter;
+    }
+
+    public static String getConcept() {
+        return concept;
+    }
+
+    public static void setConcept(String concept) {
+        CBREngine.concept = concept;
+    }
+
+    public static String getColumnSeparator() {
+        return columnSeparator;
+    }
+
+    public static void setColumnSeparator(String columnSeparator) {
+        CBREngine.columnSeparator = columnSeparator;
+    }
+
+    public static String getMultipleValueSperator() {
+        return multipleValueSperator;
+    }
+
+    public static void setMultipleValueSperator(String multipleValueSperator) {
+        CBREngine.multipleValueSperator = multipleValueSperator;
+    }
+
+    public static String getLaptopsCaseBase() {
+        return laptopsCaseBase;
+    }
+
+    public static void setLaptopsCaseBase(String laptopsCaseBase) {
+        CBREngine.laptopsCaseBase = laptopsCaseBase;
+    }
+   
+    
+    public Project createCBRProject(){
+        Project myProject = null;
         try {
             //System.out.println(System.getProperty("user.dir"));
              
 //this.myProject = new Project(System.getProperty("user.dir")+"");
-            this.myProject = new Project(System.getProperty("user.dir") + "/CBR/LaptopCustomerCare.prj"); //Project Loading
+            myProject = new Project(datapath +projectName); //Project Loading
             myConcept = myProject.getConceptByID(concept); //Concept setup
             
             myCsvImporter = new CSVImporter(System.getProperty("user.dir") + "/CBR/LaptopsWithoutBooleanHDDConc.csv", myConcept); // import csv
@@ -60,46 +109,13 @@ public class CBREngine {
             Thread.sleep(1000);
             System.out.print(".");
             }
-            countCases = myProject.getCurrentNumberOfCases();
- 
-            this.cb = myProject.getCaseBases().get(laptopsCaseBase);
-            
-            //Initiate a query
-            //create a new retrieval
-            Retrieval ret = new Retrieval(myConcept, cb);
-            
-            //specify the retrieval method
-            ret.setRetrievalMethod(Retrieval.RetrievalMethod.RETRIEVE_SORTED);
-            
-            // create a query instance 
-            Instance query = ret.getQueryInstance();
-            
-            //insert values into the query
-            SymbolDesc bluetooth = (SymbolDesc)  myConcept.getAllAttributeDescs().get("Bluetooth");
-            
-            query.addAttribute(bluetooth, bluetooth.getAttribute("Yes"));
-            
-           // LinkedList<Attribute> list = new LinkedList<Attribute>();
-            
-          ret.start();
-          List<Pair<Instance, Similarity>> result = ret.getResult();
-          // get the case name
-            result.get(0).getFirst().getName();
-// get the similarity value
-            result.get(0).getSecond().getValue();
-            
-            
-            
-            
-            
-            
-            
-            
-            
-
+          
+             
         } catch (Exception ex) {
-           // Logger.getLogger(Negotiation.class.getName()).log(Level.SEVERE, null, ex);
+           ex.printStackTrace();
         }
+        
+        return myProject;
     }
 }
     

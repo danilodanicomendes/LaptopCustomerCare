@@ -15,7 +15,7 @@ public class MainFrame extends javax.swing.JFrame {
     /**
      * Creates new form MainFrame
      */
-    CBREngine negotiation = new CBREngine();
+    
     public MainFrame() {
         initComponents();
     }
@@ -122,7 +122,30 @@ public class MainFrame extends javax.swing.JFrame {
             }
         });
         
-       
+       LaptopRecommender recomender = new LaptopRecommender();
+       recomender.loadengine();
+//       recomender.solveQuery(
+//        "Yes",
+//        "",
+//        "",
+//        null,
+//        "",
+//        null,
+//        "",
+//        "",
+//        null,
+//        "",
+//        null,
+//        null,
+//        "",
+//        "",
+//        null,
+//        null,
+//        "",
+//        "",
+//        null,
+//        null,
+//        3);
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
