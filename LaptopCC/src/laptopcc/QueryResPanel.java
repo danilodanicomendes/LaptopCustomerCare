@@ -25,6 +25,8 @@ public class QueryResPanel extends javax.swing.JFrame implements Observer{
         initComponents();
         rm.addObserver(this);
         jTextArea1.setEditable(false);
+        
+        setDefaultCloseOperation(DISPOSE_ON_CLOSE);
     }
 
     /**

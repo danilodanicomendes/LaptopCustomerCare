@@ -25,6 +25,7 @@ public class PreferencesPanel extends javax.swing.JFrame {
         rm = resModel;
         initComponents();
         initCombos();
+        setDefaultCloseOperation(HIDE_ON_CLOSE);
     }
 
     /**
