@@ -24,6 +24,7 @@ public class QueryResPanel extends javax.swing.JFrame implements Observer{
         this.rm = rm;
         initComponents();
         rm.addObserver(this);
+        jTextArea1.setEditable(false);
     }
 
     /**

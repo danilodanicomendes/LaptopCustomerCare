@@ -11,6 +11,7 @@ import de.dfki.mycbr.core.similarity.AmalgamationFct;
 import de.dfki.mycbr.core.similarity.Similarity;
 import java.util.Arrays;
 import java.util.HashMap;
+import java.util.HashSet;
 import java.util.List;
 import java.util.Map;
 import java.util.Set;
@@ -27,6 +28,7 @@ public class MainFrame extends javax.swing.JFrame {
      */
     final LaptopRecommender recomender;
     JFrame resultFrame = null;
+    JFrame prefsFrame;
     ResultModel resModel;
     List<AmalgamationFct> amalgamationFcn;
 
@@ -39,6 +41,10 @@ public class MainFrame extends javax.swing.JFrame {
         this.resModel = new ResultModel(recomender);
 
         initCombos();
+        
+        jButton3.setEnabled(false);
+        prefsFrame = new PreferencesPanel(resModel);
+        prefsFrame.setVisible(false);
     }
 
     /**
@@ -451,7 +457,7 @@ public class MainFrame extends javax.swing.JFrame {
                                 .addGap(200, 200, 200)
                                 .addComponent(jLabel1)
                                 .addGap(3, 3, 3)
-                                .addComponent(jComboBox1, javax.swing.GroupLayout.PREFERRED_SIZE, 159, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                                .addComponent(jComboBox1, javax.swing.GroupLayout.PREFERRED_SIZE, 196, javax.swing.GroupLayout.PREFERRED_SIZE)))
                         .addGap(0, 0, Short.MAX_VALUE))
                     .addGroup(layout.createSequentialGroup()
                         .addContainerGap()
@@ -485,14 +491,20 @@ public class MainFrame extends javax.swing.JFrame {
                     .addComponent(jButton1)
                     .addComponent(jButton2)
                     .addComponent(jButton3))
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                .addContainerGap(12, Short.MAX_VALUE))
         );
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
     private void jComboBox1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jComboBox1ActionPerformed
-        // TODO add your handling code here:
+        if (jComboBox1.getSelectedItem().toString().equals("Custom Amalgamation")) {
+            jButton3.setEnabled(true);
+            resModel.setIsCustom(true);
+        } else {
+            jButton3.setEnabled(false);
+            resModel.setIsCustom(false);
+        }
     }//GEN-LAST:event_jComboBox1ActionPerformed
 
     private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
@@ -505,7 +517,8 @@ public class MainFrame extends javax.swing.JFrame {
     }//GEN-LAST:event_jTextField1ActionPerformed
 
     private void jButton3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton3ActionPerformed
-        // TODO add your handling code here:
+        // Preferences button
+        prefsFrame.setVisible(true);
     }//GEN-LAST:event_jButton3ActionPerformed
 
     private void jComboBox2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jComboBox2ActionPerformed
@@ -628,11 +641,12 @@ public class MainFrame extends javax.swing.JFrame {
 
         resModel.globalProfile = amalgamationFcn.get(0);
         
-        String[] amalgationArrayStr = new String[amalgamationFcn.size()];
+        String[] amalgationArrayStr = new String[amalgamationFcn.size() + 1]; // Plus one for Custom Amalgation
 
         for (int i = 0; i < amalgamationFcn.size(); i++) {
             amalgationArrayStr[i] = amalgamationFcn.get(i).getName();
         }
+        amalgationArrayStr[(amalgamationFcn.size() + 1)-1] = "Custom Amalgamation";
         jComboBox1.setModel(new javax.swing.DefaultComboBoxModel(amalgationArrayStr));
 
         // get all attributes of the CBR case model
@@ -642,56 +656,72 @@ public class MainFrame extends javax.swing.JFrame {
         for (Map.Entry<String, AttributeDesc> entry : valueMap.entrySet()) {
             if ("Brand".equals(entry.getValue().toString())) {
                 SymbolDesc symbolDesc = (SymbolDesc) entry.getValue();
-                Set<String> elements = symbolDesc.getAllowedValues();
+                Set<String> elements = new HashSet<>();
+                elements.add("");
+                elements.addAll(symbolDesc.getAllowedValues());
                 String[] optionsArray = Arrays.copyOf(elements.toArray(), elements.toArray().length, String[].class);
                 jComboBox2.setModel(new javax.swing.DefaultComboBoxModel(optionsArray));
             }
 
             if ("CPU Brand".equals(entry.getValue().toString())) {
                 SymbolDesc symbolDesc = (SymbolDesc) entry.getValue();
-                Set<String> elements = symbolDesc.getAllowedValues();
+                Set<String> elements = new HashSet<>();                
+                elements.add("");                
+                elements.addAll(symbolDesc.getAllowedValues());
                 String[] optionsArray = Arrays.copyOf(elements.toArray(), elements.toArray().length, String[].class);
                 jComboBox3.setModel(new javax.swing.DefaultComboBoxModel(optionsArray));
             }
 
             if ("HD Type".equals(entry.getValue().toString())) {
                 SymbolDesc symbolDesc = (SymbolDesc) entry.getValue();
-                Set<String> elements = symbolDesc.getAllowedValues();
+                Set<String> elements = new HashSet<>();                
+                elements.add("");                
+                elements.addAll(symbolDesc.getAllowedValues());
                 String[] optionsArray = Arrays.copyOf(elements.toArray(), elements.toArray().length, String[].class);
                 jComboBox4.setModel(new javax.swing.DefaultComboBoxModel(optionsArray));
             }
 
             if ("Webcam".equals(entry.getValue().toString())) {
                 SymbolDesc symbolDesc = (SymbolDesc) entry.getValue();
-                Set<String> elements = symbolDesc.getAllowedValues();
+                Set<String> elements = new HashSet<>();                
+                elements.add("");                
+                elements.addAll(symbolDesc.getAllowedValues());
                 String[] optionsArray = Arrays.copyOf(elements.toArray(), elements.toArray().length, String[].class);
                 jComboBox5.setModel(new javax.swing.DefaultComboBoxModel(optionsArray));
             }
 
             if ("DVD".equals(entry.getValue().toString())) {
                 SymbolDesc symbolDesc = (SymbolDesc) entry.getValue();
-                Set<String> elements = symbolDesc.getAllowedValues();
+                Set<String> elements = new HashSet<>();                
+                elements.add("");                
+                elements.addAll(symbolDesc.getAllowedValues());
                 String[] optionsArray = Arrays.copyOf(elements.toArray(), elements.toArray().length, String[].class);
                 jComboBox6.setModel(new javax.swing.DefaultComboBoxModel(optionsArray));
             }
 
             if ("Wireless".equals(entry.getValue().toString())) {
                 SymbolDesc symbolDesc = (SymbolDesc) entry.getValue();
-                Set<String> elements = symbolDesc.getAllowedValues();
+                Set<String> elements = new HashSet<>();                
+                elements.add("");                
+                elements.addAll(symbolDesc.getAllowedValues());
                 String[] optionsArray = Arrays.copyOf(elements.toArray(), elements.toArray().length, String[].class);
                 jComboBox7.setModel(new javax.swing.DefaultComboBoxModel(optionsArray));
             }
 
             if ("Bluetooth".equals(entry.getValue().toString())) {
                 SymbolDesc symbolDesc = (SymbolDesc) entry.getValue();
-                Set<String> elements = symbolDesc.getAllowedValues();
+                Set<String> elements = new HashSet<>();                
+                elements.add("");                
+                elements.addAll(symbolDesc.getAllowedValues());
                 String[] optionsArray = Arrays.copyOf(elements.toArray(), elements.toArray().length, String[].class);
                 jComboBox8.setModel(new javax.swing.DefaultComboBoxModel(optionsArray));
             }
 
             if ("OS".equals(entry.getValue().toString())) {
                 SymbolDesc symbolDesc = (SymbolDesc) entry.getValue();
-                Set<String> elements = symbolDesc.getAllowedValues();
+                Set<String> elements = new HashSet<>();                
+                elements.add("");                
+                elements.addAll(symbolDesc.getAllowedValues());
                 String[] optionsArray = Arrays.copyOf(elements.toArray(), elements.toArray().length, String[].class);
                 jComboBox10.setModel(new javax.swing.DefaultComboBoxModel(optionsArray));
             }

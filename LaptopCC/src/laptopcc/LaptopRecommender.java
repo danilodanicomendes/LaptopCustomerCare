@@ -1,8 +1,3 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package laptopcc;
 
 import java.text.ParseException;
@@ -30,10 +25,6 @@ import java.util.Arrays;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
-/**
- *
- * @author mario
- */
 public class LaptopRecommender {
 
     private CBREngine engine;
@@ -76,12 +67,12 @@ public class LaptopRecommender {
         Retrieval ret = new Retrieval(myConcept, cb);
 
         myConcept.setActiveAmalgamFct(amalgamationFcn);
-
+        
         ret.setRetrievalMethod(RetrievalMethod.RETRIEVE_K_SORTED);
         Instance query = ret.getQueryInstance();
         SymbolDesc bluetoothDesc = (SymbolDesc) myConcept.getAllAttributeDescs().get("Bluetooth");
         query.addAttribute(bluetoothDesc, bluetoothDesc.getAttribute(bluetooth));
-
+        
         SymbolDesc brandDesc = (SymbolDesc) myConcept.getAllAttributeDescs().get("Brand");
         query.addAttribute(brandDesc, brandDesc.getAttribute(brand));
 
@@ -94,7 +85,9 @@ public class LaptopRecommender {
         } catch (ParseException e) {
             e.printStackTrace();
         }
-
+            
+        
+        
         StringDesc cpuTypeDesc = (StringDesc) myConcept.getAllAttributeDescs().get("CPU Type");
         try {
             query.addAttribute(cpuTypeDesc, cpuTypeDesc.getAttribute(cpuType));
