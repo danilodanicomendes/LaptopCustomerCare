@@ -66,7 +66,16 @@ public class LaptopRecommender {
         String answer = "";
         Retrieval ret = new Retrieval(myConcept, cb);
 
-        myConcept.setActiveAmalgamFct(amalgamationFcn);
+        if (amalgamationFcn.getName().equals("Custom")) {
+            AmalgamationFct newFct = myConcept.addAmalgamationFct(AmalgamationConfig.EUCLIDEAN, "Custom", true);
+            
+            newFct.setActiveFct(myConcept.getAllAttributeDescs().get("CPU Speed"), ResultModel.localCpuSpeed);
+            newFct.setActiveFct(myConcept.getAllAttributeDescs().get("HD Size"), ResultModel.localHdSize);
+            newFct.setActiveFct(myConcept.getAllAttributeDescs().get("Price"), ResultModel.localPrice);
+            newFct.setActiveFct(myConcept.getAllAttributeDescs().get("RAM size"), ResultModel.localRamSize);
+            newFct.setActiveFct(myConcept.getAllAttributeDescs().get("Weight"), ResultModel.localWeight);
+        } else
+            myConcept.setActiveAmalgamFct(amalgamationFcn);
 
         //ret.setRetrievalMethod(RetrievalMethod.RETRIEVE_K_SORTED);
         ret.setRetrievalMethod(RetrievalMethod.RETRIEVE_K);

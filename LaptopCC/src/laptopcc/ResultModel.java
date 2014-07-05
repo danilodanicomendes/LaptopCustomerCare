@@ -53,11 +53,11 @@ public class ResultModel extends Observable {
 
     public AmalgamationFct globalProfile;
     
-    public ISimFct localCpuSpeed;
-    public ISimFct localHdSize;
-    public ISimFct localPrice;
-    public ISimFct localRamSize;
-    public ISimFct localWeight;
+    public static ISimFct localCpuSpeed;
+    public static ISimFct localHdSize;
+    public static ISimFct localPrice;
+    public static ISimFct localRamSize;
+    public static ISimFct localWeight;
     
 
     public ResultModel(LaptopRecommender recomender) {
