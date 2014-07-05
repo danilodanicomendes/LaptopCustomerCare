@@ -3,9 +3,9 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-
 package laptopcc;
 
+import de.dfki.mycbr.core.similarity.AmalgamationFct;
 import java.util.Observable;
 
 /**
@@ -13,8 +13,9 @@ import java.util.Observable;
  * @author danilo
  */
 public class ResultModel extends Observable {
+
     LaptopRecommender recomender;
-    
+
     public String bluetooth = "";
     public String brand = "";
     public String cpuBrand = "";
@@ -36,14 +37,64 @@ public class ResultModel extends Observable {
     public Float weight = 0f;
     public String wireless = "";
     public Integer numberOfCases = 0;
-    
+
+    public AmalgamationFct globalProfile;
 
     public ResultModel(LaptopRecommender recomender) {
         this.recomender = recomender;
     }
-    
+
     public void sendNotification() {
         setChanged();
         notifyObservers();
+    }
+
+    String getResult() {
+//        return recomender.solveQuery(
+//         "",
+//         "",
+//         "",
+//         0.0f,
+//         "",
+//         0,
+//         "",
+//         "",
+//         0,
+//         "",
+//         0f,
+//         0,
+//         "",
+//         "",
+//         300f,
+//         0,
+//         "",
+//         "",
+//         0f,
+//         "",
+//         10);
+
+        return recomender.solveQuery(
+                bluetooth,
+                brand,
+                cpuBrand,
+                cpuSpeed,
+                cpuType,
+                cacheSize,
+                dvd,
+                graphicCard,
+                hdSize,
+                hdType,
+                lcdInches,
+                laptopId,
+                model,
+                os,
+                price,
+                ramSize,
+                segment,
+                webcam,
+                weight,
+                wireless,
+                numberOfCases,
+                globalProfile);
     }
 }

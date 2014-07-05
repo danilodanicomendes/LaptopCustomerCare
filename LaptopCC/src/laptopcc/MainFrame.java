@@ -25,9 +25,10 @@ public class MainFrame extends javax.swing.JFrame {
     /**
      * Creates new form MainFrame
      */
-    LaptopRecommender recomender;
+    final LaptopRecommender recomender;
     JFrame resultFrame = null;
     ResultModel resModel;
+    List<AmalgamationFct> amalgamationFcn;
 
     public MainFrame() {
 
@@ -38,29 +39,6 @@ public class MainFrame extends javax.swing.JFrame {
         this.resModel = new ResultModel(recomender);
 
         initCombos();
-
-        /*recomender.solveQuery(
-         "",
-         "",
-         "",
-         0.0f,
-         "",
-         0,
-         "",
-         "",
-         0,
-         "",
-         0f,       resultFrame.get
-         0,
-         "",
-         "",
-         300f,
-         0,
-         "",
-         "",
-         0f,
-         "",
-         10);*/
     }
 
     /**
@@ -538,11 +516,11 @@ public class MainFrame extends javax.swing.JFrame {
         // Retrieve button
         uptdateVariablesResult();
         if (resultFrame != null) {
-            resModel.sendNotification(); // To update
         } else {
             resultFrame = new QueryResPanel(resModel);
             resultFrame.setVisible(true);
         }
+        resModel.sendNotification(); // To update
     }//GEN-LAST:event_jButton1ActionPerformed
 
     private void jTextField2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField2ActionPerformed
@@ -646,12 +624,14 @@ public class MainFrame extends javax.swing.JFrame {
 
     private void initCombos() {
         // get all amalgation functions
-        List<AmalgamationFct> amalgationFcn = recomender.myConcept.getAvailableAmalgamFcts();
+        amalgamationFcn = recomender.myConcept.getAvailableAmalgamFcts();
 
-        String[] amalgationArrayStr = new String[amalgationFcn.size()];
+        resModel.globalProfile = amalgamationFcn.get(0);
+        
+        String[] amalgationArrayStr = new String[amalgamationFcn.size()];
 
-        for (int i = 0; i < amalgationFcn.size(); i++) {
-            amalgationArrayStr[i] = amalgationFcn.get(i).getName();
+        for (int i = 0; i < amalgamationFcn.size(); i++) {
+            amalgationArrayStr[i] = amalgamationFcn.get(i).getName();
         }
         jComboBox1.setModel(new javax.swing.DefaultComboBoxModel(amalgationArrayStr));
 
@@ -722,23 +702,59 @@ public class MainFrame extends javax.swing.JFrame {
         resModel.bluetooth = jComboBox8.getSelectedItem().toString();
         resModel.brand = jComboBox2.getSelectedItem().toString();
         resModel.cpuBrand = jComboBox3.getSelectedItem().toString();
+        try {
         resModel.cpuSpeed = Float.parseFloat(jTextField5.getText());
+        } catch (NumberFormatException e) {
+            resModel.cpuSpeed = 0f;
+        }
         resModel.cpuType = jTextField4.getText();
+        try {
         resModel.cacheSize = Integer.parseInt(jTextField9.getText());
+        } catch (NumberFormatException e) {
+            resModel.cacheSize = 0;
+        }
         resModel.dvd = jComboBox6.getSelectedItem().toString();
         resModel.graphicCard = jTextField8.getText();
+        try {
         resModel.hdSize = Integer.parseInt(jTextField6.getText());
+        } catch (NumberFormatException e) {
+            resModel.hdSize = 0;
+        }
         resModel.hdType = jComboBox4.getSelectedItem().toString();
+        try {
         resModel.lcdInches = Float.parseFloat(jTextField10.getText());
+        } catch (NumberFormatException e) {
+            resModel.lcdInches = 0f;
+        }
         resModel.laptopId = 0;
         resModel.model = jTextField2.getText();
         resModel.os = jComboBox10.getSelectedItem().toString();
+        try {
         resModel.price = Float.parseFloat(jTextField3.getText());
+        } catch (NumberFormatException e) {
+            resModel.price = 0f;
+        }
+        try {
         resModel.ramSize = Integer.parseInt(jTextField7.getText());
+        } catch (NumberFormatException e) {
+            resModel.ramSize = 0;
+        }
         resModel.segment = jTextField1.getText();
         resModel.webcam = jComboBox5.getSelectedItem().toString();
+        try {
         resModel.weight = Float.parseFloat(jTextField11.getText());
+        } catch (NumberFormatException e) {
+            resModel.weight = 0f;
+        }
         resModel.wireless = jComboBox7.getSelectedItem().toString();
+        try {
         resModel.numberOfCases = Integer.parseInt(jTextField12.getText());
+        } catch (NumberFormatException e) {
+            resModel.numberOfCases = 0;
+        }
+        
+        for (AmalgamationFct aux : amalgamationFcn)
+            if (aux.getName().equals(jComboBox1.getSelectedItem().toString()))
+                resModel.globalProfile = aux;
     }
 }

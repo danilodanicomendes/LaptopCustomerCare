@@ -41,9 +41,11 @@ public class QueryResPanel extends javax.swing.JFrame implements Observer{
         jTextArea1 = new javax.swing.JTextArea();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setTitle("Results");
 
         jLabel1.setFont(new java.awt.Font("Dialog", 0, 36)); // NOI18N
         jLabel1.setForeground(new java.awt.Color(102, 102, 102));
+        jLabel1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel1.setText("Result");
 
         jTextArea1.setColumns(20);
@@ -90,27 +92,6 @@ public class QueryResPanel extends javax.swing.JFrame implements Observer{
 
     @Override
     public void update(Observable o, Object arg) {
-        /*recomender.solveQuery(
-         "",
-         "",
-         "",
-         0.0f,
-         "",
-         0,
-         "",
-         "",
-         0,
-         "",
-         0f,
-         0,
-         "",
-         "",
-         300f,
-         0,
-         "",
-         "",
-         0f,
-         "",
-         10);*/
+        jTextArea1.setText(rm.getResult());
     }
 }
