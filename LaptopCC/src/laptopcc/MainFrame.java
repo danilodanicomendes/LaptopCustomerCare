@@ -505,6 +505,11 @@ public class MainFrame extends javax.swing.JFrame {
             jButton3.setEnabled(false);
             resModel.setIsCustom(false);
         }
+        
+        for (AmalgamationFct aux : amalgamationFcn) {
+           if (aux.getName().equals(jComboBox1.getSelectedItem().toString()))
+               resModel.globalProfile = aux;
+       }
     }//GEN-LAST:event_jComboBox1ActionPerformed
 
     private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
@@ -533,7 +538,12 @@ public class MainFrame extends javax.swing.JFrame {
             resultFrame = new QueryResPanel(resModel);
             resultFrame.setVisible(true);
         }
+        
+        if (jComboBox1.getSelectedItem().toString().equals("Custom Malgamation"))
+            resModel.setIsCustom(true);
+        
         resModel.sendNotification(); // To update
+        resModel.setIsCustom(false);
     }//GEN-LAST:event_jButton1ActionPerformed
 
     private void jTextField2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField2ActionPerformed

@@ -67,12 +67,13 @@ public class LaptopRecommender {
         Retrieval ret = new Retrieval(myConcept, cb);
 
         myConcept.setActiveAmalgamFct(amalgamationFcn);
-        
-        ret.setRetrievalMethod(RetrievalMethod.RETRIEVE_K_SORTED);
+
+        //ret.setRetrievalMethod(RetrievalMethod.RETRIEVE_K_SORTED);
+        ret.setRetrievalMethod(RetrievalMethod.RETRIEVE_K);
         Instance query = ret.getQueryInstance();
         SymbolDesc bluetoothDesc = (SymbolDesc) myConcept.getAllAttributeDescs().get("Bluetooth");
         query.addAttribute(bluetoothDesc, bluetoothDesc.getAttribute(bluetooth));
-        
+
         SymbolDesc brandDesc = (SymbolDesc) myConcept.getAllAttributeDescs().get("Brand");
         query.addAttribute(brandDesc, brandDesc.getAttribute(brand));
 
@@ -85,9 +86,7 @@ public class LaptopRecommender {
         } catch (ParseException e) {
             e.printStackTrace();
         }
-            
-        
-        
+
         StringDesc cpuTypeDesc = (StringDesc) myConcept.getAllAttributeDescs().get("CPU Type");
         try {
             query.addAttribute(cpuTypeDesc, cpuTypeDesc.getAttribute(cpuType));
@@ -184,7 +183,33 @@ public class LaptopRecommender {
         query.addAttribute(wirelessDesc, wirelessDesc.getAttribute(wireless));
         ret.start();
         List<Pair<Instance, Similarity>> result = ret.getResult();
-        answer = Arrays.toString(result.toArray());
+        
+        if (result.size() > 0) {
+            // get the best case's name
+            String casename = result.get(0).getFirst().getName();
+            // get the similarity value
+            Double sim = result.get(0).getSecond().getValue();
+            answer = "\n-----\nBest Match: " + casename + "\nSimilarity: " + sim;
+
+            ArrayList<Hashtable<String, String>> liste = new ArrayList<Hashtable<String, String>>();
+            // if more case results are requested than we have in our case base at all:
+            if (numberOfCases >= cb.getCases().size()) {
+                numberOfCases = cb.getCases().size();
+            } else
+                answer += "\nOther matches:\n";
+
+            for (int i = 1; i < numberOfCases; i++) {
+                if (i < 5)
+                    answer += result.get(i).toString() + "\n";
+                else
+                    break;
+            }
+            answer += "\n-----";
+        } else {
+            answer = "Empty result.";
+        }
+
+        //answer = Arrays.toString(result.toArray());
 
         return answer;
     }

@@ -5,6 +5,7 @@
  */
 package laptopcc;
 
+import de.dfki.mycbr.core.model.AttributeDesc;
 import de.dfki.mycbr.core.similarity.AmalgamationFct;
 import de.dfki.mycbr.core.similarity.ISimFct;
 import de.dfki.mycbr.core.similarity.config.AmalgamationConfig;
@@ -16,7 +17,7 @@ import java.util.Observable;
  */
 public class ResultModel extends Observable {
 
-    private boolean isCustom;
+    private boolean isCustom = false;
 
     public boolean isIsCustom() {
         return isCustom;
@@ -73,55 +74,41 @@ public class ResultModel extends Observable {
     }
 
     String getResult() {
-        if (isCustom) {
-            return recomender.solveQuery(
-                    bluetooth,
-                    brand,
-                    cpuBrand,
-                    cpuSpeed,
-                    cpuType,
-                    cacheSize,
-                    dvd,
-                    graphicCard,
-                    hdSize,
-                    hdType,
-                    lcdInches,
-                    laptopId,
-                    model,
-                    os,
-                    price,
-                    ramSize,
-                    segment,
-                    webcam,
-                    weight,
-                    wireless,
-                    numberOfCases,
-                    globalProfile);
+        AmalgamationFct newFct;
+        if (!isCustom) {
+            newFct = globalProfile;
         } else {
-            return recomender.solveQuery(
-                    bluetooth,
-                    brand,
-                    cpuBrand,
-                    cpuSpeed,
-                    cpuType,
-                    cacheSize,
-                    dvd,
-                    graphicCard,
-                    hdSize,
-                    hdType,
-                    lcdInches,
-                    laptopId,
-                    model,
-                    os,
-                    price,
-                    ramSize,
-                    segment,
-                    webcam,
-                    weight,
-                    wireless,
-                    numberOfCases,
-                    new AmalgamationFct(AmalgamationConfig.EUCLIDEAN, recomender.myConcept, "Custom"));
-            
+            newFct = new AmalgamationFct(AmalgamationConfig.EUCLIDEAN, recomender.myConcept, "Custom");
         }
+        
+        newFct.setActiveFct(recomender.myConcept.getAllAttributeDescs().get("CPU Speed"), localCpuSpeed);
+        newFct.setActiveFct(recomender.myConcept.getAllAttributeDescs().get("HD Size"), localHdSize);
+        newFct.setActiveFct(recomender.myConcept.getAllAttributeDescs().get("Price"), localPrice);
+        newFct.setActiveFct(recomender.myConcept.getAllAttributeDescs().get("RAM size"), localRamSize);
+        newFct.setActiveFct(recomender.myConcept.getAllAttributeDescs().get("Weight"), localWeight);
+
+        return recomender.solveQuery(
+                bluetooth,
+                brand,
+                cpuBrand,
+                cpuSpeed,
+                cpuType,
+                cacheSize,
+                dvd,
+                graphicCard,
+                hdSize,
+                hdType,
+                lcdInches,
+                laptopId,
+                model,
+                os,
+                price,
+                ramSize,
+                segment,
+                webcam,
+                weight,
+                wireless,
+                numberOfCases,
+                newFct);
     }
 }
