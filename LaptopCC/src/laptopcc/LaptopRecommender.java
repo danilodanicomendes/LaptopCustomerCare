@@ -25,6 +25,7 @@ import de.dfki.mycbr.core.retrieval.Retrieval.RetrievalMethod;
 import de.dfki.mycbr.core.similarity.AmalgamationFct;
 import de.dfki.mycbr.core.similarity.Similarity;
 import de.dfki.mycbr.util.Pair;
+import java.util.Arrays;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
@@ -37,7 +38,7 @@ public class LaptopRecommender {
     private CBREngine engine;
     private Project rec;
     private DefaultCaseBase cb;
-    public Concept myConcept;
+    public  Concept myConcept;
 
     public void loadengine() {
         engine = new CBREngine();
@@ -186,8 +187,51 @@ public class LaptopRecommender {
         query.addAttribute(wirelessDesc, wirelessDesc.getAttribute(wireless));
         ret.start();
         List<Pair<Instance, Similarity>> result = ret.getResult();
-        System.out.println(result.toString());
+        System.out.println(Arrays.toString(result.toArray()));
         
         return answer;
     }
+
+
+        /**
+	 * This method delivers a Hashtable which contains the Attributs names (Attributes of the case) combined with their respective values.
+	 * @author weber,koehler,namuth
+	 * @param r = An Instance.
+	 * @param concept = A Concept
+	 * @return List = List containing the Attributes of a case with their values.
+	 */
+	public Hashtable<String, String> getAttributes(Pair<Instance, Similarity> r, Concept concept) {
+
+		Hashtable<String, String> table = new Hashtable<String, String>();
+		ArrayList<String> cats = getCategories(r);
+		// Add the similarity of the case
+		table.put("Sim", String.valueOf(r.getSecond().getValue()));
+		for (String cat : cats) {
+			// Add the Attribute name and its value into the Hashtable
+			table.put(cat, r.getFirst().getAttForDesc(concept.getAllAttributeDescs().get(cat)).getValueAsString());
+		}
+		return table;
+	}
+        
+	/**
+	 * This Method generates an ArrayList, which contains all Categories of aa Concept.
+	 * @author weber,koehler,namuth
+	 * @param r  =  An Instance.
+	 * @return List = List containing the Attributes names.
+	 */
+	public ArrayList<String> getCategories(Pair<Instance, Similarity> r) {
+
+		ArrayList<String> cats = new ArrayList<String>();
+
+		// Read all Attributes of a Concept
+		Set<AttributeDesc> catlist = r.getFirst().getAttributes().keySet();
+
+		for (AttributeDesc cat : catlist) {
+			if (cat != null) {
+				// Add the String literals for each Attribute into the ArrayList
+				cats.add(cat.getName());
+			}
+		}
+		return cats;
+	}
 }

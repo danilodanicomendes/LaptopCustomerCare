@@ -3,8 +3,18 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-
 package laptopcc;
+
+import de.dfki.mycbr.core.model.AttributeDesc;
+import de.dfki.mycbr.core.model.SymbolDesc;
+import de.dfki.mycbr.core.similarity.AmalgamationFct;
+import de.dfki.mycbr.core.similarity.Similarity;
+import java.util.Arrays;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+import java.util.Set;
+import javax.swing.JFrame;
 
 /**
  *
@@ -15,9 +25,42 @@ public class MainFrame extends javax.swing.JFrame {
     /**
      * Creates new form MainFrame
      */
-    
+    LaptopRecommender recomender;
+    JFrame resultFrame = null;
+    ResultModel resModel;
+
     public MainFrame() {
+
         initComponents();
+
+        recomender = new LaptopRecommender();
+        recomender.loadengine();
+        this.resModel = new ResultModel(recomender);
+
+        initCombos();
+
+        /*recomender.solveQuery(
+         "",
+         "",
+         "",
+         0.0f,
+         "",
+         0,
+         "",
+         "",
+         0,
+         "",
+         0f,       resultFrame.get
+         0,
+         "",
+         "",
+         300f,
+         0,
+         "",
+         "",
+         0f,
+         "",
+         10);*/
     }
 
     /**
@@ -150,10 +193,21 @@ public class MainFrame extends javax.swing.JFrame {
         jLabel21.setText("Weight:");
 
         jComboBox2.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "Item 1", "Item 2", "Item 3", "Item 4" }));
+        jComboBox2.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jComboBox2ActionPerformed(evt);
+            }
+        });
 
         jTextField1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jTextField1ActionPerformed(evt);
+            }
+        });
+
+        jTextField2.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jTextField2ActionPerformed(evt);
             }
         });
 
@@ -384,6 +438,11 @@ public class MainFrame extends javax.swing.JFrame {
         );
 
         jButton1.setText("Retrieve");
+        jButton1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton1ActionPerformed(evt);
+            }
+        });
 
         jButton2.setText("Cancel");
         jButton2.addActionListener(new java.awt.event.ActionListener() {
@@ -460,6 +519,7 @@ public class MainFrame extends javax.swing.JFrame {
 
     private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
         // TODO add your handling code here:
+        System.exit(0);
     }//GEN-LAST:event_jButton2ActionPerformed
 
     private void jTextField1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField1ActionPerformed
@@ -469,6 +529,25 @@ public class MainFrame extends javax.swing.JFrame {
     private void jButton3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton3ActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_jButton3ActionPerformed
+
+    private void jComboBox2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jComboBox2ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jComboBox2ActionPerformed
+
+    private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
+        // Retrieve button
+        uptdateVariablesResult();
+        if (resultFrame != null) {
+            resModel.sendNotification(); // To update
+        } else {
+            resultFrame = new QueryResPanel(resModel);
+            resultFrame.setVisible(true);
+        }
+    }//GEN-LAST:event_jButton1ActionPerformed
+
+    private void jTextField2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField2ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jTextField2ActionPerformed
 
     /**
      * @param args the command line arguments
@@ -503,31 +582,6 @@ public class MainFrame extends javax.swing.JFrame {
                 new MainFrame().setVisible(true);
             }
         });
-        
-       LaptopRecommender recomender = new LaptopRecommender();
-       recomender.loadengine();
-       recomender.solveQuery(
-        "Yes",
-        "",
-        "",
-        0.0f,
-        "",
-        0,
-        "",
-        "",
-        0,
-        "",
-        0f,
-        0,
-        "",
-        "",
-        0f,
-        0,
-        "",
-        "",
-        0f,
-        "",
-        3);
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
@@ -589,4 +643,102 @@ public class MainFrame extends javax.swing.JFrame {
     private javax.swing.JTextField jTextField8;
     private javax.swing.JTextField jTextField9;
     // End of variables declaration//GEN-END:variables
+
+    private void initCombos() {
+        // get all amalgation functions
+        List<AmalgamationFct> amalgationFcn = recomender.myConcept.getAvailableAmalgamFcts();
+
+        String[] amalgationArrayStr = new String[amalgationFcn.size()];
+
+        for (int i = 0; i < amalgationFcn.size(); i++) {
+            amalgationArrayStr[i] = amalgationFcn.get(i).getName();
+        }
+        jComboBox1.setModel(new javax.swing.DefaultComboBoxModel(amalgationArrayStr));
+
+        // get all attributes of the CBR case model
+        HashMap<String, AttributeDesc> valueMap = recomender.myConcept.getAllAttributeDescs();
+        // get the allowed values for each Attribute
+
+        for (Map.Entry<String, AttributeDesc> entry : valueMap.entrySet()) {
+            if ("Brand".equals(entry.getValue().toString())) {
+                SymbolDesc symbolDesc = (SymbolDesc) entry.getValue();
+                Set<String> elements = symbolDesc.getAllowedValues();
+                String[] optionsArray = Arrays.copyOf(elements.toArray(), elements.toArray().length, String[].class);
+                jComboBox2.setModel(new javax.swing.DefaultComboBoxModel(optionsArray));
+            }
+
+            if ("CPU Brand".equals(entry.getValue().toString())) {
+                SymbolDesc symbolDesc = (SymbolDesc) entry.getValue();
+                Set<String> elements = symbolDesc.getAllowedValues();
+                String[] optionsArray = Arrays.copyOf(elements.toArray(), elements.toArray().length, String[].class);
+                jComboBox3.setModel(new javax.swing.DefaultComboBoxModel(optionsArray));
+            }
+
+            if ("HD Type".equals(entry.getValue().toString())) {
+                SymbolDesc symbolDesc = (SymbolDesc) entry.getValue();
+                Set<String> elements = symbolDesc.getAllowedValues();
+                String[] optionsArray = Arrays.copyOf(elements.toArray(), elements.toArray().length, String[].class);
+                jComboBox4.setModel(new javax.swing.DefaultComboBoxModel(optionsArray));
+            }
+
+            if ("Webcam".equals(entry.getValue().toString())) {
+                SymbolDesc symbolDesc = (SymbolDesc) entry.getValue();
+                Set<String> elements = symbolDesc.getAllowedValues();
+                String[] optionsArray = Arrays.copyOf(elements.toArray(), elements.toArray().length, String[].class);
+                jComboBox5.setModel(new javax.swing.DefaultComboBoxModel(optionsArray));
+            }
+
+            if ("DVD".equals(entry.getValue().toString())) {
+                SymbolDesc symbolDesc = (SymbolDesc) entry.getValue();
+                Set<String> elements = symbolDesc.getAllowedValues();
+                String[] optionsArray = Arrays.copyOf(elements.toArray(), elements.toArray().length, String[].class);
+                jComboBox6.setModel(new javax.swing.DefaultComboBoxModel(optionsArray));
+            }
+
+            if ("Wireless".equals(entry.getValue().toString())) {
+                SymbolDesc symbolDesc = (SymbolDesc) entry.getValue();
+                Set<String> elements = symbolDesc.getAllowedValues();
+                String[] optionsArray = Arrays.copyOf(elements.toArray(), elements.toArray().length, String[].class);
+                jComboBox7.setModel(new javax.swing.DefaultComboBoxModel(optionsArray));
+            }
+
+            if ("Bluetooth".equals(entry.getValue().toString())) {
+                SymbolDesc symbolDesc = (SymbolDesc) entry.getValue();
+                Set<String> elements = symbolDesc.getAllowedValues();
+                String[] optionsArray = Arrays.copyOf(elements.toArray(), elements.toArray().length, String[].class);
+                jComboBox8.setModel(new javax.swing.DefaultComboBoxModel(optionsArray));
+            }
+
+            if ("OS".equals(entry.getValue().toString())) {
+                SymbolDesc symbolDesc = (SymbolDesc) entry.getValue();
+                Set<String> elements = symbolDesc.getAllowedValues();
+                String[] optionsArray = Arrays.copyOf(elements.toArray(), elements.toArray().length, String[].class);
+                jComboBox10.setModel(new javax.swing.DefaultComboBoxModel(optionsArray));
+            }
+        }
+    }
+
+    private void uptdateVariablesResult() {
+        resModel.bluetooth = jComboBox8.getSelectedItem().toString();
+        resModel.brand = jComboBox2.getSelectedItem().toString();
+        resModel.cpuBrand = jComboBox3.getSelectedItem().toString();
+        resModel.cpuSpeed = Float.parseFloat(jTextField5.getText());
+        resModel.cpuType = jTextField4.getText();
+        resModel.cacheSize = Integer.parseInt(jTextField9.getText());
+        resModel.dvd = jComboBox6.getSelectedItem().toString();
+        resModel.graphicCard = jTextField8.getText();
+        resModel.hdSize = Integer.parseInt(jTextField6.getText());
+        resModel.hdType = jComboBox4.getSelectedItem().toString();
+        resModel.lcdInches = Float.parseFloat(jTextField10.getText());
+        resModel.laptopId = 0;
+        resModel.model = jTextField2.getText();
+        resModel.os = jComboBox10.getSelectedItem().toString();
+        resModel.price = Float.parseFloat(jTextField3.getText());
+        resModel.ramSize = Integer.parseInt(jTextField7.getText());
+        resModel.segment = jTextField1.getText();
+        resModel.webcam = jComboBox5.getSelectedItem().toString();
+        resModel.weight = Float.parseFloat(jTextField11.getText());
+        resModel.wireless = jComboBox7.getSelectedItem().toString();
+        resModel.numberOfCases = Integer.parseInt(jTextField12.getText());
+    }
 }
