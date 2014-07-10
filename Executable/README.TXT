@@ -7,9 +7,6 @@ The main goal is to help picking a specific laptop according to the costumer's p
 
 This implemented system uses a myCBR project to generate similarities to the inputs and gives a list of the most similar laptop.
 GUI is made in Java using Netbeans and myCBR API: http://mycbr-project.net/
-To run the .prj file (myCBR project) follow the link of they're website
-
-Any questions you can contact us via github available contact information.
 
 ========================
 INSTRUCTIONS 

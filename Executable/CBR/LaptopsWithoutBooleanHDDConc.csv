@@ -1,0 +1,149 @@
+Laptop ID;Brand;Segment;Model;Price;CPU Brand;CPU Type;CPU Speed;HD Size;HD Type;RAM size;Graphic Card;Webcam;Cache Size;DVD;Wireless;LCD Inches;Bluetooth;OS;Weight
+1;Acer;Easy Note;ENTE11BZ-11206G75MNKS;396.00;AMD;AMD E1 1200;1.4;750;HDD;6;Intel Integrated;Yes;2;Yes;Yes;15.6;Yes;Windows 8;3.0
+2;Acer;Slim;Slim V5-431P-987B6G50Mass;485.00;Intel;Intel Pentium 987;1.5;500;HDD;6;Intel Integrated;Yes;3;Yes;Yes;14.0;Yes;Windows 8;2.1
+3;Acer;Slim;Slim Multi-Touch V5-571P-33224G75Mass;582;Intel;Intel Core i3-3227U;1.9;750;HDD;4;Intel Integrated;Yes;3;Yes;Yes;15.6;Yes;Windows 8;2.1
+4;Acer;Slim;Slim Multi-Touch V5-571PG-53334G50Mass;664;Intel;Intel Core i5-3337U;1.8;500;HDD;6;NVIDIA GeForce 710M 1GB;Yes;3;Yes;Yes;15.6;Yes;Windows 8;2.1
+5;Acer;Travelmate;P253E;374;Intel;Celeron 1000M;1.8;320;HDD;4;Intel HD Graphics;Yes;2;Yes;Yes;15.6;Yes;Windows 8;2.7
+6;Acer;Travelmate;B113M;386;Intel;Celeron Mobile 1007;1.5;320;HDD;4;Intel Integrated;Yes;2;Yes;Yes;11.6;Yes;Windows 8;1.3
+7;Acer;Travelmate;P253M;458;Intel;Intel Core i3-2348M;2.3;500;HDD;4;Intel HD Graphics;Yes;3;Yes;Yes;15.6;Yes;Windows 8;2.6
+8;Acer;Travelmate;P253M;584;Intel;Intel Core i3-3120M;2.5;500;HDD;4;Intel HD Graphics;Yes;3;Yes;Yes;15.6;Yes;Windows 8;2.6
+9;Acer;Travelmate;P253M;639;Intel;Intel Core i5-3230M;2.6;500;HDD;4;Intel HD Graphics;Yes;3;Yes;Yes;15.6;Yes;Windows 8;2.6
+10;Acer;Travelmate;P253MG;676;Intel;Intel Core i3-3120M;2.5;500;HDD;4;NVIDIA GeForce 710M 2GB;Yes;3;Yes;Yes;15.6;Yes;Windows 8;2.6
+11;Apple;MacBook Air;MD223PO/A;1061;Intel;Intel Core i5-3317U;1.7;64;SSD;4;Intel HD Graphics 5000;Yes;8;No;Yes;11.0;Yes;Mac OS X Mavericks;1.05
+12;Apple;MacBook Air;MD224PO/A;1163;Intel;Intel Core i5-3317U;1.7;128;SSD;4;Intel HD Graphics 5000;Yes;8;No;Yes;11.0;Yes;Mac OS X Mavericks;1.05
+13;Apple;MacBook Air;MD231PO/A;1263;Intel;Intel Core i5-3427U;1.8;128;SSD;4;Intel HD Graphics 5000;Yes;8;No;Yes;13.0;Yes;Mac OS X Mavericks;1.05
+14;Apple;MacBook Air;MD232PO/A;1466;Intel;Intel Core i5-3427U;1.8;256;SSD;4;Intel HD Graphics 5000;Yes;8;No;Yes;13.0;Yes;Mac OS X Mavericks;1.05
+15;Apple;MacBook Pro;MD101PO/A;1262;Intel;Intel Core i5-3210M;2.5;500;HDD;4;Intel HD Graphics 5000;Yes;8;Yes;Yes;13.0;Yes;Mac OS X Mavericks;1.62
+16;Apple;MacBook Pro;MD102PO/A;1567;Intel;Intel Core i7-3520M;2.9;750;HDD;8;Intel HD Graphics 5000;Yes;8;Yes;Yes;13.0;Yes;Mac OS X Mavericks;1.62
+17;Apple;MacBook Pro;MD103PO/A;1871;Intel;Intel Core i7-3615QM;2.3;500;HDD;4;NVIDIA GeForce GT650M 512MB;Yes;8;Yes;Yes;15.0;Yes;Mac OS X Mavericks;1.62
+18;Apple;MacBook Pro;MD104PO/A;2349;Intel;Intel Core i7-3720QM;2.6;750;HDD;8;NVIDIA GeForce GT650M 1GB;Yes;8;Yes;Yes;15.0;Yes;Mac OS X Mavericks;1.62
+19;Apple;MacBook Pro;MD212PO/A;1567;Intel;Intel Core i5-3210M;2.5;128;SSD;8;Intel HD Graphics 5000;Yes;8;Yes;Yes;13.0;Yes;Mac OS X Mavericks;1.62
+20;Apple;MacBook Pro;ME662PO/A;1769;Intel;Intel Core i5-3230M;2.6;256;SSD;8;Intel HD Graphics 5000;Yes;8;Yes;Yes;13.0;Yes;Mac OS X Mavericks;1.62
+21;Apple;MacBook Pro;ME664PO/A;2275;Intel;Intel Core i7-3635QM;2.4;256;SSD;8;NVIDIA GeForce GT 650M 1GB;Yes;8;Yes;Yes;15.0;Yes;Mac OS X Mavericks;1.62
+22;Apple;MacBook Pro;ME665PO/A;2275;Intel;Intel Core i7-3740QM;2.7;512;SSD;16;Intel Graphics 5000,NVIDIA GeForce GT 650M 1GB;Yes;8;Yes;Yes;15.0;Yes;Mac OS X Mavericks;1.62
+23;Asus;Serie B;BU400A-W3117G;1058;Intel;Intel Core i5-3317U;1.7;524;HDD,SSD;4;Intel UMA;Yes;3;No;Yes;14.0;Yes;Windows 8,Windows 7;1.64
+24;Asus;Serie B;BU400VC-W3039G;1154;Intel;Intel Core i5-3317U;1.7;628;HDD,SSD;6;NVIDIA NVS5200 1GB;Yes;3;No;Yes;14.0;Yes;Windows 8,Windows 7;1.64
+25;Asus;Serie B;BU400VC-W3038G;1322;Intel;Intel Core i7-3517U;1.9;756;HDD,SSD;8;NVIDIA NVS5200 1GB;Yes;3;No;Yes;14.0;Yes;Windows 8,Windows 7;1.64
+26;Asus;Serie G;G46VR-DA016H;1477;Intel;Intel Core i7-3630QM;2.4;878;HDD,SSD;16;NVIDIA GeForce 760M 2GB;Yes;4;Yes;Yes;14.0;Yes;Windows 8;2.6
+27;Asus;Serie G;G46VM-W3048P;1545;Intel;Intel Core i7-3630QM;2.4;878;HDD,SSD;16;NVIDIA GeForce GTX660M 2GB;Yes;4;Yes;Yes;14.0;Yes;Windows 8;2.6
+28;Asus;Serie G;G750J-T4048HX;1847;Intel;Intel Core i7-4702HQ;2.2;1006;HDD,SSD;32;NVIDIA GeForce GTX770M 3GB;Yes;4;Yes;Yes;17.3;Yes;Windows 8;2.6
+29;Asus;Serie G;G75VX-T4022P;1889;Intel;Intel Core i7-3630QM;2.4;1006;HDD,SSD;32;NVIDIA GeForce GTX670MX 3GB;Yes;4;Yes;Yes;17.3;Yes;Windows 8;2.6
+30;Asus;Serie K;K56CB-XO268H;599;Intel;Intel Core i3-3217U;1.8;500;HDD;4;NVIDIA GeForce GT740M 2GB;Yes;2;Yes;Yes;15.6;No;Windows 8;2.3
+31;Asus;Serie K;K56CB-XO268H;688;Intel;Intel Core i5-3317U;1.7;750;HDD;6;NVIDIA GeForce GT740M 2GB;Yes;2;Yes;Yes;15.6;Yes;Windows 8;2.3
+32;Asus;Serie K;K56CB-XO270H;786;Intel;Intel Core i7-3537U;2.0;750;HDD;8;NVIDIA GeForce GT740M 2GB;Yes;2;Yes;Yes;15.6;Yes;Windows 8;2.3
+33;Asus;Serie N;N56VB-S4081H;1058;Intel;Intel Core i7-3630QM;2.4;750;HDD;8;NVIDIA GeForce GT740M 4GB;Yes;4;Yes;Yes;15.6;Yes;Windows 8;2.7
+34;Asus;Serie N;N56VJ-S4011H;1082;Intel;Intel Core i7-3630QM;2.4;750;HDD;8;NVIDIA GeForce GT635M 2GB;Yes;4;Yes;Yes;15.6;Yes;Windows 8;2.7
+35;Asus;Serie N;N56VZ-S4278H;1179;Intel;Intel Core i7-3630QM;2.4;750;HDD;8;NVIDIA GeForce GT650M 4GB;Yes;4;Yes;Yes;15.6;No;Windows 8;2.7
+36;Asus;Serie N;N56VZ-S4277H;1278;Intel;Intel Core i7-3630QM;2.4;750;HDD;16;NVIDIA GeForce GT650M 2GB;Yes;4;Yes;Yes;15.6;Yes;Windows 8;2.7
+37;Asus;Serie N;N76VZ-V2G-T1143H;1351;Intel;Intel Core i7-3630QM;2.4;1000;HDD;16;NVIDIA GeForce GT650M 4GB;Yes;4;Yes;Yes;15.6;Yes;Windows 8;2.3
+38;Asus;Serie Vivobook;S200E-CT217H;558;Intel;Intel Core i3-2365M;1.4;500;HDD;4;Intel UMA;No;2;No;Yes;11.6;Yes;Windows 8;1.3
+39;Asus;Serie Vivobook;S400CA-CA061H;653;Intel;Intel Core i3-2365M;1.4;500;HDD;6;Intel UMA;Yes;2;No;Yes;14.0;Yes;Windows 8;1.8
+40;Asus;Serie Vivobook;S550CB-CJ035H;944;Intel;Intel Core i7-3667U;2.0;774;HDD,SSD;6;NVIDIA GeForce 740M 2GB;Yes;3;No;Yes;15.6;Yes;Windows 8;2.0
+41;Asus;Serie U;U500VZ-DB111P;1889;Intel;Intel Core i7-3632QM;2.2;512;SSD;8;NVIDIA GeForce GT650M 2GB;Yes;4;Yes;Yes;15.6;Yes;Windows 8;2.5
+42;Asus;Serie U;UX31A-R4005H;962;Intel;Intel Core i5-3317U;1.8;128;SSD;4;Intel HD Graphics 4000;Yes;4;Yes;Yes;13.3;Yes;Windows 8;2.1
+43;Asus;Serie U;UX31A-R4003H ;1239;Intel;Intel Core i7-3517U;1.9;256;SSD;4;Intel HD Graphics 4000;Yes;4;Yes;Yes;13.3;Yes;Windows 8;2.1
+44;Asus;Serie X;X201EKX182DU;300;Intel;Intel 1007U;1.5;320;HDD;2;Intel UMA;Yes;2;No;Yes;11.6;Yes;Ubuntu;1.1
+45;Asus;Serie X;X201EKX183DU;300;Intel;Intel 1007U;1.5;320;HDD;2;Intel UMA;Yes;2;No;Yes;11.6;Yes;Ubuntu;1.1
+46;Asus;Serie X;X401AWX386H;602;Intel;Intel Core i3-3110M;2.4;500;HDD;4;Intel UMA;Yes;2;Yes;Yes;14.0;Yes;Windows 8;1.6
+47;Asus;Serie X;X402CA-WX063H;400;Intel;Intel 1007U;1.5;320;HDD;4;Intel UMA;Yes;2;Yes;No;14.0;Yes;Windows 8;1.6
+48;Asus;Serie X;X402CAWX061H;542;Intel;Intel Core i3-3217U;1.8;500;HDD;4;Intel UMA;Yes;2;Yes;Yes;14.0;Yes;Windows 8;2.0
+49;Asus;Serie X;X402CA-WX062H;542;Intel;Intel Core i3-3217U;1.8;500;HDD;4;Intel UMA;Yes;2;Yes;Yes;14.0;Yes;Windows 8;2.0
+50;Asus;Serie X;X55A-SX191H;456;Intel;Intel 2020M;2.4;320;HDD;4;Intel UMA;Yes;2;Yes;Yes;15.6;Yes;Windows 8;2.2
+51;Asus;Serie X;X55C-SX195H;400;Intel;Intel 1000M;1.8;500;HDD;4;Intel UMA;Yes;2;Yes;Yes;15.6;Yes;Windows 8;2.2
+52;Asus;Serie X;X55VD-SX203H;558;Intel;Intel Core i3-3120M;2.5;500;HDD;4;NVIDIA GeForce GT610M;Yes;2;Yes;Yes;15.6;Yes;Windows 8;2.2
+53;Asus;Serie Taichi;TAICHI21-CW011H;1605;Intel;Intel Core i7-3537U;2.0;256;SSD;4;Intel HD Graphics 4000;Yes;4;No;Yes;11.6;Yes;Windows 8;1.05
+54;HP;Mini;1199ep;579;Intel;Intel Atom N270;1.6;80;HDD;1;Intel GMA950;Yes;2;No;No;10.1;No;Windows 8;1.1
+55;HP;Presario;CQ58-302SP;423;AMD;AMD Dual-Core E1-1200;1.4;500;HDD;4;AMD Radeon HD7310;Yes;2;Yes;Yes;15.6;Yes;Windows 8;2.1
+56;HP;Presario;CQ58-303SP;399;AMD;AMD Dual-Core E1-1200;1.4;500;HDD;4;AMD Radeon HD7310;Yes;2;Yes;Yes;15.6;Yes;Windows 8;2.1
+57;HP;Presario;650;397;Intel;Intel Pentium B960;2.2;500;HDD;4;AMD Radeon HD7310;Yes;2;Yes;Yes;15.6;Yes;Windows 8;2.1
+58;HP;Presario;650;438;Intel;Intel Pentium 2020M;2.4;500;HDD;4;AMD Radeon HD7310;Yes;2;Yes;Yes;15.6;Yes;Windows 8;2.1
+59;HP;Presario;650;490;Intel;Intel Core i3-2348M;2.3;500;HDD;4;AMD Radeon HD7310;Yes;2;Yes;Yes;15.6;Yes;Windows 8;2.1
+60;HP;Presario;650;516;Intel;Intel Core i3-2348M;2.3;500;HDD;4;AMD Radeon HD7310;Yes;2;Yes;Yes;15.6;Yes;Windows 8;2.1
+61;HP;dv6;dv6-7280sp;1025;Intel;Intel Core i7-3630QM;2.4;750;HDD;6;NVIDIA GeForce GT630M;Yes;4;Yes;Yes;15.6;Yes;Windows 8;2.1
+62;HP;G6;g6-2307sp ;903;Intel;Intel Core i7-3632QM;2.2;500;HDD;8;AMD Radeon HD7670M;Yes;4;Yes;Yes;15.6;Yes;Windows 8;2.1
+63;HP;G6;g6-2311sp;787;Intel;Intel Core i7-3632QM;2.2;320;HDD;4;AMD Radeon HD7670M;Yes;4;Yes;Yes;15.6;Yes;Windows 8;2.1
+64;HP;G6;g6-2314sp;787;Intel;Intel Core i7-3632QM;2.2;500;HDD;6;AMD Radeon HD7670M;Yes;4;Yes;Yes;15.6;Yes;Windows 8;2.1
+65;HP;M6;m6-1154sp;584;AMD;AMD Quad-Core A8-4500M;1.9;500;HDD;6;AMD Radeon HD7640G,AMD Radeon HD7670M;Yes;3;Yes;Yes;15.6;Yes;Windows 8;2.1
+66;HP;Spectre;Spectre XT 13-2300ep;1003;Intel;Intel Core i5-3337U;1.8;128;SSD;4;Intel HD Graphics 4000;Yes;4;Yes;Yes;13.3;Yes;Windows 8;2.1
+67;HP;Spectre;Spectrext XT Pro Ultrabook;1061;Intel;Intel Core i5-3317U;1.7;128;SSD;4;Intel HD Graphics 4000;Yes;4;Yes;Yes;13.3;Yes;Windows 8;2.1
+68;HP;Spectre;Spectre XT Pro;1207;Intel;Intel Core i5-3337U;1.8;256;SSD;4;Intel HD Graphics 4000;Yes;4;Yes;Yes;15.6;Yes;Windows 8;2.1
+69;HP;Spectre;Spectre XT 15-4100ep;1280;Intel;Intel Core i5-3337U;1.8;500;SSD;4;Intel HD Graphics 4000;Yes;4;Yes;Yes;15.6;Yes;Windows 8;2.1
+70;HP;Envy;Ultrabook 6-1201SP;1003;Intel;Intel Core i7-3517U;1.9;500;HDD;6;AMD Radeon HD8750M;Yes;4;Yes;Yes;15.6;Yes;Windows 8;2.1
+71;HP;Envy;dv6-7300sp;1003;Intel;Intel Core i7-3630QM;2.4;500;HDD;4;NVIDIA GeForce GT635M 2GB;Yes;4;Yes;Yes;15.6;Yes;Windows 8;2.1
+72;HP;Envy;dv7-7300sp;1104;Intel;Intel Core i7-3630QM;2.4;1000;HDD;12;NVIDIA GeForce GT635M 2GB;Yes;4;Yes;Yes;17.3;Yes;Windows 8;2.6
+73;HP;Folio;Folio 13;968;Intel;Intel Core i5-2467M;1.6;128;SSD;4;Intel Integrated;Yes;3;Yes;Yes;13.3;Yes;Windows 8;1.5
+74;HP;Sleekbook;15-B104sp;499;AMD;AMD Dual-Core A6-4455M;2.1;500;HDD;4;AMD Radeon HD7500G;Yes;3;Yes;Yes;15.6;Yes;Windows 8;1.9
+75;HP;Sleekbook;15-b109sp;499;Intel;Intel Core i3-2375M;1.5;500;HDD;4;AMD Radeon HD7500G;Yes;3;Yes;Yes;15.6;Yes;Windows 8;1.9
+76;HP;Sleekbook;15-b116sp;499;AMD;AMD Dual-Core A6-4455M;2.1;500;HDD;4;AMD Radeon HD7500G;Yes;3;Yes;Yes;15.6;Yes;Windows 8;1.9
+77;HP;Sleekbook;15-B105sp;549;AMD;AMD Quad-Core A8-4555M;1.6;500;HDD;4;AMD Radeon HD8550M;Yes;2;Yes;Yes;15.6;Yes;Windows 8;1.9
+78;HP;Sleekbook;15-b112sp;590;Intel;Intel Core i3-3227U;1.9;500;HDD;4;NVIDIA GeForce GT630M 2GB;Yes;2;Yes;Yes;15.6;Yes;Windows 8;1.9
+79;HP;Sleekbook;14-b100sp;590;Intel;Intel Core i3-2375M;1.5;500;HDD;6;NVIDIA GeForce GT630M 2GB;Yes;2;Yes;Yes;14.0;Yes;Windows 8;1.9
+80;HP;Sleekbook;15-B101sp;623;Intel;Intel Core i3-3227U;1.9;500;HDD;4;NVIDIA GeForce GT630M 2GB;Yes;2;Yes;Yes;15.6;Yes;Windows 8;1.9
+81;HP;Sleekbook;15-B102sp;702;Intel;Intel Core i5-3337U;1.8;500;HDD;6;NVIDIA GeForce GT630M 2GB;Yes;2;Yes;Yes;15.6;Yes;Windows 8;1.9
+82;HP;Sleekbook;15-b113sp;702;Intel;Intel Core i5-3337U;1.8;500;HDD;6;NVIDIA GeForce GT630M 2GB;Yes;2;Yes;Yes;15.6;Yes;Windows 8;1.9
+83;HP;Sleekbook;15-b115sp;802;Intel;Intel Core i5-3337U;1.8;500;HDD;4;NVIDIA GeForce GT630M 2GB;Yes;4;Yes;Yes;17.3;Yes;Windows 8;2.1
+84;HP;Ultrabook;15-B043sp;717;Intel;Intel Core i5-3317U;1.7;352;HDD,SSD;4;NVIDIA GeForce GT630M;Yes;3;Yes;Yes;15.6;Yes;Windows 8;2.1
+85;HP;Ultrabook;6-1020SP;1067;Intel;Intel Core i5-3317U;1.7;128;SSD;4;AMD Radeon HD7670M;Yes;3;Yes;Yes;15.6;Yes;Windows 7;2.15
+86;Samsung;Serie NP;NP270E5E-K01PT;430;Intel;Celeron 847;1.1;500;HDD;4;Intel HD Graphics 4000;Yes;3;Yes;Yes;15.6;Yes;Windows 8;2.2
+87;Samsung;Serie NP;NP270E5E-X02PT;753;Intel;Intel Core i5-3230M;2.6;750;HDD;8;NVIDIA GeForce GT710M;Yes;3;Yes;Yes;15.6;Yes;Windows 8;2.2
+88;Samsung;Serie NP;NP350V5C-A02PT;659;Intel;Intel Core i5-3210M;2.5;750;HDD;6;Intel HD Graphics 4000;Yes;3;Yes;Yes;15.6;Yes;Windows 8;2.33
+89;Samsung;Serie NP;NP350V5C-S07PT;709;Intel;Intel Core i5-3210M;2.5;500;HDD;6;AMD Radeon HD7670M;Yes;3;Yes;Yes;15.6;Yes;Windows 8;2.33
+90;Samsung;Serie NP;NP350V5C-S06PT;855;Intel;Intel Core i7-3630QM;2.4;1000;HDD;8;AMD Radeon HD7670M;Yes;3;Yes;Yes;15.6;Yes;Windows 8;2.33
+91;Samsung;Serie NP;NP355E5C-A03PT;408;AMD;AMD Dual-Core E1-1200;1.4;500;HDD;4;AMD Radeon HD7310;Yes;3;Yes;Yes;15.6;Yes;Windows 8;2.33
+92;Samsung;Serie NP;NP355E5C-S01PT;473;AMD;AMD Dual-Core E2-1800;1.7;750;HDD;4;AMD Radeon HD7470;Yes;2;Yes;Yes;15.6;Yes;Windows 8;2.33
+93;Samsung;Serie NP;NP450R4E-X01PT;652;Intel;Intel Core i5-3210M;2.5;500;HDD;4;Intel HD Graphics 4000;Yes;3;Yes;Yes;14.0;Yes;Windows 8;1.81
+94;Samsung;Serie NP;NP530U3C-A04PT;658;Intel;Intel Core i3-3217U;1.8;524;HDD,SSD;4;Intel HD Graphics 4000;Yes;3;Yes;Yes;13.3;Yes;Windows 8;1.52
+95;Samsung;Serie NP;NP530U3C-A07PT;815;Intel;Intel Core i5-2537M;1.4;500;HDD;8;Intel HD Graphics 4000;Yes;4;Yes;Yes;13.3;Yes;Windows 8;1.52
+96;Samsung;Serie NP;NP530U3C-A06PT;815;Intel;Intel Core i5-3317U;1.7;500;HDD;4;Intel HD Graphics 4000;Yes;4;Yes;Yes;13.3;Yes;Windows 8;1.52
+97;Samsung;Serie NP;NP530U4C-S04PT;785;Intel;Intel Core i5-3317U;1.7;750;HDD;8;Intel HD Graphics 4000;Yes;3;Yes;Yes;14.0;Yes;Windows 8;1.84
+98;Samsung;Serie NP;NP530U4E-X01PT;884;Intel;Intel Core i5-3337U;1.8;500;HDD;4;AMD Radeon HD8750M;Yes;3;Yes;Yes;14.0;Yes;Windows 8;1.84
+99;Samsung;Serie NP;NP700Z3C-S02PT;920;Intel;Intel Core i5-3210M;2.5;1000;HDD;6;NVIDIA GeForce GT630M;Yes;4;Yes;Yes;14.0;Yes;Windows 8;1.84
+100;Samsung;Serie NP;NP730U3E-S01PT;1267;Intel;Intel Core i7-3537U;2.0;128;SSD;4;AMD Radeon HD8570M 1GB;Yes;4;Yes;Yes;13.3;Yes;Windows 8;1.84
+101;Samsung;Serie NP;NP770Z7E-S01PT;1290;Intel;Intel Core i7-3635QM;2.4;1000;HDD;8;AMD Radeon HD8870M;Yes;6;Yes;Yes;17.3;Yes;Windows 8;3.81
+102;Samsung;Serie NP;NP700G7C-T01PT;1742;Intel;Intel Core i7-3630QM;2.4;878;HDD,SSD;16;AMD Radeon HD7870M;Yes;6;Yes;Yes;17.3;Yes;Windows 8;3.81
+103;Samsung;Serie NP;NP870Z5E-X01PT;1254;Intel;Intel Core i7-3635QM;2.4;1000;HDD;8;AMD Radeon HD8870M;Yes;4;Yes;Yes;15.6;Yes;Windows 8;2.35
+104;Samsung;Serie NP;NP900X4C-A04PT;1069;Intel;Intel Core i5-3317U;1.7;128;SSD;8;Intel HD Graphics 4000;Yes;3;Yes;Yes;15.0;Yes;Windows 8;1.65
+105;Samsung;Serie NP;NP900X4C-A02PT;1335;Intel;Intel Core i5-3317U;1.7;256;SSD;8;Intel HD Graphics 4000;Yes;4;Yes;Yes;15.0;Yes;Windows 8;1.65
+106;Samsung;Serie NP;NP900X4C-K01PT;1349;Intel;Intel Core i7-3537U;2.0;256;SSD;8;Intel HD Graphics 4000;Yes;4;Yes;Yes;15.0;Yes;Windows 8;1.65
+107;Vaio;Serie E;E1113M1EW;499;AMD;AMD Dual-Core E2-2000;1.75;500;HDD;4;AMD Radeon HD7340;No;1;No;Yes;11.6;No;Windows 8;1.5
+108;Vaio;Serie E;E14A2X1EB;799;Intel;Intel Core i5-3210M;2.5;750;HDD;6;Intel HD Graphics 4000;Yes;3;Yes;Yes;14.0;Yes;Windows 8;2.3
+109;Vaio;Serie E;E14A2X1EW;799;Intel;Intel Core i5-3210M;2.5;750;HDD;6;Intel HD Graphics 4000,AMD Radeon HD7670M;Yes;3;Yes;Yes;14.0;Yes;Windows 8;2.3
+110;Vaio;Serie E;E14A2X1EP;799;Intel;Intel Core i5-3210M;2.5;750;HDD;6;AMD Radeon HD7670M;Yes;3;Yes;Yes;14.0;Yes;Windows 8;2.3
+111;Vaio;Serie E;E1513C1EW;549;Intel;Intel Pentium 2020M;2.4;500;HDD;4;AMD Radeon HD7650M;Yes;2;Yes;Yes;15.5;Yes;Windows 8;2.7
+112;Vaio;Serie E;E1513J1EW;649;Intel;Intel Core i3-3120M;2.5;500;HDD;4;AMD Radeon HD7650M;Yes;2;Yes;Yes;15.5;Yes;Windows 8;2.7
+113;Vaio;Serie E;E1513V1ESI;799;Intel;Intel Core i5-3230M;2.6;750;HDD;6;AMD Radeon HD7650M;Yes;3;Yes;Yes;15.5;Yes;Windows 8;2.7
+114;Vaio;Serie E;E1513Y1ESI;985;Intel;Intel Core i7-3632QM;2.2;750;HDD;8;AMD Radeon HD7650M;Yes;3;Yes;Yes;15.5;Yes;Windows 8;2.7
+115;Vaio;Serie S;S13A2X9ES;1899;Intel;Intel Core i7-3520M;2.9;256;SSD;8;Intel HD Graphics 4000;Yes;6;No;Yes;13.3;Yes;Windows 8;1.61
+116;Vaio;Serie S;S1512Z1ES;1426;Intel;Intel Core i7-3632QM;2.2;1000;HDD;8;Intel HD Graphics 4000;Yes;4;No;Yes;15.5;Yes;Windows 8;2
+117;Vaio;Serie T;T1313M1ES;886;Intel;Intel Core i5-3337U;1.8;500;HDD;4;Intel HD Graphics 4000;Yes;4;No;Yes;13.3;Yes;Windows 8;1.7
+118;Toshiba;Satellite;C850-1GF;437;Intel;Celeron 1000M;1.8;320;HDD;4;Intel HD Graphics;Yes;2;Yes;Yes;15.6;Yes;Windows 8;2.3
+119;Toshiba;Satellite;C850D-125;534;AMD;AMD Dual-Core A4-4300;2.5;320;HDD;4;AMD Radeon HD7420G,AMD Radeon HD7610M;No;2;Yes;Yes;15.6;No;Windows 8;2.3
+120;Toshiba;Satellite;C855-2K1;579;Intel;Intel Core i3-2348M;2.4;500;HDD;4;AMD Radeon HD7610M;Yes;2;Yes;Yes;15.6;Yes;Windows 8;2.3
+121;Toshiba;Satellite;L850-1PC;679;Intel;Intel Core i5-3230M;2.6;500;HDD;4;AMD Radeon HD7670M;Yes;3;Yes;Yes;15.6;Yes;Windows 8;2.3
+122;Toshiba;Satellite;L850-1P9;679;Intel;Intel Core i5-3230M;2.6;500;HDD;4;AMD Radeon HD7670M;Yes;3;Yes;Yes;15.6;Yes;Windows 8;2.3
+123;Toshiba;Satellite;L850-1V7;777;Intel;Intel Core i7-3630QM;2.4;500;HDD;4;AMD Radeon HD7670M;Yes;3;Yes;Yes;15.6;Yes;Windows 8;2.3
+124;Toshiba;Satellite;P845t-10H;874;Intel;Intel Core i5-3337U;1.8;500;HDD;4;NVIDIA GeForce GT630M;Yes;3;Yes;Yes;14.0;Yes;Windows 8;2.05
+125;Toshiba;Satellite;P850-33J;969;Intel;Intel Core i7-3630QM;2.4;1000;HDD;8;NVIDIA GeForce GT630M;Yes;6;Yes;Yes;15.6;Yes;Windows 8;2.66
+126;Toshiba;Satellite;Z930-154;969;Intel;Intel Core i5-3337U;1.8;128;SSD;4;Intel HD Graphics 4000;Yes;6;No;Yes;13.3;No;Windows 8;1.12
+127;Toshiba;Satellite;U940-11R;582;Intel;Intel Core i3-3227U;1.9;500;HDD;4;Intel HD Graphics 4000;Yes;3;Yes;Yes;14.0;Yes;Windows 8;1.72
+128;Toshiba;Satellite;U840t-108;874;Intel;Intel Core i5-3337U;1.8;128;SSD;6;Intel HD Graphics 4000;Yes;4;No;Yes;14.0;Yes;Windows 8;1.7
+129;Toshiba;Satellite;U840W-10C;1165;Intel;Intel Core i5-3317U;1.7;532;HDD,SSD;4;Intel HD Graphics 4000;Yes;4;No;Yes;14.4;Yes;Windows 8;1.52
+130;Toshiba;Satellite;U920t-10V;1263;Intel;Intel Core i5-3337U;1.8;256;SSD;4;Intel HD Graphics 4000;Yes;6;No;Yes;12.5;Yes;Windows 8;1.52
+131;Toshiba;Satellite Pro;C850-1H0;384;Intel;Celeron 1000M;1.8;500;HDD;4;Intel HD Graphics;Yes;2;Yes;Yes;15.6;Yes;Windows 8;2.3
+132;Toshiba;Satellite Pro;C850-1LC;530;Intel;Intel Core i3-2348M;2.3;500;HDD;4;Intel HD Graphics 3000;Yes;2;Yes;Yes;15.6;Yes;Windows 7;2.3
+133;Toshiba;Satellite Pro;C850-1G4;797;Intel;Intel Core i5-3230M;2.6;500;HDD;8;AMD Radeon HD7610M;Yes;2;Yes;Yes;15.6;Yes;Windows 7;2.3
+134;Toshiba;Satellite Pro;C870-1CJ;894;Intel;Intel Core i5-3230M;2.6;750;HDD;8;AMD Radeon HD7610M;Yes;3;Yes;Yes;17.3;Yes;Windows 7;2.6
+135;Toshiba;Portege;R930-17M;850;Intel;Intel Core i3-3120M;2.5;500;HDD;4;Intel HD Graphics 4000;Yes;4;No;Yes;13.3;Yes;Windows 8;1.5
+136;Toshiba;Portege;Z930-128;889;Intel;Intel Core i3-3217U;1.8;128;SSD;4;Intel HD Graphics 4000;Yes;4;No;Yes;13.3;Yes;Windows 8;1.12
+137;Toshiba;Portege;Z830-10Q;880;Intel;Intel Core i5-2557M;1.7;128;SSD;6;Intel HD Graphics 3000;Yes;4;No;Yes;13.3;No;Windows 8;1.12
+138;Toshiba;Portege;Z930-14M;1059;Intel;Intel Core i3-3227U;1.9;128;SSD;4;Intel HD Graphics 4000;Yes;4;No;Yes;13.3;Yes;Windows 8;1.12
+139;Toshiba;Portege;R930-17W;1330;Intel;Intel Core i7-3540M;3.0;500;HDD;8;Intel HD Graphics 4000;Yes;4;No;Yes;13.3;Yes;Windows 8;1.5
+140;Toshiba;Portege;Z930-14L;1808;Intel;Intel Core i7-3687U;2.1;256;SSD;8;Intel HD Graphics 4000;Yes;6;No;Yes;13.3;Yes;Windows 8;1.12
+141;Toshiba;Portege;R930-17U;963;Intel;Intel Core i5-3230M;2.6;500;HDD;4;Intel HD Graphics 4000;Yes;4;No;Yes;13.3;Yes;Windows 8;1.5
+142;Toshiba;Portege;Z930-10F;1335;Intel;Intel Core i7-3667U;2.0;128;SSD;8;Intel HD Graphics 4000;Yes;4;No;Yes;13.3;Yes;Windows 8;1.12
+143;Toshiba;Tecra;R950-1K5;795;Intel;Intel Core i3-3120M;2.5;500;HDD;4;Intel HD Graphics 4000;Yes;3;Yes;Yes;15.6;Yes;Windows 8;2.49
+144;Toshiba;Tecra;R950-185;835;Intel;Intel Core i5-3230M;2.6;500;HDD;4;Intel HD Graphics 4000;Yes;3;Yes;Yes;15.6;Yes;Windows 8;2.49
+145;Toshiba;Tecra;R940-1KW;909;Intel;Intel Core i5-3230M;2.6;500;HDD;4;Intel HD Graphics 4000;Yes;3;Yes;Yes;14.0;Yes;Windows 8;2.2
+146;Toshiba;Tecra;R940-1GN;1094;Intel;Intel Core i5-3340M;2.7;500;HDD;4;Intel HD Graphics 4000;Yes;3;Yes;Yes;14.0;Yes;Windows 8;2.2
+147;Toshiba;Tecra;R950-186;1312;Intel;Intel Core i7-3540M;3.0;500;HDD;8;AMD Radeon HD7570M;Yes;4;Yes;Yes;15.6;Yes;Windows 8;2.49
+148;Toshiba;Tecra;R940-1GP;1312;Intel;Intel Core i7-3540M;3.0;500;HDD;8;AMD Radeon HD7570M;Yes;4;Yes;Yes;14.0;Yes;Windows 8;2.2
