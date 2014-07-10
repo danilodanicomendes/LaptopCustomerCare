@@ -1,0 +1,3411 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<Project name="LaptopCustomerCare" author="" >
+<instances name="Laptop">
+  <instance id="Laptop119" >
+    <att name="HD Type" value="HDD;" />
+    <att name="Brand" value="Toshiba" />
+    <att name="Bluetooth" value="Yes" />
+    <att name="Segment" value="Satellite" />
+    <att name="LCD Inches" value="15.6" />
+    <att name="CPU Speed" value="2.4" />
+    <att name="RAM size" value="4" />
+    <att name="Laptop ID" value="120" />
+    <att name="Cache Size" value="2" />
+    <att name="Graphic Card" value="AMD Radeon HD7610M" />
+    <att name="Price" value="579.0" />
+    <att name="Model" value="C855-2K1" />
+    <att name="OS" value="Windows 8" />
+    <att name="DVD" value="Yes" />
+    <att name="Weight" value="2.3" />
+    <att name="CPU Type" value="Intel Core i3-2348M" />
+    <att name="Wireless" value="Yes" />
+    <att name="Webcam" value="Yes" />
+    <att name="CPU Brand" value="Intel" />
+    <att name="HD Size" value="500" />
+  </instance>
+  <instance id="Laptop118" >
+    <att name="HD Type" value="HDD;" />
+    <att name="Brand" value="Toshiba" />
+    <att name="Bluetooth" value="No" />
+    <att name="Segment" value="Satellite" />
+    <att name="LCD Inches" value="15.6" />
+    <att name="CPU Speed" value="2.5" />
+    <att name="RAM size" value="4" />
+    <att name="Laptop ID" value="119" />
+    <att name="Cache Size" value="2" />
+    <att name="Graphic Card" value="AMD Radeon HD7420G" />
+    <att name="Price" value="534.0" />
+    <att name="Model" value="C850D-125" />
+    <att name="OS" value="Windows 8" />
+    <att name="DVD" value="Yes" />
+    <att name="Weight" value="2.3" />
+    <att name="CPU Type" value="AMD Dual-Core A4-4300" />
+    <att name="Wireless" value="Yes" />
+    <att name="Webcam" value="No" />
+    <att name="CPU Brand" value="AMD" />
+    <att name="HD Size" value="320" />
+  </instance>
+  <instance id="Laptop40" >
+    <att name="HD Type" value="SSD;" />
+    <att name="Brand" value="Asus" />
+    <att name="Bluetooth" value="Yes" />
+    <att name="Segment" value="Serie U" />
+    <att name="LCD Inches" value="15.6" />
+    <att name="CPU Speed" value="2.2" />
+    <att name="RAM size" value="8" />
+    <att name="Laptop ID" value="41" />
+    <att name="Cache Size" value="4" />
+    <att name="Graphic Card" value="NVIDIA GeForce GT650M 2GB" />
+    <att name="Price" value="1889.0" />
+    <att name="Model" value="U500VZ-DB111P" />
+    <att name="OS" value="Windows 8" />
+    <att name="DVD" value="Yes" />
+    <att name="Weight" value="2.5" />
+    <att name="CPU Type" value="Intel Core i7-3632QM" />
+    <att name="Wireless" value="Yes" />
+    <att name="Webcam" value="Yes" />
+    <att name="CPU Brand" value="Intel" />
+    <att name="HD Size" value="512" />
+  </instance>
+  <instance id="Laptop117" >
+    <att name="HD Type" value="HDD;" />
+    <att name="Brand" value="Toshiba" />
+    <att name="Bluetooth" value="Yes" />
+    <att name="Segment" value="Satellite" />
+    <att name="LCD Inches" value="15.6" />
+    <att name="CPU Speed" value="1.8" />
+    <att name="RAM size" value="4" />
+    <att name="Laptop ID" value="118" />
+    <att name="Cache Size" value="2" />
+    <att name="Graphic Card" value="Intel HD Graphics" />
+    <att name="Price" value="437.0" />
+    <att name="Model" value="C850-1GF" />
+    <att name="OS" value="Windows 8" />
+    <att name="DVD" value="Yes" />
+    <att name="Weight" value="2.3" />
+    <att name="CPU Type" value="Celeron 1000M" />
+    <att name="Wireless" value="Yes" />
+    <att name="Webcam" value="Yes" />
+    <att name="CPU Brand" value="Intel" />
+    <att name="HD Size" value="320" />
+  </instance>
+  <instance id="Laptop41" >
+    <att name="HD Type" value="SSD;" />
+    <att name="Brand" value="Asus" />
+    <att name="Bluetooth" value="Yes" />
+    <att name="Segment" value="Serie U" />
+    <att name="LCD Inches" value="13.3" />
+    <att name="CPU Speed" value="1.8" />
+    <att name="RAM size" value="4" />
+    <att name="Laptop ID" value="42" />
+    <att name="Cache Size" value="4" />
+    <att name="Graphic Card" value="Intel HD Graphics 4000" />
+    <att name="Price" value="962.0" />
+    <att name="Model" value="UX31A-R4005H" />
+    <att name="OS" value="Windows 8" />
+    <att name="DVD" value="Yes" />
+    <att name="Weight" value="2.1" />
+    <att name="CPU Type" value="Intel Core i5-3317U" />
+    <att name="Wireless" value="Yes" />
+    <att name="Webcam" value="Yes" />
+    <att name="CPU Brand" value="Intel" />
+    <att name="HD Size" value="128" />
+  </instance>
+  <instance id="Laptop116" >
+    <att name="HD Type" value="HDD;" />
+    <att name="Brand" value="Vaio" />
+    <att name="Bluetooth" value="Yes" />
+    <att name="Segment" value="Serie T" />
+    <att name="LCD Inches" value="13.3" />
+    <att name="CPU Speed" value="1.8" />
+    <att name="RAM size" value="4" />
+    <att name="Laptop ID" value="117" />
+    <att name="Cache Size" value="4" />
+    <att name="Graphic Card" value="Intel HD Graphics 4000" />
+    <att name="Price" value="886.0" />
+    <att name="Model" value="T1313M1ES" />
+    <att name="OS" value="Windows 8" />
+    <att name="DVD" value="No" />
+    <att name="Weight" value="1.7" />
+    <att name="CPU Type" value="Intel Core i5-3337U" />
+    <att name="Wireless" value="Yes" />
+    <att name="Webcam" value="Yes" />
+    <att name="CPU Brand" value="Intel" />
+    <att name="HD Size" value="500" />
+  </instance>
+  <instance id="Laptop115" >
+    <att name="HD Type" value="HDD;" />
+    <att name="Brand" value="Vaio" />
+    <att name="Bluetooth" value="Yes" />
+    <att name="Segment" value="Serie S" />
+    <att name="LCD Inches" value="15.5" />
+    <att name="CPU Speed" value="2.2" />
+    <att name="RAM size" value="8" />
+    <att name="Laptop ID" value="116" />
+    <att name="Cache Size" value="4" />
+    <att name="Graphic Card" value="Intel HD Graphics 4000" />
+    <att name="Price" value="1426.0" />
+    <att name="Model" value="S1512Z1ES" />
+    <att name="OS" value="Windows 8" />
+    <att name="DVD" value="No" />
+    <att name="Weight" value="2.0" />
+    <att name="CPU Type" value="Intel Core i7-3632QM" />
+    <att name="Wireless" value="Yes" />
+    <att name="Webcam" value="Yes" />
+    <att name="CPU Brand" value="Intel" />
+    <att name="HD Size" value="1000" />
+  </instance>
+  <instance id="Laptop114" >
+    <att name="HD Type" value="SSD;" />
+    <att name="Brand" value="Vaio" />
+    <att name="Bluetooth" value="Yes" />
+    <att name="Segment" value="Serie S" />
+    <att name="LCD Inches" value="13.3" />
+    <att name="CPU Speed" value="2.9" />
+    <att name="RAM size" value="8" />
+    <att name="Laptop ID" value="115" />
+    <att name="Cache Size" value="6" />
+    <att name="Graphic Card" value="Intel HD Graphics 4000" />
+    <att name="Price" value="1899.0" />
+    <att name="Model" value="S13A2X9ES" />
+    <att name="OS" value="Windows 8" />
+    <att name="DVD" value="No" />
+    <att name="Weight" value="1.61" />
+    <att name="CPU Type" value="Intel Core i7-3520M" />
+    <att name="Wireless" value="Yes" />
+    <att name="Webcam" value="Yes" />
+    <att name="CPU Brand" value="Intel" />
+    <att name="HD Size" value="256" />
+  </instance>
+  <instance id="Laptop113" >
+    <att name="HD Type" value="HDD;" />
+    <att name="Brand" value="Vaio" />
+    <att name="Bluetooth" value="Yes" />
+    <att name="Segment" value="Serie E" />
+    <att name="LCD Inches" value="15.5" />
+    <att name="CPU Speed" value="2.2" />
+    <att name="RAM size" value="8" />
+    <att name="Laptop ID" value="114" />
+    <att name="Cache Size" value="3" />
+    <att name="Graphic Card" value="AMD Radeon HD7650M" />
+    <att name="Price" value="985.0" />
+    <att name="Model" value="E1513Y1ESI" />
+    <att name="OS" value="Windows 8" />
+    <att name="DVD" value="Yes" />
+    <att name="Weight" value="2.7" />
+    <att name="CPU Type" value="Intel Core i7-3632QM" />
+    <att name="Wireless" value="Yes" />
+    <att name="Webcam" value="Yes" />
+    <att name="CPU Brand" value="Intel" />
+    <att name="HD Size" value="750" />
+  </instance>
+  <instance id="Laptop112" >
+    <att name="HD Type" value="HDD;" />
+    <att name="Brand" value="Vaio" />
+    <att name="Bluetooth" value="Yes" />
+    <att name="Segment" value="Serie E" />
+    <att name="LCD Inches" value="15.5" />
+    <att name="CPU Speed" value="2.6" />
+    <att name="RAM size" value="6" />
+    <att name="Laptop ID" value="113" />
+    <att name="Cache Size" value="3" />
+    <att name="Graphic Card" value="AMD Radeon HD7650M" />
+    <att name="Price" value="799.0" />
+    <att name="Model" value="E1513V1ESI" />
+    <att name="OS" value="Windows 8" />
+    <att name="DVD" value="Yes" />
+    <att name="Weight" value="2.7" />
+    <att name="CPU Type" value="Intel Core i5-3230M" />
+    <att name="Wireless" value="Yes" />
+    <att name="Webcam" value="Yes" />
+    <att name="CPU Brand" value="Intel" />
+    <att name="HD Size" value="750" />
+  </instance>
+  <instance id="Laptop46" >
+    <att name="HD Type" value="HDD;" />
+    <att name="Brand" value="Asus" />
+    <att name="Bluetooth" value="Yes" />
+    <att name="Segment" value="Serie X" />
+    <att name="LCD Inches" value="14.0" />
+    <att name="CPU Speed" value="1.5" />
+    <att name="RAM size" value="4" />
+    <att name="Laptop ID" value="47" />
+    <att name="Cache Size" value="2" />
+    <att name="Graphic Card" value="Intel UMA" />
+    <att name="Price" value="400.0" />
+    <att name="Model" value="X402CA-WX063H" />
+    <att name="OS" value="Windows 8" />
+    <att name="DVD" value="Yes" />
+    <att name="Weight" value="1.6" />
+    <att name="CPU Type" value="Intel 1007U" />
+    <att name="Wireless" value="No" />
+    <att name="Webcam" value="Yes" />
+    <att name="CPU Brand" value="Intel" />
+    <att name="HD Size" value="320" />
+  </instance>
+  <instance id="Laptop111" >
+    <att name="HD Type" value="HDD;" />
+    <att name="Brand" value="Vaio" />
+    <att name="Bluetooth" value="Yes" />
+    <att name="Segment" value="Serie E" />
+    <att name="LCD Inches" value="15.5" />
+    <att name="CPU Speed" value="2.5" />
+    <att name="RAM size" value="4" />
+    <att name="Laptop ID" value="112" />
+    <att name="Cache Size" value="2" />
+    <att name="Graphic Card" value="AMD Radeon HD7650M" />
+    <att name="Price" value="649.0" />
+    <att name="Model" value="E1513J1EW" />
+    <att name="OS" value="Windows 8" />
+    <att name="DVD" value="Yes" />
+    <att name="Weight" value="2.7" />
+    <att name="CPU Type" value="Intel Core i3-3120M" />
+    <att name="Wireless" value="Yes" />
+    <att name="Webcam" value="Yes" />
+    <att name="CPU Brand" value="Intel" />
+    <att name="HD Size" value="500" />
+  </instance>
+  <instance id="Laptop110" >
+    <att name="HD Type" value="HDD;" />
+    <att name="Brand" value="Vaio" />
+    <att name="Bluetooth" value="Yes" />
+    <att name="Segment" value="Serie E" />
+    <att name="LCD Inches" value="15.5" />
+    <att name="CPU Speed" value="2.4" />
+    <att name="RAM size" value="4" />
+    <att name="Laptop ID" value="111" />
+    <att name="Cache Size" value="2" />
+    <att name="Graphic Card" value="AMD Radeon HD7650M" />
+    <att name="Price" value="549.0" />
+    <att name="Model" value="E1513C1EW" />
+    <att name="OS" value="Windows 8" />
+    <att name="DVD" value="Yes" />
+    <att name="Weight" value="2.7" />
+    <att name="CPU Type" value="Intel Pentium 2020M" />
+    <att name="Wireless" value="Yes" />
+    <att name="Webcam" value="Yes" />
+    <att name="CPU Brand" value="Intel" />
+    <att name="HD Size" value="500" />
+  </instance>
+  <instance id="Laptop47" >
+    <att name="HD Type" value="HDD;" />
+    <att name="Brand" value="Asus" />
+    <att name="Bluetooth" value="Yes" />
+    <att name="Segment" value="Serie X" />
+    <att name="LCD Inches" value="14.0" />
+    <att name="CPU Speed" value="1.8" />
+    <att name="RAM size" value="4" />
+    <att name="Laptop ID" value="48" />
+    <att name="Cache Size" value="2" />
+    <att name="Graphic Card" value="Intel UMA" />
+    <att name="Price" value="542.0" />
+    <att name="Model" value="X402CAWX061H" />
+    <att name="OS" value="Windows 8" />
+    <att name="DVD" value="Yes" />
+    <att name="Weight" value="2.0" />
+    <att name="CPU Type" value="Intel Core i3-3217U" />
+    <att name="Wireless" value="Yes" />
+    <att name="Webcam" value="Yes" />
+    <att name="CPU Brand" value="Intel" />
+    <att name="HD Size" value="500" />
+  </instance>
+  <instance id="Laptop48" >
+    <att name="HD Type" value="HDD;" />
+    <att name="Brand" value="Asus" />
+    <att name="Bluetooth" value="Yes" />
+    <att name="Segment" value="Serie X" />
+    <att name="LCD Inches" value="14.0" />
+    <att name="CPU Speed" value="1.8" />
+    <att name="RAM size" value="4" />
+    <att name="Laptop ID" value="49" />
+    <att name="Cache Size" value="2" />
+    <att name="Graphic Card" value="Intel UMA" />
+    <att name="Price" value="542.0" />
+    <att name="Model" value="X402CA-WX062H" />
+    <att name="OS" value="Windows 8" />
+    <att name="DVD" value="Yes" />
+    <att name="Weight" value="2.0" />
+    <att name="CPU Type" value="Intel Core i3-3217U" />
+    <att name="Wireless" value="Yes" />
+    <att name="Webcam" value="Yes" />
+    <att name="CPU Brand" value="Intel" />
+    <att name="HD Size" value="500" />
+  </instance>
+  <instance id="Laptop49" >
+    <att name="HD Type" value="HDD;" />
+    <att name="Brand" value="Asus" />
+    <att name="Bluetooth" value="Yes" />
+    <att name="Segment" value="Serie X" />
+    <att name="LCD Inches" value="15.6" />
+    <att name="CPU Speed" value="2.4" />
+    <att name="RAM size" value="4" />
+    <att name="Laptop ID" value="50" />
+    <att name="Cache Size" value="2" />
+    <att name="Graphic Card" value="Intel UMA" />
+    <att name="Price" value="456.0" />
+    <att name="Model" value="X55A-SX191H" />
+    <att name="OS" value="Windows 8" />
+    <att name="DVD" value="Yes" />
+    <att name="Weight" value="2.2" />
+    <att name="CPU Type" value="Intel 2020M" />
+    <att name="Wireless" value="Yes" />
+    <att name="Webcam" value="Yes" />
+    <att name="CPU Brand" value="Intel" />
+    <att name="HD Size" value="320" />
+  </instance>
+  <instance id="Laptop42" >
+    <att name="HD Type" value="SSD;" />
+    <att name="Brand" value="Asus" />
+    <att name="Bluetooth" value="Yes" />
+    <att name="Segment" value="Serie U" />
+    <att name="LCD Inches" value="13.3" />
+    <att name="CPU Speed" value="1.9" />
+    <att name="RAM size" value="4" />
+    <att name="Laptop ID" value="43" />
+    <att name="Cache Size" value="4" />
+    <att name="Graphic Card" value="Intel HD Graphics 4000" />
+    <att name="Price" value="1239.0" />
+    <att name="Model" value="UX31A-R4003H " />
+    <att name="OS" value="Windows 8" />
+    <att name="DVD" value="Yes" />
+    <att name="Weight" value="2.1" />
+    <att name="CPU Type" value="Intel Core i7-3517U" />
+    <att name="Wireless" value="Yes" />
+    <att name="Webcam" value="Yes" />
+    <att name="CPU Brand" value="Intel" />
+    <att name="HD Size" value="256" />
+  </instance>
+  <instance id="Laptop43" >
+    <att name="HD Type" value="HDD;" />
+    <att name="Brand" value="Asus" />
+    <att name="Bluetooth" value="Yes" />
+    <att name="Segment" value="Serie X" />
+    <att name="LCD Inches" value="11.6" />
+    <att name="CPU Speed" value="1.5" />
+    <att name="RAM size" value="2" />
+    <att name="Laptop ID" value="44" />
+    <att name="Cache Size" value="2" />
+    <att name="Graphic Card" value="Intel UMA" />
+    <att name="Price" value="300.0" />
+    <att name="Model" value="X201EKX182DU" />
+    <att name="OS" value="Ubuntu" />
+    <att name="DVD" value="No" />
+    <att name="Weight" value="1.1" />
+    <att name="CPU Type" value="Intel 1007U" />
+    <att name="Wireless" value="Yes" />
+    <att name="Webcam" value="Yes" />
+    <att name="CPU Brand" value="Intel" />
+    <att name="HD Size" value="320" />
+  </instance>
+  <instance id="Laptop44" >
+    <att name="HD Type" value="HDD;" />
+    <att name="Brand" value="Asus" />
+    <att name="Bluetooth" value="Yes" />
+    <att name="Segment" value="Serie X" />
+    <att name="LCD Inches" value="11.6" />
+    <att name="CPU Speed" value="1.5" />
+    <att name="RAM size" value="2" />
+    <att name="Laptop ID" value="45" />
+    <att name="Cache Size" value="2" />
+    <att name="Graphic Card" value="Intel UMA" />
+    <att name="Price" value="300.0" />
+    <att name="Model" value="X201EKX183DU" />
+    <att name="OS" value="Ubuntu" />
+    <att name="DVD" value="No" />
+    <att name="Weight" value="1.1" />
+    <att name="CPU Type" value="Intel 1007U" />
+    <att name="Wireless" value="Yes" />
+    <att name="Webcam" value="Yes" />
+    <att name="CPU Brand" value="Intel" />
+    <att name="HD Size" value="320" />
+  </instance>
+  <instance id="Laptop45" >
+    <att name="HD Type" value="HDD;" />
+    <att name="Brand" value="Asus" />
+    <att name="Bluetooth" value="Yes" />
+    <att name="Segment" value="Serie X" />
+    <att name="LCD Inches" value="14.0" />
+    <att name="CPU Speed" value="2.4" />
+    <att name="RAM size" value="4" />
+    <att name="Laptop ID" value="46" />
+    <att name="Cache Size" value="2" />
+    <att name="Graphic Card" value="Intel UMA" />
+    <att name="Price" value="602.0" />
+    <att name="Model" value="X401AWX386H" />
+    <att name="OS" value="Windows 8" />
+    <att name="DVD" value="Yes" />
+    <att name="Weight" value="1.6" />
+    <att name="CPU Type" value="Intel Core i3-3110M" />
+    <att name="Wireless" value="Yes" />
+    <att name="Webcam" value="Yes" />
+    <att name="CPU Brand" value="Intel" />
+    <att name="HD Size" value="500" />
+  </instance>
+  <instance id="Laptop39" >
+    <att name="HD Type" value="HDD;SSD;" />
+    <att name="Brand" value="Asus" />
+    <att name="Bluetooth" value="Yes" />
+    <att name="Segment" value="Serie Vivobook" />
+    <att name="LCD Inches" value="15.6" />
+    <att name="CPU Speed" value="2.0" />
+    <att name="RAM size" value="6" />
+    <att name="Laptop ID" value="40" />
+    <att name="Cache Size" value="3" />
+    <att name="Graphic Card" value="NVIDIA GeForce 740M 2GB" />
+    <att name="Price" value="944.0" />
+    <att name="Model" value="S550CB-CJ035H" />
+    <att name="OS" value="Windows 8" />
+    <att name="DVD" value="No" />
+    <att name="Weight" value="2.0" />
+    <att name="CPU Type" value="Intel Core i7-3667U" />
+    <att name="Wireless" value="Yes" />
+    <att name="Webcam" value="Yes" />
+    <att name="CPU Brand" value="Intel" />
+    <att name="HD Size" value="774" />
+  </instance>
+  <instance id="Laptop109" >
+    <att name="HD Type" value="HDD;" />
+    <att name="Brand" value="Vaio" />
+    <att name="Bluetooth" value="Yes" />
+    <att name="Segment" value="Serie E" />
+    <att name="LCD Inches" value="14.0" />
+    <att name="CPU Speed" value="2.5" />
+    <att name="RAM size" value="6" />
+    <att name="Laptop ID" value="110" />
+    <att name="Cache Size" value="3" />
+    <att name="Graphic Card" value="AMD Radeon HD7670M" />
+    <att name="Price" value="799.0" />
+    <att name="Model" value="E14A2X1EP" />
+    <att name="OS" value="Windows 8" />
+    <att name="DVD" value="Yes" />
+    <att name="Weight" value="2.3" />
+    <att name="CPU Type" value="Intel Core i5-3210M" />
+    <att name="Wireless" value="Yes" />
+    <att name="Webcam" value="Yes" />
+    <att name="CPU Brand" value="Intel" />
+    <att name="HD Size" value="750" />
+  </instance>
+  <instance id="Laptop128" >
+    <att name="HD Type" value="HDD;SSD;" />
+    <att name="Brand" value="Toshiba" />
+    <att name="Bluetooth" value="Yes" />
+    <att name="Segment" value="Satellite" />
+    <att name="LCD Inches" value="14.4" />
+    <att name="CPU Speed" value="1.7" />
+    <att name="RAM size" value="4" />
+    <att name="Laptop ID" value="129" />
+    <att name="Cache Size" value="4" />
+    <att name="Graphic Card" value="Intel HD Graphics 4000" />
+    <att name="Price" value="1165.0" />
+    <att name="Model" value="U840W-10C" />
+    <att name="OS" value="Windows 8" />
+    <att name="DVD" value="No" />
+    <att name="Weight" value="1.52" />
+    <att name="CPU Type" value="Intel Core i5-3317U" />
+    <att name="Wireless" value="Yes" />
+    <att name="Webcam" value="Yes" />
+    <att name="CPU Brand" value="Intel" />
+    <att name="HD Size" value="532" />
+  </instance>
+  <instance id="Laptop30" >
+    <att name="HD Type" value="HDD;" />
+    <att name="Brand" value="Asus" />
+    <att name="Bluetooth" value="Yes" />
+    <att name="Segment" value="Serie K" />
+    <att name="LCD Inches" value="15.6" />
+    <att name="CPU Speed" value="1.7" />
+    <att name="RAM size" value="6" />
+    <att name="Laptop ID" value="31" />
+    <att name="Cache Size" value="2" />
+    <att name="Graphic Card" value="NVIDIA GeForce GT740M 2GB" />
+    <att name="Price" value="688.0" />
+    <att name="Model" value="K56CB-XO268H" />
+    <att name="OS" value="Windows 8" />
+    <att name="DVD" value="Yes" />
+    <att name="Weight" value="2.3" />
+    <att name="CPU Type" value="Intel Core i5-3317U" />
+    <att name="Wireless" value="Yes" />
+    <att name="Webcam" value="Yes" />
+    <att name="CPU Brand" value="Intel" />
+    <att name="HD Size" value="750" />
+  </instance>
+  <instance id="Laptop127" >
+    <att name="HD Type" value="SSD;" />
+    <att name="Brand" value="Toshiba" />
+    <att name="Bluetooth" value="Yes" />
+    <att name="Segment" value="Satellite" />
+    <att name="LCD Inches" value="14.0" />
+    <att name="CPU Speed" value="1.8" />
+    <att name="RAM size" value="6" />
+    <att name="Laptop ID" value="128" />
+    <att name="Cache Size" value="4" />
+    <att name="Graphic Card" value="Intel HD Graphics 4000" />
+    <att name="Price" value="874.0" />
+    <att name="Model" value="U840t-108" />
+    <att name="OS" value="Windows 8" />
+    <att name="DVD" value="No" />
+    <att name="Weight" value="1.7" />
+    <att name="CPU Type" value="Intel Core i5-3337U" />
+    <att name="Wireless" value="Yes" />
+    <att name="Webcam" value="Yes" />
+    <att name="CPU Brand" value="Intel" />
+    <att name="HD Size" value="128" />
+  </instance>
+  <instance id="Laptop129" >
+    <att name="HD Type" value="SSD;" />
+    <att name="Brand" value="Toshiba" />
+    <att name="Bluetooth" value="Yes" />
+    <att name="Segment" value="Satellite" />
+    <att name="LCD Inches" value="12.5" />
+    <att name="CPU Speed" value="1.8" />
+    <att name="RAM size" value="4" />
+    <att name="Laptop ID" value="130" />
+    <att name="Cache Size" value="6" />
+    <att name="Graphic Card" value="Intel HD Graphics 4000" />
+    <att name="Price" value="1263.0" />
+    <att name="Model" value="U920t-10V" />
+    <att name="OS" value="Windows 8" />
+    <att name="DVD" value="No" />
+    <att name="Weight" value="1.52" />
+    <att name="CPU Type" value="Intel Core i5-3337U" />
+    <att name="Wireless" value="Yes" />
+    <att name="Webcam" value="Yes" />
+    <att name="CPU Brand" value="Intel" />
+    <att name="HD Size" value="256" />
+  </instance>
+  <instance id="Laptop124" >
+    <att name="HD Type" value="HDD;" />
+    <att name="Brand" value="Toshiba" />
+    <att name="Bluetooth" value="Yes" />
+    <att name="Segment" value="Satellite" />
+    <att name="LCD Inches" value="15.6" />
+    <att name="CPU Speed" value="2.4" />
+    <att name="RAM size" value="8" />
+    <att name="Laptop ID" value="125" />
+    <att name="Cache Size" value="6" />
+    <att name="Graphic Card" value="NVIDIA GeForce GT630M" />
+    <att name="Price" value="969.0" />
+    <att name="Model" value="P850-33J" />
+    <att name="OS" value="Windows 8" />
+    <att name="DVD" value="Yes" />
+    <att name="Weight" value="2.66" />
+    <att name="CPU Type" value="Intel Core i7-3630QM" />
+    <att name="Wireless" value="Yes" />
+    <att name="Webcam" value="Yes" />
+    <att name="CPU Brand" value="Intel" />
+    <att name="HD Size" value="1000" />
+  </instance>
+  <instance id="Laptop123" >
+    <att name="HD Type" value="HDD;" />
+    <att name="Brand" value="Toshiba" />
+    <att name="Bluetooth" value="Yes" />
+    <att name="Segment" value="Satellite" />
+    <att name="LCD Inches" value="14.0" />
+    <att name="CPU Speed" value="1.8" />
+    <att name="RAM size" value="4" />
+    <att name="Laptop ID" value="124" />
+    <att name="Cache Size" value="3" />
+    <att name="Graphic Card" value="NVIDIA GeForce GT630M" />
+    <att name="Price" value="874.0" />
+    <att name="Model" value="P845t-10H" />
+    <att name="OS" value="Windows 8" />
+    <att name="DVD" value="Yes" />
+    <att name="Weight" value="2.05" />
+    <att name="CPU Type" value="Intel Core i5-3337U" />
+    <att name="Wireless" value="Yes" />
+    <att name="Webcam" value="Yes" />
+    <att name="CPU Brand" value="Intel" />
+    <att name="HD Size" value="500" />
+  </instance>
+  <instance id="Laptop126" >
+    <att name="HD Type" value="HDD;" />
+    <att name="Brand" value="Toshiba" />
+    <att name="Bluetooth" value="Yes" />
+    <att name="Segment" value="Satellite" />
+    <att name="LCD Inches" value="14.0" />
+    <att name="CPU Speed" value="1.9" />
+    <att name="RAM size" value="4" />
+    <att name="Laptop ID" value="127" />
+    <att name="Cache Size" value="3" />
+    <att name="Graphic Card" value="Intel HD Graphics 4000" />
+    <att name="Price" value="582.0" />
+    <att name="Model" value="U940-11R" />
+    <att name="OS" value="Windows 8" />
+    <att name="DVD" value="Yes" />
+    <att name="Weight" value="1.72" />
+    <att name="CPU Type" value="Intel Core i3-3227U" />
+    <att name="Wireless" value="Yes" />
+    <att name="Webcam" value="Yes" />
+    <att name="CPU Brand" value="Intel" />
+    <att name="HD Size" value="500" />
+  </instance>
+  <instance id="Laptop125" >
+    <att name="HD Type" value="SSD;" />
+    <att name="Brand" value="Toshiba" />
+    <att name="Bluetooth" value="No" />
+    <att name="Segment" value="Satellite" />
+    <att name="LCD Inches" value="13.3" />
+    <att name="CPU Speed" value="1.8" />
+    <att name="RAM size" value="4" />
+    <att name="Laptop ID" value="126" />
+    <att name="Cache Size" value="6" />
+    <att name="Graphic Card" value="Intel HD Graphics 4000" />
+    <att name="Price" value="969.0" />
+    <att name="Model" value="Z930-154" />
+    <att name="OS" value="Windows 8" />
+    <att name="DVD" value="No" />
+    <att name="Weight" value="1.12" />
+    <att name="CPU Type" value="Intel Core i5-3337U" />
+    <att name="Wireless" value="Yes" />
+    <att name="Webcam" value="Yes" />
+    <att name="CPU Brand" value="Intel" />
+    <att name="HD Size" value="128" />
+  </instance>
+  <instance id="Laptop37" >
+    <att name="HD Type" value="HDD;" />
+    <att name="Brand" value="Asus" />
+    <att name="Bluetooth" value="Yes" />
+    <att name="Segment" value="Serie Vivobook" />
+    <att name="LCD Inches" value="11.6" />
+    <att name="CPU Speed" value="1.4" />
+    <att name="RAM size" value="4" />
+    <att name="Laptop ID" value="38" />
+    <att name="Cache Size" value="2" />
+    <att name="Graphic Card" value="Intel UMA" />
+    <att name="Price" value="558.0" />
+    <att name="Model" value="S200E-CT217H" />
+    <att name="OS" value="Windows 8" />
+    <att name="DVD" value="No" />
+    <att name="Weight" value="1.3" />
+    <att name="CPU Type" value="Intel Core i3-2365M" />
+    <att name="Wireless" value="Yes" />
+    <att name="Webcam" value="No" />
+    <att name="CPU Brand" value="Intel" />
+    <att name="HD Size" value="500" />
+  </instance>
+  <instance id="Laptop120" >
+    <att name="HD Type" value="HDD;" />
+    <att name="Brand" value="Toshiba" />
+    <att name="Bluetooth" value="Yes" />
+    <att name="Segment" value="Satellite" />
+    <att name="LCD Inches" value="15.6" />
+    <att name="CPU Speed" value="2.6" />
+    <att name="RAM size" value="4" />
+    <att name="Laptop ID" value="121" />
+    <att name="Cache Size" value="3" />
+    <att name="Graphic Card" value="AMD Radeon HD7670M" />
+    <att name="Price" value="679.0" />
+    <att name="Model" value="L850-1PC" />
+    <att name="OS" value="Windows 8" />
+    <att name="DVD" value="Yes" />
+    <att name="Weight" value="2.3" />
+    <att name="CPU Type" value="Intel Core i5-3230M" />
+    <att name="Wireless" value="Yes" />
+    <att name="Webcam" value="Yes" />
+    <att name="CPU Brand" value="Intel" />
+    <att name="HD Size" value="500" />
+  </instance>
+  <instance id="Laptop38" >
+    <att name="HD Type" value="HDD;" />
+    <att name="Brand" value="Asus" />
+    <att name="Bluetooth" value="Yes" />
+    <att name="Segment" value="Serie Vivobook" />
+    <att name="LCD Inches" value="14.0" />
+    <att name="CPU Speed" value="1.4" />
+    <att name="RAM size" value="6" />
+    <att name="Laptop ID" value="39" />
+    <att name="Cache Size" value="2" />
+    <att name="Graphic Card" value="Intel UMA" />
+    <att name="Price" value="653.0" />
+    <att name="Model" value="S400CA-CA061H" />
+    <att name="OS" value="Windows 8" />
+    <att name="DVD" value="No" />
+    <att name="Weight" value="1.8" />
+    <att name="CPU Type" value="Intel Core i3-2365M" />
+    <att name="Wireless" value="Yes" />
+    <att name="Webcam" value="Yes" />
+    <att name="CPU Brand" value="Intel" />
+    <att name="HD Size" value="500" />
+  </instance>
+  <instance id="Laptop35" >
+    <att name="HD Type" value="HDD;" />
+    <att name="Brand" value="Asus" />
+    <att name="Bluetooth" value="Yes" />
+    <att name="Segment" value="Serie N" />
+    <att name="LCD Inches" value="15.6" />
+    <att name="CPU Speed" value="2.4" />
+    <att name="RAM size" value="16" />
+    <att name="Laptop ID" value="36" />
+    <att name="Cache Size" value="4" />
+    <att name="Graphic Card" value="NVIDIA GeForce GT650M 2GB" />
+    <att name="Price" value="1278.0" />
+    <att name="Model" value="N56VZ-S4277H" />
+    <att name="OS" value="Windows 8" />
+    <att name="DVD" value="Yes" />
+    <att name="Weight" value="2.7" />
+    <att name="CPU Type" value="Intel Core i7-3630QM" />
+    <att name="Wireless" value="Yes" />
+    <att name="Webcam" value="Yes" />
+    <att name="CPU Brand" value="Intel" />
+    <att name="HD Size" value="750" />
+  </instance>
+  <instance id="Laptop122" >
+    <att name="HD Type" value="HDD;" />
+    <att name="Brand" value="Toshiba" />
+    <att name="Bluetooth" value="Yes" />
+    <att name="Segment" value="Satellite" />
+    <att name="LCD Inches" value="15.6" />
+    <att name="CPU Speed" value="2.4" />
+    <att name="RAM size" value="4" />
+    <att name="Laptop ID" value="123" />
+    <att name="Cache Size" value="3" />
+    <att name="Graphic Card" value="AMD Radeon HD7670M" />
+    <att name="Price" value="777.0" />
+    <att name="Model" value="L850-1V7" />
+    <att name="OS" value="Windows 8" />
+    <att name="DVD" value="Yes" />
+    <att name="Weight" value="2.3" />
+    <att name="CPU Type" value="Intel Core i7-3630QM" />
+    <att name="Wireless" value="Yes" />
+    <att name="Webcam" value="Yes" />
+    <att name="CPU Brand" value="Intel" />
+    <att name="HD Size" value="500" />
+  </instance>
+  <instance id="Laptop36" >
+    <att name="HD Type" value="HDD;" />
+    <att name="Brand" value="Asus" />
+    <att name="Bluetooth" value="Yes" />
+    <att name="Segment" value="Serie N" />
+    <att name="LCD Inches" value="15.6" />
+    <att name="CPU Speed" value="2.4" />
+    <att name="RAM size" value="16" />
+    <att name="Laptop ID" value="37" />
+    <att name="Cache Size" value="4" />
+    <att name="Graphic Card" value="NVIDIA GeForce GT650M 4GB" />
+    <att name="Price" value="1351.0" />
+    <att name="Model" value="N76VZ-V2G-T1143H" />
+    <att name="OS" value="Windows 8" />
+    <att name="DVD" value="Yes" />
+    <att name="Weight" value="2.3" />
+    <att name="CPU Type" value="Intel Core i7-3630QM" />
+    <att name="Wireless" value="Yes" />
+    <att name="Webcam" value="Yes" />
+    <att name="CPU Brand" value="Intel" />
+    <att name="HD Size" value="1000" />
+  </instance>
+  <instance id="Laptop121" >
+    <att name="HD Type" value="HDD;" />
+    <att name="Brand" value="Toshiba" />
+    <att name="Bluetooth" value="Yes" />
+    <att name="Segment" value="Satellite" />
+    <att name="LCD Inches" value="15.6" />
+    <att name="CPU Speed" value="2.6" />
+    <att name="RAM size" value="4" />
+    <att name="Laptop ID" value="122" />
+    <att name="Cache Size" value="3" />
+    <att name="Graphic Card" value="AMD Radeon HD7670M" />
+    <att name="Price" value="679.0" />
+    <att name="Model" value="L850-1P9" />
+    <att name="OS" value="Windows 8" />
+    <att name="DVD" value="Yes" />
+    <att name="Weight" value="2.3" />
+    <att name="CPU Type" value="Intel Core i5-3230M" />
+    <att name="Wireless" value="Yes" />
+    <att name="Webcam" value="Yes" />
+    <att name="CPU Brand" value="Intel" />
+    <att name="HD Size" value="500" />
+  </instance>
+  <instance id="Laptop33" >
+    <att name="HD Type" value="HDD;" />
+    <att name="Brand" value="Asus" />
+    <att name="Bluetooth" value="Yes" />
+    <att name="Segment" value="Serie N" />
+    <att name="LCD Inches" value="15.6" />
+    <att name="CPU Speed" value="2.4" />
+    <att name="RAM size" value="8" />
+    <att name="Laptop ID" value="34" />
+    <att name="Cache Size" value="4" />
+    <att name="Graphic Card" value="NVIDIA GeForce GT635M 2GB" />
+    <att name="Price" value="1082.0" />
+    <att name="Model" value="N56VJ-S4011H" />
+    <att name="OS" value="Windows 8" />
+    <att name="DVD" value="Yes" />
+    <att name="Weight" value="2.7" />
+    <att name="CPU Type" value="Intel Core i7-3630QM" />
+    <att name="Wireless" value="Yes" />
+    <att name="Webcam" value="Yes" />
+    <att name="CPU Brand" value="Intel" />
+    <att name="HD Size" value="750" />
+  </instance>
+  <instance id="Laptop34" >
+    <att name="HD Type" value="HDD;" />
+    <att name="Brand" value="Asus" />
+    <att name="Bluetooth" value="No" />
+    <att name="Segment" value="Serie N" />
+    <att name="LCD Inches" value="15.6" />
+    <att name="CPU Speed" value="2.4" />
+    <att name="RAM size" value="8" />
+    <att name="Laptop ID" value="35" />
+    <att name="Cache Size" value="4" />
+    <att name="Graphic Card" value="NVIDIA GeForce GT650M 4GB" />
+    <att name="Price" value="1179.0" />
+    <att name="Model" value="N56VZ-S4278H" />
+    <att name="OS" value="Windows 8" />
+    <att name="DVD" value="Yes" />
+    <att name="Weight" value="2.7" />
+    <att name="CPU Type" value="Intel Core i7-3630QM" />
+    <att name="Wireless" value="Yes" />
+    <att name="Webcam" value="Yes" />
+    <att name="CPU Brand" value="Intel" />
+    <att name="HD Size" value="750" />
+  </instance>
+  <instance id="Laptop31" >
+    <att name="HD Type" value="HDD;" />
+    <att name="Brand" value="Asus" />
+    <att name="Bluetooth" value="Yes" />
+    <att name="Segment" value="Serie K" />
+    <att name="LCD Inches" value="15.6" />
+    <att name="CPU Speed" value="2.0" />
+    <att name="RAM size" value="8" />
+    <att name="Laptop ID" value="32" />
+    <att name="Cache Size" value="2" />
+    <att name="Graphic Card" value="NVIDIA GeForce GT740M 2GB" />
+    <att name="Price" value="786.0" />
+    <att name="Model" value="K56CB-XO270H" />
+    <att name="OS" value="Windows 8" />
+    <att name="DVD" value="Yes" />
+    <att name="Weight" value="2.3" />
+    <att name="CPU Type" value="Intel Core i7-3537U" />
+    <att name="Wireless" value="Yes" />
+    <att name="Webcam" value="Yes" />
+    <att name="CPU Brand" value="Intel" />
+    <att name="HD Size" value="750" />
+  </instance>
+  <instance id="Laptop32" >
+    <att name="HD Type" value="HDD;" />
+    <att name="Brand" value="Asus" />
+    <att name="Bluetooth" value="Yes" />
+    <att name="Segment" value="Serie N" />
+    <att name="LCD Inches" value="15.6" />
+    <att name="CPU Speed" value="2.4" />
+    <att name="RAM size" value="8" />
+    <att name="Laptop ID" value="33" />
+    <att name="Cache Size" value="4" />
+    <att name="Graphic Card" value="NVIDIA GeForce GT740M 4GB" />
+    <att name="Price" value="1058.0" />
+    <att name="Model" value="N56VB-S4081H" />
+    <att name="OS" value="Windows 8" />
+    <att name="DVD" value="Yes" />
+    <att name="Weight" value="2.7" />
+    <att name="CPU Type" value="Intel Core i7-3630QM" />
+    <att name="Wireless" value="Yes" />
+    <att name="Webcam" value="Yes" />
+    <att name="CPU Brand" value="Intel" />
+    <att name="HD Size" value="750" />
+  </instance>
+  <instance id="Laptop2" >
+    <att name="HD Type" value="HDD;" />
+    <att name="Brand" value="Acer" />
+    <att name="Bluetooth" value="Yes" />
+    <att name="Segment" value="Slim" />
+    <att name="LCD Inches" value="15.6" />
+    <att name="CPU Speed" value="1.9" />
+    <att name="RAM size" value="4" />
+    <att name="Laptop ID" value="3" />
+    <att name="Cache Size" value="3" />
+    <att name="Graphic Card" value="Intel Integrated" />
+    <att name="Price" value="582.0" />
+    <att name="Model" value="Slim Multi-Touch V5-571P-33224G75Mass" />
+    <att name="OS" value="Windows 8" />
+    <att name="DVD" value="Yes" />
+    <att name="Weight" value="2.1" />
+    <att name="CPU Type" value="Intel Core i3-3227U" />
+    <att name="Wireless" value="Yes" />
+    <att name="Webcam" value="Yes" />
+    <att name="CPU Brand" value="Intel" />
+    <att name="HD Size" value="750" />
+  </instance>
+  <instance id="Laptop3" >
+    <att name="HD Type" value="HDD;" />
+    <att name="Brand" value="Acer" />
+    <att name="Bluetooth" value="Yes" />
+    <att name="Segment" value="Slim" />
+    <att name="LCD Inches" value="15.6" />
+    <att name="CPU Speed" value="1.8" />
+    <att name="RAM size" value="6" />
+    <att name="Laptop ID" value="4" />
+    <att name="Cache Size" value="3" />
+    <att name="Graphic Card" value="NVIDIA GeForce 710M 1GB" />
+    <att name="Price" value="664.0" />
+    <att name="Model" value="Slim Multi-Touch V5-571PG-53334G50Mass" />
+    <att name="OS" value="Windows 8" />
+    <att name="DVD" value="Yes" />
+    <att name="Weight" value="2.1" />
+    <att name="CPU Type" value="Intel Core i5-3337U" />
+    <att name="Wireless" value="Yes" />
+    <att name="Webcam" value="Yes" />
+    <att name="CPU Brand" value="Intel" />
+    <att name="HD Size" value="500" />
+  </instance>
+  <instance id="Laptop4" >
+    <att name="HD Type" value="HDD;" />
+    <att name="Brand" value="Acer" />
+    <att name="Bluetooth" value="Yes" />
+    <att name="Segment" value="Travelmate" />
+    <att name="LCD Inches" value="15.6" />
+    <att name="CPU Speed" value="1.8" />
+    <att name="RAM size" value="4" />
+    <att name="Laptop ID" value="5" />
+    <att name="Cache Size" value="2" />
+    <att name="Graphic Card" value="Intel HD Graphics" />
+    <att name="Price" value="374.0" />
+    <att name="Model" value="P253E" />
+    <att name="OS" value="Windows 8" />
+    <att name="DVD" value="Yes" />
+    <att name="Weight" value="2.7" />
+    <att name="CPU Type" value="Celeron 1000M" />
+    <att name="Wireless" value="Yes" />
+    <att name="Webcam" value="Yes" />
+    <att name="CPU Brand" value="Intel" />
+    <att name="HD Size" value="320" />
+  </instance>
+  <instance id="Laptop5" >
+    <att name="HD Type" value="HDD;" />
+    <att name="Brand" value="Acer" />
+    <att name="Bluetooth" value="Yes" />
+    <att name="Segment" value="Travelmate" />
+    <att name="LCD Inches" value="11.6" />
+    <att name="CPU Speed" value="1.5" />
+    <att name="RAM size" value="4" />
+    <att name="Laptop ID" value="6" />
+    <att name="Cache Size" value="2" />
+    <att name="Graphic Card" value="Intel Integrated" />
+    <att name="Price" value="386.0" />
+    <att name="Model" value="B113M" />
+    <att name="OS" value="Windows 8" />
+    <att name="DVD" value="Yes" />
+    <att name="Weight" value="1.3" />
+    <att name="CPU Type" value="Celeron Mobile 1007" />
+    <att name="Wireless" value="Yes" />
+    <att name="Webcam" value="Yes" />
+    <att name="CPU Brand" value="Intel" />
+    <att name="HD Size" value="320" />
+  </instance>
+  <instance id="Laptop6" >
+    <att name="HD Type" value="HDD;" />
+    <att name="Brand" value="Acer" />
+    <att name="Bluetooth" value="Yes" />
+    <att name="Segment" value="Travelmate" />
+    <att name="LCD Inches" value="15.6" />
+    <att name="CPU Speed" value="2.3" />
+    <att name="RAM size" value="4" />
+    <att name="Laptop ID" value="7" />
+    <att name="Cache Size" value="3" />
+    <att name="Graphic Card" value="Intel HD Graphics" />
+    <att name="Price" value="458.0" />
+    <att name="Model" value="P253M" />
+    <att name="OS" value="Windows 8" />
+    <att name="DVD" value="Yes" />
+    <att name="Weight" value="2.6" />
+    <att name="CPU Type" value="Intel Core i3-2348M" />
+    <att name="Wireless" value="Yes" />
+    <att name="Webcam" value="Yes" />
+    <att name="CPU Brand" value="Intel" />
+    <att name="HD Size" value="500" />
+  </instance>
+  <instance id="Laptop7" >
+    <att name="HD Type" value="HDD;" />
+    <att name="Brand" value="Acer" />
+    <att name="Bluetooth" value="Yes" />
+    <att name="Segment" value="Travelmate" />
+    <att name="LCD Inches" value="15.6" />
+    <att name="CPU Speed" value="2.5" />
+    <att name="RAM size" value="4" />
+    <att name="Laptop ID" value="8" />
+    <att name="Cache Size" value="3" />
+    <att name="Graphic Card" value="Intel HD Graphics" />
+    <att name="Price" value="584.0" />
+    <att name="Model" value="P253M" />
+    <att name="OS" value="Windows 8" />
+    <att name="DVD" value="Yes" />
+    <att name="Weight" value="2.6" />
+    <att name="CPU Type" value="Intel Core i3-3120M" />
+    <att name="Wireless" value="Yes" />
+    <att name="Webcam" value="Yes" />
+    <att name="CPU Brand" value="Intel" />
+    <att name="HD Size" value="500" />
+  </instance>
+  <instance id="Laptop29" >
+    <att name="HD Type" value="HDD;" />
+    <att name="Brand" value="Asus" />
+    <att name="Bluetooth" value="No" />
+    <att name="Segment" value="Serie K" />
+    <att name="LCD Inches" value="15.6" />
+    <att name="CPU Speed" value="1.8" />
+    <att name="RAM size" value="4" />
+    <att name="Laptop ID" value="30" />
+    <att name="Cache Size" value="2" />
+    <att name="Graphic Card" value="NVIDIA GeForce GT740M 2GB" />
+    <att name="Price" value="599.0" />
+    <att name="Model" value="K56CB-XO268H" />
+    <att name="OS" value="Windows 8" />
+    <att name="DVD" value="Yes" />
+    <att name="Weight" value="2.3" />
+    <att name="CPU Type" value="Intel Core i3-3217U" />
+    <att name="Wireless" value="Yes" />
+    <att name="Webcam" value="Yes" />
+    <att name="CPU Brand" value="Intel" />
+    <att name="HD Size" value="500" />
+  </instance>
+  <instance id="Laptop8" >
+    <att name="HD Type" value="HDD;" />
+    <att name="Brand" value="Acer" />
+    <att name="Bluetooth" value="Yes" />
+    <att name="Segment" value="Travelmate" />
+    <att name="LCD Inches" value="15.6" />
+    <att name="CPU Speed" value="2.6" />
+    <att name="RAM size" value="4" />
+    <att name="Laptop ID" value="9" />
+    <att name="Cache Size" value="3" />
+    <att name="Graphic Card" value="Intel HD Graphics" />
+    <att name="Price" value="639.0" />
+    <att name="Model" value="P253M" />
+    <att name="OS" value="Windows 8" />
+    <att name="DVD" value="Yes" />
+    <att name="Weight" value="2.6" />
+    <att name="CPU Type" value="Intel Core i5-3230M" />
+    <att name="Wireless" value="Yes" />
+    <att name="Webcam" value="Yes" />
+    <att name="CPU Brand" value="Intel" />
+    <att name="HD Size" value="500" />
+  </instance>
+  <instance id="Laptop28" >
+    <att name="HD Type" value="HDD;SSD;" />
+    <att name="Brand" value="Asus" />
+    <att name="Bluetooth" value="Yes" />
+    <att name="Segment" value="Serie G" />
+    <att name="LCD Inches" value="17.3" />
+    <att name="CPU Speed" value="2.4" />
+    <att name="RAM size" value="32" />
+    <att name="Laptop ID" value="29" />
+    <att name="Cache Size" value="4" />
+    <att name="Graphic Card" value="NVIDIA GeForce GTX670MX 3GB" />
+    <att name="Price" value="1889.0" />
+    <att name="Model" value="G75VX-T4022P" />
+    <att name="OS" value="Windows 8" />
+    <att name="DVD" value="Yes" />
+    <att name="Weight" value="2.6" />
+    <att name="CPU Type" value="Intel Core i7-3630QM" />
+    <att name="Wireless" value="Yes" />
+    <att name="Webcam" value="Yes" />
+    <att name="CPU Brand" value="Intel" />
+    <att name="HD Size" value="1006" />
+  </instance>
+  <instance id="Laptop9" >
+    <att name="HD Type" value="HDD;" />
+    <att name="Brand" value="Acer" />
+    <att name="Bluetooth" value="Yes" />
+    <att name="Segment" value="Travelmate" />
+    <att name="LCD Inches" value="15.6" />
+    <att name="CPU Speed" value="2.5" />
+    <att name="RAM size" value="4" />
+    <att name="Laptop ID" value="10" />
+    <att name="Cache Size" value="3" />
+    <att name="Graphic Card" value="NVIDIA GeForce 710M 2GB" />
+    <att name="Price" value="676.0" />
+    <att name="Model" value="P253MG" />
+    <att name="OS" value="Windows 8" />
+    <att name="DVD" value="Yes" />
+    <att name="Weight" value="2.6" />
+    <att name="CPU Type" value="Intel Core i3-3120M" />
+    <att name="Wireless" value="Yes" />
+    <att name="Webcam" value="Yes" />
+    <att name="CPU Brand" value="Intel" />
+    <att name="HD Size" value="500" />
+  </instance>
+  <instance id="Laptop0" >
+    <att name="HD Type" value="HDD;" />
+    <att name="Brand" value="Acer" />
+    <att name="Bluetooth" value="Yes" />
+    <att name="Segment" value="Easy Note" />
+    <att name="LCD Inches" value="15.6" />
+    <att name="CPU Speed" value="1.4" />
+    <att name="RAM size" value="6" />
+    <att name="Laptop ID" value="1" />
+    <att name="Cache Size" value="2" />
+    <att name="Graphic Card" value="Intel Integrated" />
+    <att name="Price" value="396.0" />
+    <att name="Model" value="ENTE11BZ-11206G75MNKS" />
+    <att name="OS" value="Windows 8" />
+    <att name="DVD" value="Yes" />
+    <att name="Weight" value="3.0" />
+    <att name="CPU Type" value="AMD E1 1200" />
+    <att name="Wireless" value="Yes" />
+    <att name="Webcam" value="Yes" />
+    <att name="CPU Brand" value="AMD" />
+    <att name="HD Size" value="750" />
+  </instance>
+  <instance id="Laptop1" >
+    <att name="HD Type" value="HDD;" />
+    <att name="Brand" value="Acer" />
+    <att name="Bluetooth" value="Yes" />
+    <att name="Segment" value="Slim" />
+    <att name="LCD Inches" value="14.0" />
+    <att name="CPU Speed" value="1.5" />
+    <att name="RAM size" value="6" />
+    <att name="Laptop ID" value="2" />
+    <att name="Cache Size" value="3" />
+    <att name="Graphic Card" value="Intel Integrated" />
+    <att name="Price" value="485.0" />
+    <att name="Model" value="Slim V5-431P-987B6G50Mass" />
+    <att name="OS" value="Windows 8" />
+    <att name="DVD" value="Yes" />
+    <att name="Weight" value="2.1" />
+    <att name="CPU Type" value="Intel Pentium 987" />
+    <att name="Wireless" value="Yes" />
+    <att name="Webcam" value="Yes" />
+    <att name="CPU Brand" value="Intel" />
+    <att name="HD Size" value="500" />
+  </instance>
+  <instance id="Laptop20" >
+    <att name="HD Type" value="SSD;" />
+    <att name="Brand" value="Apple" />
+    <att name="Bluetooth" value="Yes" />
+    <att name="Segment" value="MacBook Pro" />
+    <att name="LCD Inches" value="15.0" />
+    <att name="CPU Speed" value="2.4" />
+    <att name="RAM size" value="8" />
+    <att name="Laptop ID" value="21" />
+    <att name="Cache Size" value="8" />
+    <att name="Graphic Card" value="NVIDIA GeForce GT 650M 1GB" />
+    <att name="Price" value="2275.0" />
+    <att name="Model" value="ME664PO/A" />
+    <att name="OS" value="Mac OS X Mavericks" />
+    <att name="DVD" value="Yes" />
+    <att name="Weight" value="1.62" />
+    <att name="CPU Type" value="Intel Core i7-3635QM" />
+    <att name="Wireless" value="Yes" />
+    <att name="Webcam" value="Yes" />
+    <att name="CPU Brand" value="Intel" />
+    <att name="HD Size" value="256" />
+  </instance>
+  <instance id="Laptop21" >
+    <att name="HD Type" value="SSD;" />
+    <att name="Brand" value="Apple" />
+    <att name="Bluetooth" value="Yes" />
+    <att name="Segment" value="MacBook Pro" />
+    <att name="LCD Inches" value="15.0" />
+    <att name="CPU Speed" value="2.7" />
+    <att name="RAM size" value="16" />
+    <att name="Laptop ID" value="22" />
+    <att name="Cache Size" value="8" />
+    <att name="Graphic Card" value="Intel Graphics 5000" />
+    <att name="Price" value="2275.0" />
+    <att name="Model" value="ME665PO/A" />
+    <att name="OS" value="Mac OS X Mavericks" />
+    <att name="DVD" value="Yes" />
+    <att name="Weight" value="1.62" />
+    <att name="CPU Type" value="Intel Core i7-3740QM" />
+    <att name="Wireless" value="Yes" />
+    <att name="Webcam" value="Yes" />
+    <att name="CPU Brand" value="Intel" />
+    <att name="HD Size" value="512" />
+  </instance>
+  <instance id="Laptop22" >
+    <att name="HD Type" value="HDD;SSD;" />
+    <att name="Brand" value="Asus" />
+    <att name="Bluetooth" value="Yes" />
+    <att name="Segment" value="Serie B" />
+    <att name="LCD Inches" value="14.0" />
+    <att name="CPU Speed" value="1.7" />
+    <att name="RAM size" value="4" />
+    <att name="Laptop ID" value="23" />
+    <att name="Cache Size" value="3" />
+    <att name="Graphic Card" value="Intel UMA" />
+    <att name="Price" value="1058.0" />
+    <att name="Model" value="BU400A-W3117G" />
+    <att name="OS" value="Windows 8" />
+    <att name="DVD" value="No" />
+    <att name="Weight" value="1.64" />
+    <att name="CPU Type" value="Intel Core i5-3317U" />
+    <att name="Wireless" value="Yes" />
+    <att name="Webcam" value="Yes" />
+    <att name="CPU Brand" value="Intel" />
+    <att name="HD Size" value="524" />
+  </instance>
+  <instance id="Laptop23" >
+    <att name="HD Type" value="HDD;SSD;" />
+    <att name="Brand" value="Asus" />
+    <att name="Bluetooth" value="Yes" />
+    <att name="Segment" value="Serie B" />
+    <att name="LCD Inches" value="14.0" />
+    <att name="CPU Speed" value="1.7" />
+    <att name="RAM size" value="6" />
+    <att name="Laptop ID" value="24" />
+    <att name="Cache Size" value="3" />
+    <att name="Graphic Card" value="NVIDIA NVS5200 1GB" />
+    <att name="Price" value="1154.0" />
+    <att name="Model" value="BU400VC-W3039G" />
+    <att name="OS" value="Windows 8" />
+    <att name="DVD" value="No" />
+    <att name="Weight" value="1.64" />
+    <att name="CPU Type" value="Intel Core i5-3317U" />
+    <att name="Wireless" value="Yes" />
+    <att name="Webcam" value="Yes" />
+    <att name="CPU Brand" value="Intel" />
+    <att name="HD Size" value="628" />
+  </instance>
+  <instance id="Laptop24" >
+    <att name="HD Type" value="HDD;SSD;" />
+    <att name="Brand" value="Asus" />
+    <att name="Bluetooth" value="Yes" />
+    <att name="Segment" value="Serie B" />
+    <att name="LCD Inches" value="14.0" />
+    <att name="CPU Speed" value="1.9" />
+    <att name="RAM size" value="8" />
+    <att name="Laptop ID" value="25" />
+    <att name="Cache Size" value="3" />
+    <att name="Graphic Card" value="NVIDIA NVS5200 1GB" />
+    <att name="Price" value="1322.0" />
+    <att name="Model" value="BU400VC-W3038G" />
+    <att name="OS" value="Windows 8" />
+    <att name="DVD" value="No" />
+    <att name="Weight" value="1.64" />
+    <att name="CPU Type" value="Intel Core i7-3517U" />
+    <att name="Wireless" value="Yes" />
+    <att name="Webcam" value="Yes" />
+    <att name="CPU Brand" value="Intel" />
+    <att name="HD Size" value="756" />
+  </instance>
+  <instance id="Laptop25" >
+    <att name="HD Type" value="HDD;SSD;" />
+    <att name="Brand" value="Asus" />
+    <att name="Bluetooth" value="Yes" />
+    <att name="Segment" value="Serie G" />
+    <att name="LCD Inches" value="14.0" />
+    <att name="CPU Speed" value="2.4" />
+    <att name="RAM size" value="16" />
+    <att name="Laptop ID" value="26" />
+    <att name="Cache Size" value="4" />
+    <att name="Graphic Card" value="NVIDIA GeForce 760M 2GB" />
+    <att name="Price" value="1477.0" />
+    <att name="Model" value="G46VR-DA016H" />
+    <att name="OS" value="Windows 8" />
+    <att name="DVD" value="Yes" />
+    <att name="Weight" value="2.6" />
+    <att name="CPU Type" value="Intel Core i7-3630QM" />
+    <att name="Wireless" value="Yes" />
+    <att name="Webcam" value="Yes" />
+    <att name="CPU Brand" value="Intel" />
+    <att name="HD Size" value="878" />
+  </instance>
+  <instance id="Laptop26" >
+    <att name="HD Type" value="HDD;SSD;" />
+    <att name="Brand" value="Asus" />
+    <att name="Bluetooth" value="Yes" />
+    <att name="Segment" value="Serie G" />
+    <att name="LCD Inches" value="14.0" />
+    <att name="CPU Speed" value="2.4" />
+    <att name="RAM size" value="16" />
+    <att name="Laptop ID" value="27" />
+    <att name="Cache Size" value="4" />
+    <att name="Graphic Card" value="NVIDIA GeForce GTX660M 2GB" />
+    <att name="Price" value="1545.0" />
+    <att name="Model" value="G46VM-W3048P" />
+    <att name="OS" value="Windows 8" />
+    <att name="DVD" value="Yes" />
+    <att name="Weight" value="2.6" />
+    <att name="CPU Type" value="Intel Core i7-3630QM" />
+    <att name="Wireless" value="Yes" />
+    <att name="Webcam" value="Yes" />
+    <att name="CPU Brand" value="Intel" />
+    <att name="HD Size" value="878" />
+  </instance>
+  <instance id="Laptop27" >
+    <att name="HD Type" value="HDD;SSD;" />
+    <att name="Brand" value="Asus" />
+    <att name="Bluetooth" value="Yes" />
+    <att name="Segment" value="Serie G" />
+    <att name="LCD Inches" value="17.3" />
+    <att name="CPU Speed" value="2.2" />
+    <att name="RAM size" value="32" />
+    <att name="Laptop ID" value="28" />
+    <att name="Cache Size" value="4" />
+    <att name="Graphic Card" value="NVIDIA GeForce GTX770M 3GB" />
+    <att name="Price" value="1847.0" />
+    <att name="Model" value="G750J-T4048HX" />
+    <att name="OS" value="Windows 8" />
+    <att name="DVD" value="Yes" />
+    <att name="Weight" value="2.6" />
+    <att name="CPU Type" value="Intel Core i7-4702HQ" />
+    <att name="Wireless" value="Yes" />
+    <att name="Webcam" value="Yes" />
+    <att name="CPU Brand" value="Intel" />
+    <att name="HD Size" value="1006" />
+  </instance>
+  <instance id="Laptop18" >
+    <att name="HD Type" value="SSD;" />
+    <att name="Brand" value="Apple" />
+    <att name="Bluetooth" value="Yes" />
+    <att name="Segment" value="MacBook Pro" />
+    <att name="LCD Inches" value="13.0" />
+    <att name="CPU Speed" value="2.5" />
+    <att name="RAM size" value="8" />
+    <att name="Laptop ID" value="19" />
+    <att name="Cache Size" value="8" />
+    <att name="Graphic Card" value="Intel HD Graphics 5000" />
+    <att name="Price" value="1567.0" />
+    <att name="Model" value="MD212PO/A" />
+    <att name="OS" value="Mac OS X Mavericks" />
+    <att name="DVD" value="Yes" />
+    <att name="Weight" value="1.62" />
+    <att name="CPU Type" value="Intel Core i5-3210M" />
+    <att name="Wireless" value="Yes" />
+    <att name="Webcam" value="Yes" />
+    <att name="CPU Brand" value="Intel" />
+    <att name="HD Size" value="128" />
+  </instance>
+  <instance id="Laptop93" >
+    <att name="HD Type" value="HDD;SSD;" />
+    <att name="Brand" value="Samsung" />
+    <att name="Bluetooth" value="Yes" />
+    <att name="Segment" value="Serie NP" />
+    <att name="LCD Inches" value="13.3" />
+    <att name="CPU Speed" value="1.8" />
+    <att name="RAM size" value="4" />
+    <att name="Laptop ID" value="94" />
+    <att name="Cache Size" value="3" />
+    <att name="Graphic Card" value="Intel HD Graphics 4000" />
+    <att name="Price" value="658.0" />
+    <att name="Model" value="NP530U3C-A04PT" />
+    <att name="OS" value="Windows 8" />
+    <att name="DVD" value="Yes" />
+    <att name="Weight" value="1.52" />
+    <att name="CPU Type" value="Intel Core i3-3217U" />
+    <att name="Wireless" value="Yes" />
+    <att name="Webcam" value="Yes" />
+    <att name="CPU Brand" value="Intel" />
+    <att name="HD Size" value="524" />
+  </instance>
+  <instance id="Laptop17" >
+    <att name="HD Type" value="HDD;" />
+    <att name="Brand" value="Apple" />
+    <att name="Bluetooth" value="Yes" />
+    <att name="Segment" value="MacBook Pro" />
+    <att name="LCD Inches" value="15.0" />
+    <att name="CPU Speed" value="2.6" />
+    <att name="RAM size" value="8" />
+    <att name="Laptop ID" value="18" />
+    <att name="Cache Size" value="8" />
+    <att name="Graphic Card" value="NVIDIA GeForce GT650M 1GB" />
+    <att name="Price" value="2349.0" />
+    <att name="Model" value="MD104PO/A" />
+    <att name="OS" value="Mac OS X Mavericks" />
+    <att name="DVD" value="Yes" />
+    <att name="Weight" value="1.62" />
+    <att name="CPU Type" value="Intel Core i7-3720QM" />
+    <att name="Wireless" value="Yes" />
+    <att name="Webcam" value="Yes" />
+    <att name="CPU Brand" value="Intel" />
+    <att name="HD Size" value="750" />
+  </instance>
+  <instance id="Laptop94" >
+    <att name="HD Type" value="HDD;" />
+    <att name="Brand" value="Samsung" />
+    <att name="Bluetooth" value="Yes" />
+    <att name="Segment" value="Serie NP" />
+    <att name="LCD Inches" value="13.3" />
+    <att name="CPU Speed" value="1.4" />
+    <att name="RAM size" value="8" />
+    <att name="Laptop ID" value="95" />
+    <att name="Cache Size" value="4" />
+    <att name="Graphic Card" value="Intel HD Graphics 4000" />
+    <att name="Price" value="815.0" />
+    <att name="Model" value="NP530U3C-A07PT" />
+    <att name="OS" value="Windows 8" />
+    <att name="DVD" value="Yes" />
+    <att name="Weight" value="1.52" />
+    <att name="CPU Type" value="Intel Core i5-2537M" />
+    <att name="Wireless" value="Yes" />
+    <att name="Webcam" value="Yes" />
+    <att name="CPU Brand" value="Intel" />
+    <att name="HD Size" value="500" />
+  </instance>
+  <instance id="Laptop95" >
+    <att name="HD Type" value="HDD;" />
+    <att name="Brand" value="Samsung" />
+    <att name="Bluetooth" value="Yes" />
+    <att name="Segment" value="Serie NP" />
+    <att name="LCD Inches" value="13.3" />
+    <att name="CPU Speed" value="1.7" />
+    <att name="RAM size" value="4" />
+    <att name="Laptop ID" value="96" />
+    <att name="Cache Size" value="4" />
+    <att name="Graphic Card" value="Intel HD Graphics 4000" />
+    <att name="Price" value="815.0" />
+    <att name="Model" value="NP530U3C-A06PT" />
+    <att name="OS" value="Windows 8" />
+    <att name="DVD" value="Yes" />
+    <att name="Weight" value="1.52" />
+    <att name="CPU Type" value="Intel Core i5-3317U" />
+    <att name="Wireless" value="Yes" />
+    <att name="Webcam" value="Yes" />
+    <att name="CPU Brand" value="Intel" />
+    <att name="HD Size" value="500" />
+  </instance>
+  <instance id="Laptop96" >
+    <att name="HD Type" value="HDD;" />
+    <att name="Brand" value="Samsung" />
+    <att name="Bluetooth" value="Yes" />
+    <att name="Segment" value="Serie NP" />
+    <att name="LCD Inches" value="14.0" />
+    <att name="CPU Speed" value="1.7" />
+    <att name="RAM size" value="8" />
+    <att name="Laptop ID" value="97" />
+    <att name="Cache Size" value="3" />
+    <att name="Graphic Card" value="Intel HD Graphics 4000" />
+    <att name="Price" value="785.0" />
+    <att name="Model" value="NP530U4C-S04PT" />
+    <att name="OS" value="Windows 8" />
+    <att name="DVD" value="Yes" />
+    <att name="Weight" value="1.84" />
+    <att name="CPU Type" value="Intel Core i5-3317U" />
+    <att name="Wireless" value="Yes" />
+    <att name="Webcam" value="Yes" />
+    <att name="CPU Brand" value="Intel" />
+    <att name="HD Size" value="750" />
+  </instance>
+  <instance id="Laptop19" >
+    <att name="HD Type" value="SSD;" />
+    <att name="Brand" value="Apple" />
+    <att name="Bluetooth" value="Yes" />
+    <att name="Segment" value="MacBook Pro" />
+    <att name="LCD Inches" value="13.0" />
+    <att name="CPU Speed" value="2.6" />
+    <att name="RAM size" value="8" />
+    <att name="Laptop ID" value="20" />
+    <att name="Cache Size" value="8" />
+    <att name="Graphic Card" value="Intel HD Graphics 5000" />
+    <att name="Price" value="1769.0" />
+    <att name="Model" value="ME662PO/A" />
+    <att name="OS" value="Mac OS X Mavericks" />
+    <att name="DVD" value="Yes" />
+    <att name="Weight" value="1.62" />
+    <att name="CPU Type" value="Intel Core i5-3230M" />
+    <att name="Wireless" value="Yes" />
+    <att name="Webcam" value="Yes" />
+    <att name="CPU Brand" value="Intel" />
+    <att name="HD Size" value="256" />
+  </instance>
+  <instance id="Laptop90" >
+    <att name="HD Type" value="HDD;" />
+    <att name="Brand" value="Samsung" />
+    <att name="Bluetooth" value="Yes" />
+    <att name="Segment" value="Serie NP" />
+    <att name="LCD Inches" value="15.6" />
+    <att name="CPU Speed" value="1.4" />
+    <att name="RAM size" value="4" />
+    <att name="Laptop ID" value="91" />
+    <att name="Cache Size" value="3" />
+    <att name="Graphic Card" value="AMD Radeon HD7310" />
+    <att name="Price" value="408.0" />
+    <att name="Model" value="NP355E5C-A03PT" />
+    <att name="OS" value="Windows 8" />
+    <att name="DVD" value="Yes" />
+    <att name="Weight" value="2.33" />
+    <att name="CPU Type" value="AMD Dual-Core E1-1200" />
+    <att name="Wireless" value="Yes" />
+    <att name="Webcam" value="Yes" />
+    <att name="CPU Brand" value="AMD" />
+    <att name="HD Size" value="500" />
+  </instance>
+  <instance id="Laptop91" >
+    <att name="HD Type" value="HDD;" />
+    <att name="Brand" value="Samsung" />
+    <att name="Bluetooth" value="Yes" />
+    <att name="Segment" value="Serie NP" />
+    <att name="LCD Inches" value="15.6" />
+    <att name="CPU Speed" value="1.7" />
+    <att name="RAM size" value="4" />
+    <att name="Laptop ID" value="92" />
+    <att name="Cache Size" value="2" />
+    <att name="Graphic Card" value="AMD Radeon HD7470" />
+    <att name="Price" value="473.0" />
+    <att name="Model" value="NP355E5C-S01PT" />
+    <att name="OS" value="Windows 8" />
+    <att name="DVD" value="Yes" />
+    <att name="Weight" value="2.33" />
+    <att name="CPU Type" value="AMD Dual-Core E2-1800" />
+    <att name="Wireless" value="Yes" />
+    <att name="Webcam" value="Yes" />
+    <att name="CPU Brand" value="AMD" />
+    <att name="HD Size" value="750" />
+  </instance>
+  <instance id="Laptop92" >
+    <att name="HD Type" value="HDD;" />
+    <att name="Brand" value="Samsung" />
+    <att name="Bluetooth" value="Yes" />
+    <att name="Segment" value="Serie NP" />
+    <att name="LCD Inches" value="14.0" />
+    <att name="CPU Speed" value="2.5" />
+    <att name="RAM size" value="4" />
+    <att name="Laptop ID" value="93" />
+    <att name="Cache Size" value="3" />
+    <att name="Graphic Card" value="Intel HD Graphics 4000" />
+    <att name="Price" value="652.0" />
+    <att name="Model" value="NP450R4E-X01PT" />
+    <att name="OS" value="Windows 8" />
+    <att name="DVD" value="Yes" />
+    <att name="Weight" value="1.81" />
+    <att name="CPU Type" value="Intel Core i5-3210M" />
+    <att name="Wireless" value="Yes" />
+    <att name="Webcam" value="Yes" />
+    <att name="CPU Brand" value="Intel" />
+    <att name="HD Size" value="500" />
+  </instance>
+  <instance id="Laptop97" >
+    <att name="HD Type" value="HDD;" />
+    <att name="Brand" value="Samsung" />
+    <att name="Bluetooth" value="Yes" />
+    <att name="Segment" value="Serie NP" />
+    <att name="LCD Inches" value="14.0" />
+    <att name="CPU Speed" value="1.8" />
+    <att name="RAM size" value="4" />
+    <att name="Laptop ID" value="98" />
+    <att name="Cache Size" value="3" />
+    <att name="Graphic Card" value="AMD Radeon HD8750M" />
+    <att name="Price" value="884.0" />
+    <att name="Model" value="NP530U4E-X01PT" />
+    <att name="OS" value="Windows 8" />
+    <att name="DVD" value="Yes" />
+    <att name="Weight" value="1.84" />
+    <att name="CPU Type" value="Intel Core i5-3337U" />
+    <att name="Wireless" value="Yes" />
+    <att name="Webcam" value="Yes" />
+    <att name="CPU Brand" value="Intel" />
+    <att name="HD Size" value="500" />
+  </instance>
+  <instance id="Laptop98" >
+    <att name="HD Type" value="HDD;" />
+    <att name="Brand" value="Samsung" />
+    <att name="Bluetooth" value="Yes" />
+    <att name="Segment" value="Serie NP" />
+    <att name="LCD Inches" value="14.0" />
+    <att name="CPU Speed" value="2.5" />
+    <att name="RAM size" value="6" />
+    <att name="Laptop ID" value="99" />
+    <att name="Cache Size" value="4" />
+    <att name="Graphic Card" value="NVIDIA GeForce GT630M" />
+    <att name="Price" value="920.0" />
+    <att name="Model" value="NP700Z3C-S02PT" />
+    <att name="OS" value="Windows 8" />
+    <att name="DVD" value="Yes" />
+    <att name="Weight" value="1.84" />
+    <att name="CPU Type" value="Intel Core i5-3210M" />
+    <att name="Wireless" value="Yes" />
+    <att name="Webcam" value="Yes" />
+    <att name="CPU Brand" value="Intel" />
+    <att name="HD Size" value="1000" />
+  </instance>
+  <instance id="Laptop99" >
+    <att name="HD Type" value="SSD;" />
+    <att name="Brand" value="Samsung" />
+    <att name="Bluetooth" value="Yes" />
+    <att name="Segment" value="Serie NP" />
+    <att name="LCD Inches" value="13.3" />
+    <att name="CPU Speed" value="2.0" />
+    <att name="RAM size" value="4" />
+    <att name="Laptop ID" value="100" />
+    <att name="Cache Size" value="4" />
+    <att name="Graphic Card" value="AMD Radeon HD8570M 1GB" />
+    <att name="Price" value="1267.0" />
+    <att name="Model" value="NP730U3E-S01PT" />
+    <att name="OS" value="Windows 8" />
+    <att name="DVD" value="Yes" />
+    <att name="Weight" value="1.84" />
+    <att name="CPU Type" value="Intel Core i7-3537U" />
+    <att name="Wireless" value="Yes" />
+    <att name="Webcam" value="Yes" />
+    <att name="CPU Brand" value="Intel" />
+    <att name="HD Size" value="128" />
+  </instance>
+  <instance id="Laptop102" >
+    <att name="HD Type" value="HDD;" />
+    <att name="Brand" value="Samsung" />
+    <att name="Bluetooth" value="Yes" />
+    <att name="Segment" value="Serie NP" />
+    <att name="LCD Inches" value="15.6" />
+    <att name="CPU Speed" value="2.4" />
+    <att name="RAM size" value="8" />
+    <att name="Laptop ID" value="103" />
+    <att name="Cache Size" value="4" />
+    <att name="Graphic Card" value="AMD Radeon HD8870M" />
+    <att name="Price" value="1254.0" />
+    <att name="Model" value="NP870Z5E-X01PT" />
+    <att name="OS" value="Windows 8" />
+    <att name="DVD" value="Yes" />
+    <att name="Weight" value="2.35" />
+    <att name="CPU Type" value="Intel Core i7-3635QM" />
+    <att name="Wireless" value="Yes" />
+    <att name="Webcam" value="Yes" />
+    <att name="CPU Brand" value="Intel" />
+    <att name="HD Size" value="1000" />
+  </instance>
+  <instance id="Laptop101" >
+    <att name="HD Type" value="HDD;SSD;" />
+    <att name="Brand" value="Samsung" />
+    <att name="Bluetooth" value="Yes" />
+    <att name="Segment" value="Serie NP" />
+    <att name="LCD Inches" value="17.3" />
+    <att name="CPU Speed" value="2.4" />
+    <att name="RAM size" value="16" />
+    <att name="Laptop ID" value="102" />
+    <att name="Cache Size" value="6" />
+    <att name="Graphic Card" value="AMD Radeon HD7870M" />
+    <att name="Price" value="1742.0" />
+    <att name="Model" value="NP700G7C-T01PT" />
+    <att name="OS" value="Windows 8" />
+    <att name="DVD" value="Yes" />
+    <att name="Weight" value="3.81" />
+    <att name="CPU Type" value="Intel Core i7-3630QM" />
+    <att name="Wireless" value="Yes" />
+    <att name="Webcam" value="Yes" />
+    <att name="CPU Brand" value="Intel" />
+    <att name="HD Size" value="878" />
+  </instance>
+  <instance id="Laptop104" >
+    <att name="HD Type" value="SSD;" />
+    <att name="Brand" value="Samsung" />
+    <att name="Bluetooth" value="Yes" />
+    <att name="Segment" value="Serie NP" />
+    <att name="LCD Inches" value="15.0" />
+    <att name="CPU Speed" value="1.7" />
+    <att name="RAM size" value="8" />
+    <att name="Laptop ID" value="105" />
+    <att name="Cache Size" value="4" />
+    <att name="Graphic Card" value="Intel HD Graphics 4000" />
+    <att name="Price" value="1335.0" />
+    <att name="Model" value="NP900X4C-A02PT" />
+    <att name="OS" value="Windows 8" />
+    <att name="DVD" value="Yes" />
+    <att name="Weight" value="1.65" />
+    <att name="CPU Type" value="Intel Core i5-3317U" />
+    <att name="Wireless" value="Yes" />
+    <att name="Webcam" value="Yes" />
+    <att name="CPU Brand" value="Intel" />
+    <att name="HD Size" value="256" />
+  </instance>
+  <instance id="Laptop103" >
+    <att name="HD Type" value="SSD;" />
+    <att name="Brand" value="Samsung" />
+    <att name="Bluetooth" value="Yes" />
+    <att name="Segment" value="Serie NP" />
+    <att name="LCD Inches" value="15.0" />
+    <att name="CPU Speed" value="1.7" />
+    <att name="RAM size" value="8" />
+    <att name="Laptop ID" value="104" />
+    <att name="Cache Size" value="3" />
+    <att name="Graphic Card" value="Intel HD Graphics 4000" />
+    <att name="Price" value="1069.0" />
+    <att name="Model" value="NP900X4C-A04PT" />
+    <att name="OS" value="Windows 8" />
+    <att name="DVD" value="Yes" />
+    <att name="Weight" value="1.65" />
+    <att name="CPU Type" value="Intel Core i5-3317U" />
+    <att name="Wireless" value="Yes" />
+    <att name="Webcam" value="Yes" />
+    <att name="CPU Brand" value="Intel" />
+    <att name="HD Size" value="128" />
+  </instance>
+  <instance id="Laptop106" >
+    <att name="HD Type" value="HDD;" />
+    <att name="Brand" value="Vaio" />
+    <att name="Bluetooth" value="No" />
+    <att name="Segment" value="Serie E" />
+    <att name="LCD Inches" value="11.6" />
+    <att name="CPU Speed" value="1.75" />
+    <att name="RAM size" value="4" />
+    <att name="Laptop ID" value="107" />
+    <att name="Cache Size" value="1" />
+    <att name="Graphic Card" value="AMD Radeon HD7340" />
+    <att name="Price" value="499.0" />
+    <att name="Model" value="E1113M1EW" />
+    <att name="OS" value="Windows 8" />
+    <att name="DVD" value="No" />
+    <att name="Weight" value="1.5" />
+    <att name="CPU Type" value="AMD Dual-Core E2-2000" />
+    <att name="Wireless" value="Yes" />
+    <att name="Webcam" value="No" />
+    <att name="CPU Brand" value="AMD" />
+    <att name="HD Size" value="500" />
+  </instance>
+  <instance id="Laptop105" >
+    <att name="HD Type" value="SSD;" />
+    <att name="Brand" value="Samsung" />
+    <att name="Bluetooth" value="Yes" />
+    <att name="Segment" value="Serie NP" />
+    <att name="LCD Inches" value="15.0" />
+    <att name="CPU Speed" value="2.0" />
+    <att name="RAM size" value="8" />
+    <att name="Laptop ID" value="106" />
+    <att name="Cache Size" value="4" />
+    <att name="Graphic Card" value="Intel HD Graphics 4000" />
+    <att name="Price" value="1349.0" />
+    <att name="Model" value="NP900X4C-K01PT" />
+    <att name="OS" value="Windows 8" />
+    <att name="DVD" value="Yes" />
+    <att name="Weight" value="1.65" />
+    <att name="CPU Type" value="Intel Core i7-3537U" />
+    <att name="Wireless" value="Yes" />
+    <att name="Webcam" value="Yes" />
+    <att name="CPU Brand" value="Intel" />
+    <att name="HD Size" value="256" />
+  </instance>
+  <instance id="Laptop108" >
+    <att name="HD Type" value="HDD;" />
+    <att name="Brand" value="Vaio" />
+    <att name="Bluetooth" value="Yes" />
+    <att name="Segment" value="Serie E" />
+    <att name="LCD Inches" value="14.0" />
+    <att name="CPU Speed" value="2.5" />
+    <att name="RAM size" value="6" />
+    <att name="Laptop ID" value="109" />
+    <att name="Cache Size" value="3" />
+    <att name="Graphic Card" value="Intel HD Graphics 4000" />
+    <att name="Price" value="799.0" />
+    <att name="Model" value="E14A2X1EW" />
+    <att name="OS" value="Windows 8" />
+    <att name="DVD" value="Yes" />
+    <att name="Weight" value="2.3" />
+    <att name="CPU Type" value="Intel Core i5-3210M" />
+    <att name="Wireless" value="Yes" />
+    <att name="Webcam" value="Yes" />
+    <att name="CPU Brand" value="Intel" />
+    <att name="HD Size" value="750" />
+  </instance>
+  <instance id="Laptop107" >
+    <att name="HD Type" value="HDD;" />
+    <att name="Brand" value="Vaio" />
+    <att name="Bluetooth" value="Yes" />
+    <att name="Segment" value="Serie E" />
+    <att name="LCD Inches" value="14.0" />
+    <att name="CPU Speed" value="2.5" />
+    <att name="RAM size" value="6" />
+    <att name="Laptop ID" value="108" />
+    <att name="Cache Size" value="3" />
+    <att name="Graphic Card" value="Intel HD Graphics 4000" />
+    <att name="Price" value="799.0" />
+    <att name="Model" value="E14A2X1EB" />
+    <att name="OS" value="Windows 8" />
+    <att name="DVD" value="Yes" />
+    <att name="Weight" value="2.3" />
+    <att name="CPU Type" value="Intel Core i5-3210M" />
+    <att name="Wireless" value="Yes" />
+    <att name="Webcam" value="Yes" />
+    <att name="CPU Brand" value="Intel" />
+    <att name="HD Size" value="750" />
+  </instance>
+  <instance id="Laptop11" >
+    <att name="HD Type" value="SSD;" />
+    <att name="Brand" value="Apple" />
+    <att name="Bluetooth" value="Yes" />
+    <att name="Segment" value="MacBook Air" />
+    <att name="LCD Inches" value="11.0" />
+    <att name="CPU Speed" value="1.7" />
+    <att name="RAM size" value="4" />
+    <att name="Laptop ID" value="12" />
+    <att name="Cache Size" value="8" />
+    <att name="Graphic Card" value="Intel HD Graphics 5000" />
+    <att name="Price" value="1163.0" />
+    <att name="Model" value="MD224PO/A" />
+    <att name="OS" value="Mac OS X Mavericks" />
+    <att name="DVD" value="No" />
+    <att name="Weight" value="1.05" />
+    <att name="CPU Type" value="Intel Core i5-3317U" />
+    <att name="Wireless" value="Yes" />
+    <att name="Webcam" value="Yes" />
+    <att name="CPU Brand" value="Intel" />
+    <att name="HD Size" value="128" />
+  </instance>
+  <instance id="Laptop12" >
+    <att name="HD Type" value="SSD;" />
+    <att name="Brand" value="Apple" />
+    <att name="Bluetooth" value="Yes" />
+    <att name="Segment" value="MacBook Air" />
+    <att name="LCD Inches" value="13.0" />
+    <att name="CPU Speed" value="1.8" />
+    <att name="RAM size" value="4" />
+    <att name="Laptop ID" value="13" />
+    <att name="Cache Size" value="8" />
+    <att name="Graphic Card" value="Intel HD Graphics 5000" />
+    <att name="Price" value="1263.0" />
+    <att name="Model" value="MD231PO/A" />
+    <att name="OS" value="Mac OS X Mavericks" />
+    <att name="DVD" value="No" />
+    <att name="Weight" value="1.05" />
+    <att name="CPU Type" value="Intel Core i5-3427U" />
+    <att name="Wireless" value="Yes" />
+    <att name="Webcam" value="Yes" />
+    <att name="CPU Brand" value="Intel" />
+    <att name="HD Size" value="128" />
+  </instance>
+  <instance id="Laptop10" >
+    <att name="HD Type" value="SSD;" />
+    <att name="Brand" value="Apple" />
+    <att name="Bluetooth" value="Yes" />
+    <att name="Segment" value="MacBook Air" />
+    <att name="LCD Inches" value="11.0" />
+    <att name="CPU Speed" value="1.7" />
+    <att name="RAM size" value="4" />
+    <att name="Laptop ID" value="11" />
+    <att name="Cache Size" value="8" />
+    <att name="Graphic Card" value="Intel HD Graphics 5000" />
+    <att name="Price" value="1061.0" />
+    <att name="Model" value="MD223PO/A" />
+    <att name="OS" value="Mac OS X Mavericks" />
+    <att name="DVD" value="No" />
+    <att name="Weight" value="1.05" />
+    <att name="CPU Type" value="Intel Core i5-3317U" />
+    <att name="Wireless" value="Yes" />
+    <att name="Webcam" value="Yes" />
+    <att name="CPU Brand" value="Intel" />
+    <att name="HD Size" value="64" />
+  </instance>
+  <instance id="Laptop15" >
+    <att name="HD Type" value="HDD;" />
+    <att name="Brand" value="Apple" />
+    <att name="Bluetooth" value="Yes" />
+    <att name="Segment" value="MacBook Pro" />
+    <att name="LCD Inches" value="13.0" />
+    <att name="CPU Speed" value="2.9" />
+    <att name="RAM size" value="8" />
+    <att name="Laptop ID" value="16" />
+    <att name="Cache Size" value="8" />
+    <att name="Graphic Card" value="Intel HD Graphics 5000" />
+    <att name="Price" value="1567.0" />
+    <att name="Model" value="MD102PO/A" />
+    <att name="OS" value="Mac OS X Mavericks" />
+    <att name="DVD" value="Yes" />
+    <att name="Weight" value="1.62" />
+    <att name="CPU Type" value="Intel Core i7-3520M" />
+    <att name="Wireless" value="Yes" />
+    <att name="Webcam" value="Yes" />
+    <att name="CPU Brand" value="Intel" />
+    <att name="HD Size" value="750" />
+  </instance>
+  <instance id="Laptop16" >
+    <att name="HD Type" value="HDD;" />
+    <att name="Brand" value="Apple" />
+    <att name="Bluetooth" value="Yes" />
+    <att name="Segment" value="MacBook Pro" />
+    <att name="LCD Inches" value="15.0" />
+    <att name="CPU Speed" value="2.3" />
+    <att name="RAM size" value="4" />
+    <att name="Laptop ID" value="17" />
+    <att name="Cache Size" value="8" />
+    <att name="Graphic Card" value="NVIDIA GeForce GT650M 512MB" />
+    <att name="Price" value="1871.0" />
+    <att name="Model" value="MD103PO/A" />
+    <att name="OS" value="Mac OS X Mavericks" />
+    <att name="DVD" value="Yes" />
+    <att name="Weight" value="1.62" />
+    <att name="CPU Type" value="Intel Core i7-3615QM" />
+    <att name="Wireless" value="Yes" />
+    <att name="Webcam" value="Yes" />
+    <att name="CPU Brand" value="Intel" />
+    <att name="HD Size" value="500" />
+  </instance>
+  <instance id="Laptop100" >
+    <att name="HD Type" value="HDD;" />
+    <att name="Brand" value="Samsung" />
+    <att name="Bluetooth" value="Yes" />
+    <att name="Segment" value="Serie NP" />
+    <att name="LCD Inches" value="17.3" />
+    <att name="CPU Speed" value="2.4" />
+    <att name="RAM size" value="8" />
+    <att name="Laptop ID" value="101" />
+    <att name="Cache Size" value="6" />
+    <att name="Graphic Card" value="AMD Radeon HD8870M" />
+    <att name="Price" value="1290.0" />
+    <att name="Model" value="NP770Z7E-S01PT" />
+    <att name="OS" value="Windows 8" />
+    <att name="DVD" value="Yes" />
+    <att name="Weight" value="3.81" />
+    <att name="CPU Type" value="Intel Core i7-3635QM" />
+    <att name="Wireless" value="Yes" />
+    <att name="Webcam" value="Yes" />
+    <att name="CPU Brand" value="Intel" />
+    <att name="HD Size" value="1000" />
+  </instance>
+  <instance id="Laptop13" >
+    <att name="HD Type" value="SSD;" />
+    <att name="Brand" value="Apple" />
+    <att name="Bluetooth" value="Yes" />
+    <att name="Segment" value="MacBook Air" />
+    <att name="LCD Inches" value="13.0" />
+    <att name="CPU Speed" value="1.8" />
+    <att name="RAM size" value="4" />
+    <att name="Laptop ID" value="14" />
+    <att name="Cache Size" value="8" />
+    <att name="Graphic Card" value="Intel HD Graphics 5000" />
+    <att name="Price" value="1466.0" />
+    <att name="Model" value="MD232PO/A" />
+    <att name="OS" value="Mac OS X Mavericks" />
+    <att name="DVD" value="No" />
+    <att name="Weight" value="1.05" />
+    <att name="CPU Type" value="Intel Core i5-3427U" />
+    <att name="Wireless" value="Yes" />
+    <att name="Webcam" value="Yes" />
+    <att name="CPU Brand" value="Intel" />
+    <att name="HD Size" value="256" />
+  </instance>
+  <instance id="Laptop14" >
+    <att name="HD Type" value="HDD;" />
+    <att name="Brand" value="Apple" />
+    <att name="Bluetooth" value="Yes" />
+    <att name="Segment" value="MacBook Pro" />
+    <att name="LCD Inches" value="13.0" />
+    <att name="CPU Speed" value="2.5" />
+    <att name="RAM size" value="4" />
+    <att name="Laptop ID" value="15" />
+    <att name="Cache Size" value="8" />
+    <att name="Graphic Card" value="Intel HD Graphics 5000" />
+    <att name="Price" value="1262.0" />
+    <att name="Model" value="MD101PO/A" />
+    <att name="OS" value="Mac OS X Mavericks" />
+    <att name="DVD" value="Yes" />
+    <att name="Weight" value="1.62" />
+    <att name="CPU Type" value="Intel Core i5-3210M" />
+    <att name="Wireless" value="Yes" />
+    <att name="Webcam" value="Yes" />
+    <att name="CPU Brand" value="Intel" />
+    <att name="HD Size" value="500" />
+  </instance>
+  <instance id="Laptop76" >
+    <att name="HD Type" value="HDD;" />
+    <att name="Brand" value="HP" />
+    <att name="Bluetooth" value="Yes" />
+    <att name="Segment" value="Sleekbook" />
+    <att name="LCD Inches" value="15.6" />
+    <att name="CPU Speed" value="1.6" />
+    <att name="RAM size" value="4" />
+    <att name="Laptop ID" value="77" />
+    <att name="Cache Size" value="2" />
+    <att name="Graphic Card" value="AMD Radeon HD8550M" />
+    <att name="Price" value="549.0" />
+    <att name="Model" value="15-B105sp" />
+    <att name="OS" value="Windows 8" />
+    <att name="DVD" value="Yes" />
+    <att name="Weight" value="1.9" />
+    <att name="CPU Type" value="AMD Quad-Core A8-4555M" />
+    <att name="Wireless" value="Yes" />
+    <att name="Webcam" value="Yes" />
+    <att name="CPU Brand" value="AMD" />
+    <att name="HD Size" value="500" />
+  </instance>
+  <instance id="Laptop75" >
+    <att name="HD Type" value="HDD;" />
+    <att name="Brand" value="HP" />
+    <att name="Bluetooth" value="Yes" />
+    <att name="Segment" value="Sleekbook" />
+    <att name="LCD Inches" value="15.6" />
+    <att name="CPU Speed" value="2.1" />
+    <att name="RAM size" value="4" />
+    <att name="Laptop ID" value="76" />
+    <att name="Cache Size" value="3" />
+    <att name="Graphic Card" value="AMD Radeon HD7500G" />
+    <att name="Price" value="499.0" />
+    <att name="Model" value="15-b116sp" />
+    <att name="OS" value="Windows 8" />
+    <att name="DVD" value="Yes" />
+    <att name="Weight" value="1.9" />
+    <att name="CPU Type" value="AMD Dual-Core A6-4455M" />
+    <att name="Wireless" value="Yes" />
+    <att name="Webcam" value="Yes" />
+    <att name="CPU Brand" value="AMD" />
+    <att name="HD Size" value="500" />
+  </instance>
+  <instance id="Laptop78" >
+    <att name="HD Type" value="HDD;" />
+    <att name="Brand" value="HP" />
+    <att name="Bluetooth" value="Yes" />
+    <att name="Segment" value="Sleekbook" />
+    <att name="LCD Inches" value="14.0" />
+    <att name="CPU Speed" value="1.5" />
+    <att name="RAM size" value="6" />
+    <att name="Laptop ID" value="79" />
+    <att name="Cache Size" value="2" />
+    <att name="Graphic Card" value="NVIDIA GeForce GT630M 2GB" />
+    <att name="Price" value="590.0" />
+    <att name="Model" value="14-b100sp" />
+    <att name="OS" value="Windows 8" />
+    <att name="DVD" value="Yes" />
+    <att name="Weight" value="1.9" />
+    <att name="CPU Type" value="Intel Core i3-2375M" />
+    <att name="Wireless" value="Yes" />
+    <att name="Webcam" value="Yes" />
+    <att name="CPU Brand" value="Intel" />
+    <att name="HD Size" value="500" />
+  </instance>
+  <instance id="Laptop77" >
+    <att name="HD Type" value="HDD;" />
+    <att name="Brand" value="HP" />
+    <att name="Bluetooth" value="Yes" />
+    <att name="Segment" value="Sleekbook" />
+    <att name="LCD Inches" value="15.6" />
+    <att name="CPU Speed" value="1.9" />
+    <att name="RAM size" value="4" />
+    <att name="Laptop ID" value="78" />
+    <att name="Cache Size" value="2" />
+    <att name="Graphic Card" value="NVIDIA GeForce GT630M 2GB" />
+    <att name="Price" value="590.0" />
+    <att name="Model" value="15-b112sp" />
+    <att name="OS" value="Windows 8" />
+    <att name="DVD" value="Yes" />
+    <att name="Weight" value="1.9" />
+    <att name="CPU Type" value="Intel Core i3-3227U" />
+    <att name="Wireless" value="Yes" />
+    <att name="Webcam" value="Yes" />
+    <att name="CPU Brand" value="Intel" />
+    <att name="HD Size" value="500" />
+  </instance>
+  <instance id="Laptop79" >
+    <att name="HD Type" value="HDD;" />
+    <att name="Brand" value="HP" />
+    <att name="Bluetooth" value="Yes" />
+    <att name="Segment" value="Sleekbook" />
+    <att name="LCD Inches" value="15.6" />
+    <att name="CPU Speed" value="1.9" />
+    <att name="RAM size" value="4" />
+    <att name="Laptop ID" value="80" />
+    <att name="Cache Size" value="2" />
+    <att name="Graphic Card" value="NVIDIA GeForce GT630M 2GB" />
+    <att name="Price" value="623.0" />
+    <att name="Model" value="15-B101sp" />
+    <att name="OS" value="Windows 8" />
+    <att name="DVD" value="Yes" />
+    <att name="Weight" value="1.9" />
+    <att name="CPU Type" value="Intel Core i3-3227U" />
+    <att name="Wireless" value="Yes" />
+    <att name="Webcam" value="Yes" />
+    <att name="CPU Brand" value="Intel" />
+    <att name="HD Size" value="500" />
+  </instance>
+  <instance id="Laptop70" >
+    <att name="HD Type" value="HDD;" />
+    <att name="Brand" value="HP" />
+    <att name="Bluetooth" value="Yes" />
+    <att name="Segment" value="Envy" />
+    <att name="LCD Inches" value="15.6" />
+    <att name="CPU Speed" value="2.4" />
+    <att name="RAM size" value="4" />
+    <att name="Laptop ID" value="71" />
+    <att name="Cache Size" value="4" />
+    <att name="Graphic Card" value="NVIDIA GeForce GT635M 2GB" />
+    <att name="Price" value="1003.0" />
+    <att name="Model" value="dv6-7300sp" />
+    <att name="OS" value="Windows 8" />
+    <att name="DVD" value="Yes" />
+    <att name="Weight" value="2.1" />
+    <att name="CPU Type" value="Intel Core i7-3630QM" />
+    <att name="Wireless" value="Yes" />
+    <att name="Webcam" value="Yes" />
+    <att name="CPU Brand" value="Intel" />
+    <att name="HD Size" value="500" />
+  </instance>
+  <instance id="Laptop72" >
+    <att name="HD Type" value="SSD;" />
+    <att name="Brand" value="HP" />
+    <att name="Bluetooth" value="Yes" />
+    <att name="Segment" value="Folio" />
+    <att name="LCD Inches" value="13.3" />
+    <att name="CPU Speed" value="1.6" />
+    <att name="RAM size" value="4" />
+    <att name="Laptop ID" value="73" />
+    <att name="Cache Size" value="3" />
+    <att name="Graphic Card" value="Intel Integrated" />
+    <att name="Price" value="968.0" />
+    <att name="Model" value="Folio 13" />
+    <att name="OS" value="Windows 8" />
+    <att name="DVD" value="Yes" />
+    <att name="Weight" value="1.5" />
+    <att name="CPU Type" value="Intel Core i5-2467M" />
+    <att name="Wireless" value="Yes" />
+    <att name="Webcam" value="Yes" />
+    <att name="CPU Brand" value="Intel" />
+    <att name="HD Size" value="128" />
+  </instance>
+  <instance id="Laptop71" >
+    <att name="HD Type" value="HDD;" />
+    <att name="Brand" value="HP" />
+    <att name="Bluetooth" value="Yes" />
+    <att name="Segment" value="Envy" />
+    <att name="LCD Inches" value="17.3" />
+    <att name="CPU Speed" value="2.4" />
+    <att name="RAM size" value="12" />
+    <att name="Laptop ID" value="72" />
+    <att name="Cache Size" value="4" />
+    <att name="Graphic Card" value="NVIDIA GeForce GT635M 2GB" />
+    <att name="Price" value="1104.0" />
+    <att name="Model" value="dv7-7300sp" />
+    <att name="OS" value="Windows 8" />
+    <att name="DVD" value="Yes" />
+    <att name="Weight" value="2.6" />
+    <att name="CPU Type" value="Intel Core i7-3630QM" />
+    <att name="Wireless" value="Yes" />
+    <att name="Webcam" value="Yes" />
+    <att name="CPU Brand" value="Intel" />
+    <att name="HD Size" value="1000" />
+  </instance>
+  <instance id="Laptop74" >
+    <att name="HD Type" value="HDD;" />
+    <att name="Brand" value="HP" />
+    <att name="Bluetooth" value="Yes" />
+    <att name="Segment" value="Sleekbook" />
+    <att name="LCD Inches" value="15.6" />
+    <att name="CPU Speed" value="1.5" />
+    <att name="RAM size" value="4" />
+    <att name="Laptop ID" value="75" />
+    <att name="Cache Size" value="3" />
+    <att name="Graphic Card" value="AMD Radeon HD7500G" />
+    <att name="Price" value="499.0" />
+    <att name="Model" value="15-b109sp" />
+    <att name="OS" value="Windows 8" />
+    <att name="DVD" value="Yes" />
+    <att name="Weight" value="1.9" />
+    <att name="CPU Type" value="Intel Core i3-2375M" />
+    <att name="Wireless" value="Yes" />
+    <att name="Webcam" value="Yes" />
+    <att name="CPU Brand" value="Intel" />
+    <att name="HD Size" value="500" />
+  </instance>
+  <instance id="Laptop73" >
+    <att name="HD Type" value="HDD;" />
+    <att name="Brand" value="HP" />
+    <att name="Bluetooth" value="Yes" />
+    <att name="Segment" value="Sleekbook" />
+    <att name="LCD Inches" value="15.6" />
+    <att name="CPU Speed" value="2.1" />
+    <att name="RAM size" value="4" />
+    <att name="Laptop ID" value="74" />
+    <att name="Cache Size" value="3" />
+    <att name="Graphic Card" value="AMD Radeon HD7500G" />
+    <att name="Price" value="499.0" />
+    <att name="Model" value="15-B104sp" />
+    <att name="OS" value="Windows 8" />
+    <att name="DVD" value="Yes" />
+    <att name="Weight" value="1.9" />
+    <att name="CPU Type" value="AMD Dual-Core A6-4455M" />
+    <att name="Wireless" value="Yes" />
+    <att name="Webcam" value="Yes" />
+    <att name="CPU Brand" value="AMD" />
+    <att name="HD Size" value="500" />
+  </instance>
+  <instance id="Laptop89" >
+    <att name="HD Type" value="HDD;" />
+    <att name="Brand" value="Samsung" />
+    <att name="Bluetooth" value="Yes" />
+    <att name="Segment" value="Serie NP" />
+    <att name="LCD Inches" value="15.6" />
+    <att name="CPU Speed" value="2.4" />
+    <att name="RAM size" value="8" />
+    <att name="Laptop ID" value="90" />
+    <att name="Cache Size" value="3" />
+    <att name="Graphic Card" value="AMD Radeon HD7670M" />
+    <att name="Price" value="855.0" />
+    <att name="Model" value="NP350V5C-S06PT" />
+    <att name="OS" value="Windows 8" />
+    <att name="DVD" value="Yes" />
+    <att name="Weight" value="2.33" />
+    <att name="CPU Type" value="Intel Core i7-3630QM" />
+    <att name="Wireless" value="Yes" />
+    <att name="Webcam" value="Yes" />
+    <att name="CPU Brand" value="Intel" />
+    <att name="HD Size" value="1000" />
+  </instance>
+  <instance id="Laptop88" >
+    <att name="HD Type" value="HDD;" />
+    <att name="Brand" value="Samsung" />
+    <att name="Bluetooth" value="Yes" />
+    <att name="Segment" value="Serie NP" />
+    <att name="LCD Inches" value="15.6" />
+    <att name="CPU Speed" value="2.5" />
+    <att name="RAM size" value="6" />
+    <att name="Laptop ID" value="89" />
+    <att name="Cache Size" value="3" />
+    <att name="Graphic Card" value="AMD Radeon HD7670M" />
+    <att name="Price" value="709.0" />
+    <att name="Model" value="NP350V5C-S07PT" />
+    <att name="OS" value="Windows 8" />
+    <att name="DVD" value="Yes" />
+    <att name="Weight" value="2.33" />
+    <att name="CPU Type" value="Intel Core i5-3210M" />
+    <att name="Wireless" value="Yes" />
+    <att name="Webcam" value="Yes" />
+    <att name="CPU Brand" value="Intel" />
+    <att name="HD Size" value="500" />
+  </instance>
+  <instance id="Laptop87" >
+    <att name="HD Type" value="HDD;" />
+    <att name="Brand" value="Samsung" />
+    <att name="Bluetooth" value="Yes" />
+    <att name="Segment" value="Serie NP" />
+    <att name="LCD Inches" value="15.6" />
+    <att name="CPU Speed" value="2.5" />
+    <att name="RAM size" value="6" />
+    <att name="Laptop ID" value="88" />
+    <att name="Cache Size" value="3" />
+    <att name="Graphic Card" value="Intel HD Graphics 4000" />
+    <att name="Price" value="659.0" />
+    <att name="Model" value="NP350V5C-A02PT" />
+    <att name="OS" value="Windows 8" />
+    <att name="DVD" value="Yes" />
+    <att name="Weight" value="2.33" />
+    <att name="CPU Type" value="Intel Core i5-3210M" />
+    <att name="Wireless" value="Yes" />
+    <att name="Webcam" value="Yes" />
+    <att name="CPU Brand" value="Intel" />
+    <att name="HD Size" value="750" />
+  </instance>
+  <instance id="Laptop86" >
+    <att name="HD Type" value="HDD;" />
+    <att name="Brand" value="Samsung" />
+    <att name="Bluetooth" value="Yes" />
+    <att name="Segment" value="Serie NP" />
+    <att name="LCD Inches" value="15.6" />
+    <att name="CPU Speed" value="2.6" />
+    <att name="RAM size" value="8" />
+    <att name="Laptop ID" value="87" />
+    <att name="Cache Size" value="3" />
+    <att name="Graphic Card" value="NVIDIA GeForce GT710M" />
+    <att name="Price" value="753.0" />
+    <att name="Model" value="NP270E5E-X02PT" />
+    <att name="OS" value="Windows 8" />
+    <att name="DVD" value="Yes" />
+    <att name="Weight" value="2.2" />
+    <att name="CPU Type" value="Intel Core i5-3230M" />
+    <att name="Wireless" value="Yes" />
+    <att name="Webcam" value="Yes" />
+    <att name="CPU Brand" value="Intel" />
+    <att name="HD Size" value="750" />
+  </instance>
+  <instance id="Laptop81" >
+    <att name="HD Type" value="HDD;" />
+    <att name="Brand" value="HP" />
+    <att name="Bluetooth" value="Yes" />
+    <att name="Segment" value="Sleekbook" />
+    <att name="LCD Inches" value="15.6" />
+    <att name="CPU Speed" value="1.8" />
+    <att name="RAM size" value="6" />
+    <att name="Laptop ID" value="82" />
+    <att name="Cache Size" value="2" />
+    <att name="Graphic Card" value="NVIDIA GeForce GT630M 2GB" />
+    <att name="Price" value="702.0" />
+    <att name="Model" value="15-b113sp" />
+    <att name="OS" value="Windows 8" />
+    <att name="DVD" value="Yes" />
+    <att name="Weight" value="1.9" />
+    <att name="CPU Type" value="Intel Core i5-3337U" />
+    <att name="Wireless" value="Yes" />
+    <att name="Webcam" value="Yes" />
+    <att name="CPU Brand" value="Intel" />
+    <att name="HD Size" value="500" />
+  </instance>
+  <instance id="Laptop80" >
+    <att name="HD Type" value="HDD;" />
+    <att name="Brand" value="HP" />
+    <att name="Bluetooth" value="Yes" />
+    <att name="Segment" value="Sleekbook" />
+    <att name="LCD Inches" value="15.6" />
+    <att name="CPU Speed" value="1.8" />
+    <att name="RAM size" value="6" />
+    <att name="Laptop ID" value="81" />
+    <att name="Cache Size" value="2" />
+    <att name="Graphic Card" value="NVIDIA GeForce GT630M 2GB" />
+    <att name="Price" value="702.0" />
+    <att name="Model" value="15-B102sp" />
+    <att name="OS" value="Windows 8" />
+    <att name="DVD" value="Yes" />
+    <att name="Weight" value="1.9" />
+    <att name="CPU Type" value="Intel Core i5-3337U" />
+    <att name="Wireless" value="Yes" />
+    <att name="Webcam" value="Yes" />
+    <att name="CPU Brand" value="Intel" />
+    <att name="HD Size" value="500" />
+  </instance>
+  <instance id="Laptop85" >
+    <att name="HD Type" value="HDD;" />
+    <att name="Brand" value="Samsung" />
+    <att name="Bluetooth" value="Yes" />
+    <att name="Segment" value="Serie NP" />
+    <att name="LCD Inches" value="15.6" />
+    <att name="CPU Speed" value="1.1" />
+    <att name="RAM size" value="4" />
+    <att name="Laptop ID" value="86" />
+    <att name="Cache Size" value="3" />
+    <att name="Graphic Card" value="Intel HD Graphics 4000" />
+    <att name="Price" value="430.0" />
+    <att name="Model" value="NP270E5E-K01PT" />
+    <att name="OS" value="Windows 8" />
+    <att name="DVD" value="Yes" />
+    <att name="Weight" value="2.2" />
+    <att name="CPU Type" value="Celeron 847" />
+    <att name="Wireless" value="Yes" />
+    <att name="Webcam" value="Yes" />
+    <att name="CPU Brand" value="Intel" />
+    <att name="HD Size" value="500" />
+  </instance>
+  <instance id="Laptop84" >
+    <att name="HD Type" value="SSD;" />
+    <att name="Brand" value="HP" />
+    <att name="Bluetooth" value="Yes" />
+    <att name="Segment" value="Ultrabook" />
+    <att name="LCD Inches" value="15.6" />
+    <att name="CPU Speed" value="1.7" />
+    <att name="RAM size" value="4" />
+    <att name="Laptop ID" value="85" />
+    <att name="Cache Size" value="3" />
+    <att name="Graphic Card" value="AMD Radeon HD7670M" />
+    <att name="Price" value="1067.0" />
+    <att name="Model" value="6-1020SP" />
+    <att name="OS" value="Windows 7" />
+    <att name="DVD" value="Yes" />
+    <att name="Weight" value="2.15" />
+    <att name="CPU Type" value="Intel Core i5-3317U" />
+    <att name="Wireless" value="Yes" />
+    <att name="Webcam" value="Yes" />
+    <att name="CPU Brand" value="Intel" />
+    <att name="HD Size" value="128" />
+  </instance>
+  <instance id="Laptop83" >
+    <att name="HD Type" value="HDD;SSD;" />
+    <att name="Brand" value="HP" />
+    <att name="Bluetooth" value="Yes" />
+    <att name="Segment" value="Ultrabook" />
+    <att name="LCD Inches" value="15.6" />
+    <att name="CPU Speed" value="1.7" />
+    <att name="RAM size" value="4" />
+    <att name="Laptop ID" value="84" />
+    <att name="Cache Size" value="3" />
+    <att name="Graphic Card" value="NVIDIA GeForce GT630M" />
+    <att name="Price" value="717.0" />
+    <att name="Model" value="15-B043sp" />
+    <att name="OS" value="Windows 8" />
+    <att name="DVD" value="Yes" />
+    <att name="Weight" value="2.1" />
+    <att name="CPU Type" value="Intel Core i5-3317U" />
+    <att name="Wireless" value="Yes" />
+    <att name="Webcam" value="Yes" />
+    <att name="CPU Brand" value="Intel" />
+    <att name="HD Size" value="352" />
+  </instance>
+  <instance id="Laptop82" >
+    <att name="HD Type" value="HDD;" />
+    <att name="Brand" value="HP" />
+    <att name="Bluetooth" value="Yes" />
+    <att name="Segment" value="Sleekbook" />
+    <att name="LCD Inches" value="17.3" />
+    <att name="CPU Speed" value="1.8" />
+    <att name="RAM size" value="4" />
+    <att name="Laptop ID" value="83" />
+    <att name="Cache Size" value="4" />
+    <att name="Graphic Card" value="NVIDIA GeForce GT630M 2GB" />
+    <att name="Price" value="802.0" />
+    <att name="Model" value="15-b115sp" />
+    <att name="OS" value="Windows 8" />
+    <att name="DVD" value="Yes" />
+    <att name="Weight" value="2.1" />
+    <att name="CPU Type" value="Intel Core i5-3337U" />
+    <att name="Wireless" value="Yes" />
+    <att name="Webcam" value="Yes" />
+    <att name="CPU Brand" value="Intel" />
+    <att name="HD Size" value="500" />
+  </instance>
+  <instance id="Laptop58" >
+    <att name="HD Type" value="HDD;" />
+    <att name="Brand" value="HP" />
+    <att name="Bluetooth" value="Yes" />
+    <att name="Segment" value="Presario" />
+    <att name="LCD Inches" value="15.6" />
+    <att name="CPU Speed" value="2.3" />
+    <att name="RAM size" value="4" />
+    <att name="Laptop ID" value="59" />
+    <att name="Cache Size" value="2" />
+    <att name="Graphic Card" value="AMD Radeon HD7310" />
+    <att name="Price" value="490.0" />
+    <att name="Model" value="650" />
+    <att name="OS" value="Windows 8" />
+    <att name="DVD" value="Yes" />
+    <att name="Weight" value="2.1" />
+    <att name="CPU Type" value="Intel Core i3-2348M" />
+    <att name="Wireless" value="Yes" />
+    <att name="Webcam" value="Yes" />
+    <att name="CPU Brand" value="Intel" />
+    <att name="HD Size" value="500" />
+  </instance>
+  <instance id="Laptop143" >
+    <att name="HD Type" value="HDD;" />
+    <att name="Brand" value="Toshiba" />
+    <att name="Bluetooth" value="Yes" />
+    <att name="Segment" value="Tecra" />
+    <att name="LCD Inches" value="15.6" />
+    <att name="CPU Speed" value="2.6" />
+    <att name="RAM size" value="4" />
+    <att name="Laptop ID" value="144" />
+    <att name="Cache Size" value="3" />
+    <att name="Graphic Card" value="Intel HD Graphics 4000" />
+    <att name="Price" value="835.0" />
+    <att name="Model" value="R950-185" />
+    <att name="OS" value="Windows 8" />
+    <att name="DVD" value="Yes" />
+    <att name="Weight" value="2.49" />
+    <att name="CPU Type" value="Intel Core i5-3230M" />
+    <att name="Wireless" value="Yes" />
+    <att name="Webcam" value="Yes" />
+    <att name="CPU Brand" value="Intel" />
+    <att name="HD Size" value="500" />
+  </instance>
+  <instance id="Laptop57" >
+    <att name="HD Type" value="HDD;" />
+    <att name="Brand" value="HP" />
+    <att name="Bluetooth" value="Yes" />
+    <att name="Segment" value="Presario" />
+    <att name="LCD Inches" value="15.6" />
+    <att name="CPU Speed" value="2.4" />
+    <att name="RAM size" value="4" />
+    <att name="Laptop ID" value="58" />
+    <att name="Cache Size" value="2" />
+    <att name="Graphic Card" value="AMD Radeon HD7310" />
+    <att name="Price" value="438.0" />
+    <att name="Model" value="650" />
+    <att name="OS" value="Windows 8" />
+    <att name="DVD" value="Yes" />
+    <att name="Weight" value="2.1" />
+    <att name="CPU Type" value="Intel Pentium 2020M" />
+    <att name="Wireless" value="Yes" />
+    <att name="Webcam" value="Yes" />
+    <att name="CPU Brand" value="Intel" />
+    <att name="HD Size" value="500" />
+  </instance>
+  <instance id="Laptop144" >
+    <att name="HD Type" value="HDD;" />
+    <att name="Brand" value="Toshiba" />
+    <att name="Bluetooth" value="Yes" />
+    <att name="Segment" value="Tecra" />
+    <att name="LCD Inches" value="14.0" />
+    <att name="CPU Speed" value="2.6" />
+    <att name="RAM size" value="4" />
+    <att name="Laptop ID" value="145" />
+    <att name="Cache Size" value="3" />
+    <att name="Graphic Card" value="Intel HD Graphics 4000" />
+    <att name="Price" value="909.0" />
+    <att name="Model" value="R940-1KW" />
+    <att name="OS" value="Windows 8" />
+    <att name="DVD" value="Yes" />
+    <att name="Weight" value="2.2" />
+    <att name="CPU Type" value="Intel Core i5-3230M" />
+    <att name="Wireless" value="Yes" />
+    <att name="Webcam" value="Yes" />
+    <att name="CPU Brand" value="Intel" />
+    <att name="HD Size" value="500" />
+  </instance>
+  <instance id="Laptop141" >
+    <att name="HD Type" value="SSD;" />
+    <att name="Brand" value="Toshiba" />
+    <att name="Bluetooth" value="Yes" />
+    <att name="Segment" value="Portege" />
+    <att name="LCD Inches" value="13.3" />
+    <att name="CPU Speed" value="2.0" />
+    <att name="RAM size" value="8" />
+    <att name="Laptop ID" value="142" />
+    <att name="Cache Size" value="4" />
+    <att name="Graphic Card" value="Intel HD Graphics 4000" />
+    <att name="Price" value="1335.0" />
+    <att name="Model" value="Z930-10F" />
+    <att name="OS" value="Windows 8" />
+    <att name="DVD" value="No" />
+    <att name="Weight" value="1.12" />
+    <att name="CPU Type" value="Intel Core i7-3667U" />
+    <att name="Wireless" value="Yes" />
+    <att name="Webcam" value="Yes" />
+    <att name="CPU Brand" value="Intel" />
+    <att name="HD Size" value="128" />
+  </instance>
+  <instance id="Laptop59" >
+    <att name="HD Type" value="HDD;" />
+    <att name="Brand" value="HP" />
+    <att name="Bluetooth" value="Yes" />
+    <att name="Segment" value="Presario" />
+    <att name="LCD Inches" value="15.6" />
+    <att name="CPU Speed" value="2.3" />
+    <att name="RAM size" value="4" />
+    <att name="Laptop ID" value="60" />
+    <att name="Cache Size" value="2" />
+    <att name="Graphic Card" value="AMD Radeon HD7310" />
+    <att name="Price" value="516.0" />
+    <att name="Model" value="650" />
+    <att name="OS" value="Windows 8" />
+    <att name="DVD" value="Yes" />
+    <att name="Weight" value="2.1" />
+    <att name="CPU Type" value="Intel Core i3-2348M" />
+    <att name="Wireless" value="Yes" />
+    <att name="Webcam" value="Yes" />
+    <att name="CPU Brand" value="Intel" />
+    <att name="HD Size" value="500" />
+  </instance>
+  <instance id="Laptop142" >
+    <att name="HD Type" value="HDD;" />
+    <att name="Brand" value="Toshiba" />
+    <att name="Bluetooth" value="Yes" />
+    <att name="Segment" value="Tecra" />
+    <att name="LCD Inches" value="15.6" />
+    <att name="CPU Speed" value="2.5" />
+    <att name="RAM size" value="4" />
+    <att name="Laptop ID" value="143" />
+    <att name="Cache Size" value="3" />
+    <att name="Graphic Card" value="Intel HD Graphics 4000" />
+    <att name="Price" value="795.0" />
+    <att name="Model" value="R950-1K5" />
+    <att name="OS" value="Windows 8" />
+    <att name="DVD" value="Yes" />
+    <att name="Weight" value="2.49" />
+    <att name="CPU Type" value="Intel Core i3-3120M" />
+    <att name="Wireless" value="Yes" />
+    <att name="Webcam" value="Yes" />
+    <att name="CPU Brand" value="Intel" />
+    <att name="HD Size" value="500" />
+  </instance>
+  <instance id="Laptop54" >
+    <att name="HD Type" value="HDD;" />
+    <att name="Brand" value="HP" />
+    <att name="Bluetooth" value="Yes" />
+    <att name="Segment" value="Presario" />
+    <att name="LCD Inches" value="15.6" />
+    <att name="CPU Speed" value="1.4" />
+    <att name="RAM size" value="4" />
+    <att name="Laptop ID" value="55" />
+    <att name="Cache Size" value="2" />
+    <att name="Graphic Card" value="AMD Radeon HD7310" />
+    <att name="Price" value="423.0" />
+    <att name="Model" value="CQ58-302SP" />
+    <att name="OS" value="Windows 8" />
+    <att name="DVD" value="Yes" />
+    <att name="Weight" value="2.1" />
+    <att name="CPU Type" value="AMD Dual-Core E1-1200" />
+    <att name="Wireless" value="Yes" />
+    <att name="Webcam" value="Yes" />
+    <att name="CPU Brand" value="AMD" />
+    <att name="HD Size" value="500" />
+  </instance>
+  <instance id="Laptop53" >
+    <att name="HD Type" value="HDD;" />
+    <att name="Brand" value="HP" />
+    <att name="Bluetooth" value="No" />
+    <att name="Segment" value="Mini" />
+    <att name="LCD Inches" value="10.1" />
+    <att name="CPU Speed" value="1.6" />
+    <att name="RAM size" value="1" />
+    <att name="Laptop ID" value="54" />
+    <att name="Cache Size" value="2" />
+    <att name="Graphic Card" value="Intel GMA950" />
+    <att name="Price" value="579.0" />
+    <att name="Model" value="1199ep" />
+    <att name="OS" value="Windows 8" />
+    <att name="DVD" value="No" />
+    <att name="Weight" value="1.1" />
+    <att name="CPU Type" value="Intel Atom N270" />
+    <att name="Wireless" value="No" />
+    <att name="Webcam" value="Yes" />
+    <att name="CPU Brand" value="Intel" />
+    <att name="HD Size" value="80" />
+  </instance>
+  <instance id="Laptop140" >
+    <att name="HD Type" value="HDD;" />
+    <att name="Brand" value="Toshiba" />
+    <att name="Bluetooth" value="Yes" />
+    <att name="Segment" value="Portege" />
+    <att name="LCD Inches" value="13.3" />
+    <att name="CPU Speed" value="2.6" />
+    <att name="RAM size" value="4" />
+    <att name="Laptop ID" value="141" />
+    <att name="Cache Size" value="4" />
+    <att name="Graphic Card" value="Intel HD Graphics 4000" />
+    <att name="Price" value="963.0" />
+    <att name="Model" value="R930-17U" />
+    <att name="OS" value="Windows 8" />
+    <att name="DVD" value="No" />
+    <att name="Weight" value="1.5" />
+    <att name="CPU Type" value="Intel Core i5-3230M" />
+    <att name="Wireless" value="Yes" />
+    <att name="Webcam" value="Yes" />
+    <att name="CPU Brand" value="Intel" />
+    <att name="HD Size" value="500" />
+  </instance>
+  <instance id="Laptop56" >
+    <att name="HD Type" value="HDD;" />
+    <att name="Brand" value="HP" />
+    <att name="Bluetooth" value="Yes" />
+    <att name="Segment" value="Presario" />
+    <att name="LCD Inches" value="15.6" />
+    <att name="CPU Speed" value="2.2" />
+    <att name="RAM size" value="4" />
+    <att name="Laptop ID" value="57" />
+    <att name="Cache Size" value="2" />
+    <att name="Graphic Card" value="AMD Radeon HD7310" />
+    <att name="Price" value="397.0" />
+    <att name="Model" value="650" />
+    <att name="OS" value="Windows 8" />
+    <att name="DVD" value="Yes" />
+    <att name="Weight" value="2.1" />
+    <att name="CPU Type" value="Intel Pentium B960" />
+    <att name="Wireless" value="Yes" />
+    <att name="Webcam" value="Yes" />
+    <att name="CPU Brand" value="Intel" />
+    <att name="HD Size" value="500" />
+  </instance>
+  <instance id="Laptop55" >
+    <att name="HD Type" value="HDD;" />
+    <att name="Brand" value="HP" />
+    <att name="Bluetooth" value="Yes" />
+    <att name="Segment" value="Presario" />
+    <att name="LCD Inches" value="15.6" />
+    <att name="CPU Speed" value="1.4" />
+    <att name="RAM size" value="4" />
+    <att name="Laptop ID" value="56" />
+    <att name="Cache Size" value="2" />
+    <att name="Graphic Card" value="AMD Radeon HD7310" />
+    <att name="Price" value="399.0" />
+    <att name="Model" value="CQ58-303SP" />
+    <att name="OS" value="Windows 8" />
+    <att name="DVD" value="Yes" />
+    <att name="Weight" value="2.1" />
+    <att name="CPU Type" value="AMD Dual-Core E1-1200" />
+    <att name="Wireless" value="Yes" />
+    <att name="Webcam" value="Yes" />
+    <att name="CPU Brand" value="AMD" />
+    <att name="HD Size" value="500" />
+  </instance>
+  <instance id="Laptop50" >
+    <att name="HD Type" value="HDD;" />
+    <att name="Brand" value="Asus" />
+    <att name="Bluetooth" value="Yes" />
+    <att name="Segment" value="Serie X" />
+    <att name="LCD Inches" value="15.6" />
+    <att name="CPU Speed" value="1.8" />
+    <att name="RAM size" value="4" />
+    <att name="Laptop ID" value="51" />
+    <att name="Cache Size" value="2" />
+    <att name="Graphic Card" value="Intel UMA" />
+    <att name="Price" value="400.0" />
+    <att name="Model" value="X55C-SX195H" />
+    <att name="OS" value="Windows 8" />
+    <att name="DVD" value="Yes" />
+    <att name="Weight" value="2.2" />
+    <att name="CPU Type" value="Intel 1000M" />
+    <att name="Wireless" value="Yes" />
+    <att name="Webcam" value="Yes" />
+    <att name="CPU Brand" value="Intel" />
+    <att name="HD Size" value="500" />
+  </instance>
+  <instance id="Laptop52" >
+    <att name="HD Type" value="SSD;" />
+    <att name="Brand" value="Asus" />
+    <att name="Bluetooth" value="Yes" />
+    <att name="Segment" value="Serie Taichi" />
+    <att name="LCD Inches" value="11.6" />
+    <att name="CPU Speed" value="2.0" />
+    <att name="RAM size" value="4" />
+    <att name="Laptop ID" value="53" />
+    <att name="Cache Size" value="4" />
+    <att name="Graphic Card" value="Intel HD Graphics 4000" />
+    <att name="Price" value="1605.0" />
+    <att name="Model" value="TAICHI21-CW011H" />
+    <att name="OS" value="Windows 8" />
+    <att name="DVD" value="No" />
+    <att name="Weight" value="1.05" />
+    <att name="CPU Type" value="Intel Core i7-3537U" />
+    <att name="Wireless" value="Yes" />
+    <att name="Webcam" value="Yes" />
+    <att name="CPU Brand" value="Intel" />
+    <att name="HD Size" value="256" />
+  </instance>
+  <instance id="Laptop51" >
+    <att name="HD Type" value="HDD;" />
+    <att name="Brand" value="Asus" />
+    <att name="Bluetooth" value="Yes" />
+    <att name="Segment" value="Serie X" />
+    <att name="LCD Inches" value="15.6" />
+    <att name="CPU Speed" value="2.5" />
+    <att name="RAM size" value="4" />
+    <att name="Laptop ID" value="52" />
+    <att name="Cache Size" value="2" />
+    <att name="Graphic Card" value="NVIDIA GeForce GT610M" />
+    <att name="Price" value="558.0" />
+    <att name="Model" value="X55VD-SX203H" />
+    <att name="OS" value="Windows 8" />
+    <att name="DVD" value="Yes" />
+    <att name="Weight" value="2.2" />
+    <att name="CPU Type" value="Intel Core i3-3120M" />
+    <att name="Wireless" value="Yes" />
+    <att name="Webcam" value="Yes" />
+    <att name="CPU Brand" value="Intel" />
+    <att name="HD Size" value="500" />
+  </instance>
+  <instance id="Laptop147" >
+    <att name="HD Type" value="HDD;" />
+    <att name="Brand" value="Toshiba" />
+    <att name="Bluetooth" value="Yes" />
+    <att name="Segment" value="Tecra" />
+    <att name="LCD Inches" value="14.0" />
+    <att name="CPU Speed" value="3.0" />
+    <att name="RAM size" value="8" />
+    <att name="Laptop ID" value="148" />
+    <att name="Cache Size" value="4" />
+    <att name="Graphic Card" value="AMD Radeon HD7570M" />
+    <att name="Price" value="1312.0" />
+    <att name="Model" value="R940-1GP" />
+    <att name="OS" value="Windows 8" />
+    <att name="DVD" value="Yes" />
+    <att name="Weight" value="2.2" />
+    <att name="CPU Type" value="Intel Core i7-3540M" />
+    <att name="Wireless" value="Yes" />
+    <att name="Webcam" value="Yes" />
+    <att name="CPU Brand" value="Intel" />
+    <att name="HD Size" value="500" />
+  </instance>
+  <instance id="Laptop145" >
+    <att name="HD Type" value="HDD;" />
+    <att name="Brand" value="Toshiba" />
+    <att name="Bluetooth" value="Yes" />
+    <att name="Segment" value="Tecra" />
+    <att name="LCD Inches" value="14.0" />
+    <att name="CPU Speed" value="2.7" />
+    <att name="RAM size" value="4" />
+    <att name="Laptop ID" value="146" />
+    <att name="Cache Size" value="3" />
+    <att name="Graphic Card" value="Intel HD Graphics 4000" />
+    <att name="Price" value="1094.0" />
+    <att name="Model" value="R940-1GN" />
+    <att name="OS" value="Windows 8" />
+    <att name="DVD" value="Yes" />
+    <att name="Weight" value="2.2" />
+    <att name="CPU Type" value="Intel Core i5-3340M" />
+    <att name="Wireless" value="Yes" />
+    <att name="Webcam" value="Yes" />
+    <att name="CPU Brand" value="Intel" />
+    <att name="HD Size" value="500" />
+  </instance>
+  <instance id="Laptop146" >
+    <att name="HD Type" value="HDD;" />
+    <att name="Brand" value="Toshiba" />
+    <att name="Bluetooth" value="Yes" />
+    <att name="Segment" value="Tecra" />
+    <att name="LCD Inches" value="15.6" />
+    <att name="CPU Speed" value="3.0" />
+    <att name="RAM size" value="8" />
+    <att name="Laptop ID" value="147" />
+    <att name="Cache Size" value="4" />
+    <att name="Graphic Card" value="AMD Radeon HD7570M" />
+    <att name="Price" value="1312.0" />
+    <att name="Model" value="R950-186" />
+    <att name="OS" value="Windows 8" />
+    <att name="DVD" value="Yes" />
+    <att name="Weight" value="2.49" />
+    <att name="CPU Type" value="Intel Core i7-3540M" />
+    <att name="Wireless" value="Yes" />
+    <att name="Webcam" value="Yes" />
+    <att name="CPU Brand" value="Intel" />
+    <att name="HD Size" value="500" />
+  </instance>
+  <instance id="Laptop130" >
+    <att name="HD Type" value="HDD;" />
+    <att name="Brand" value="Toshiba" />
+    <att name="Bluetooth" value="Yes" />
+    <att name="Segment" value="Satellite Pro" />
+    <att name="LCD Inches" value="15.6" />
+    <att name="CPU Speed" value="1.8" />
+    <att name="RAM size" value="4" />
+    <att name="Laptop ID" value="131" />
+    <att name="Cache Size" value="2" />
+    <att name="Graphic Card" value="Intel HD Graphics" />
+    <att name="Price" value="384.0" />
+    <att name="Model" value="C850-1H0" />
+    <att name="OS" value="Windows 8" />
+    <att name="DVD" value="Yes" />
+    <att name="Weight" value="2.3" />
+    <att name="CPU Type" value="Celeron 1000M" />
+    <att name="Wireless" value="Yes" />
+    <att name="Webcam" value="Yes" />
+    <att name="CPU Brand" value="Intel" />
+    <att name="HD Size" value="500" />
+  </instance>
+  <instance id="Laptop131" >
+    <att name="HD Type" value="HDD;" />
+    <att name="Brand" value="Toshiba" />
+    <att name="Bluetooth" value="Yes" />
+    <att name="Segment" value="Satellite Pro" />
+    <att name="LCD Inches" value="15.6" />
+    <att name="CPU Speed" value="2.3" />
+    <att name="RAM size" value="4" />
+    <att name="Laptop ID" value="132" />
+    <att name="Cache Size" value="2" />
+    <att name="Graphic Card" value="Intel HD Graphics 3000" />
+    <att name="Price" value="530.0" />
+    <att name="Model" value="C850-1LC" />
+    <att name="OS" value="Windows 7" />
+    <att name="DVD" value="Yes" />
+    <att name="Weight" value="2.3" />
+    <att name="CPU Type" value="Intel Core i3-2348M" />
+    <att name="Wireless" value="Yes" />
+    <att name="Webcam" value="Yes" />
+    <att name="CPU Brand" value="Intel" />
+    <att name="HD Size" value="500" />
+  </instance>
+  <instance id="Laptop69" >
+    <att name="HD Type" value="HDD;" />
+    <att name="Brand" value="HP" />
+    <att name="Bluetooth" value="Yes" />
+    <att name="Segment" value="Envy" />
+    <att name="LCD Inches" value="15.6" />
+    <att name="CPU Speed" value="1.9" />
+    <att name="RAM size" value="6" />
+    <att name="Laptop ID" value="70" />
+    <att name="Cache Size" value="4" />
+    <att name="Graphic Card" value="AMD Radeon HD8750M" />
+    <att name="Price" value="1003.0" />
+    <att name="Model" value="Ultrabook 6-1201SP" />
+    <att name="OS" value="Windows 8" />
+    <att name="DVD" value="Yes" />
+    <att name="Weight" value="2.1" />
+    <att name="CPU Type" value="Intel Core i7-3517U" />
+    <att name="Wireless" value="Yes" />
+    <att name="Webcam" value="Yes" />
+    <att name="CPU Brand" value="Intel" />
+    <att name="HD Size" value="500" />
+  </instance>
+  <instance id="Laptop132" >
+    <att name="HD Type" value="HDD;" />
+    <att name="Brand" value="Toshiba" />
+    <att name="Bluetooth" value="Yes" />
+    <att name="Segment" value="Satellite Pro" />
+    <att name="LCD Inches" value="15.6" />
+    <att name="CPU Speed" value="2.6" />
+    <att name="RAM size" value="8" />
+    <att name="Laptop ID" value="133" />
+    <att name="Cache Size" value="2" />
+    <att name="Graphic Card" value="AMD Radeon HD7610M" />
+    <att name="Price" value="797.0" />
+    <att name="Model" value="C850-1G4" />
+    <att name="OS" value="Windows 7" />
+    <att name="DVD" value="Yes" />
+    <att name="Weight" value="2.3" />
+    <att name="CPU Type" value="Intel Core i5-3230M" />
+    <att name="Wireless" value="Yes" />
+    <att name="Webcam" value="Yes" />
+    <att name="CPU Brand" value="Intel" />
+    <att name="HD Size" value="500" />
+  </instance>
+  <instance id="Laptop68" >
+    <att name="HD Type" value="SSD;" />
+    <att name="Brand" value="HP" />
+    <att name="Bluetooth" value="Yes" />
+    <att name="Segment" value="Spectre" />
+    <att name="LCD Inches" value="15.6" />
+    <att name="CPU Speed" value="1.8" />
+    <att name="RAM size" value="4" />
+    <att name="Laptop ID" value="69" />
+    <att name="Cache Size" value="4" />
+    <att name="Graphic Card" value="Intel HD Graphics 4000" />
+    <att name="Price" value="1280.0" />
+    <att name="Model" value="Spectre XT 15-4100ep" />
+    <att name="OS" value="Windows 8" />
+    <att name="DVD" value="Yes" />
+    <att name="Weight" value="2.1" />
+    <att name="CPU Type" value="Intel Core i5-3337U" />
+    <att name="Wireless" value="Yes" />
+    <att name="Webcam" value="Yes" />
+    <att name="CPU Brand" value="Intel" />
+    <att name="HD Size" value="500" />
+  </instance>
+  <instance id="Laptop133" >
+    <att name="HD Type" value="HDD;" />
+    <att name="Brand" value="Toshiba" />
+    <att name="Bluetooth" value="Yes" />
+    <att name="Segment" value="Satellite Pro" />
+    <att name="LCD Inches" value="17.3" />
+    <att name="CPU Speed" value="2.6" />
+    <att name="RAM size" value="8" />
+    <att name="Laptop ID" value="134" />
+    <att name="Cache Size" value="3" />
+    <att name="Graphic Card" value="AMD Radeon HD7610M" />
+    <att name="Price" value="894.0" />
+    <att name="Model" value="C870-1CJ" />
+    <att name="OS" value="Windows 7" />
+    <att name="DVD" value="Yes" />
+    <att name="Weight" value="2.6" />
+    <att name="CPU Type" value="Intel Core i5-3230M" />
+    <att name="Wireless" value="Yes" />
+    <att name="Webcam" value="Yes" />
+    <att name="CPU Brand" value="Intel" />
+    <att name="HD Size" value="750" />
+  </instance>
+  <instance id="Laptop67" >
+    <att name="HD Type" value="SSD;" />
+    <att name="Brand" value="HP" />
+    <att name="Bluetooth" value="Yes" />
+    <att name="Segment" value="Spectre" />
+    <att name="LCD Inches" value="15.6" />
+    <att name="CPU Speed" value="1.8" />
+    <att name="RAM size" value="4" />
+    <att name="Laptop ID" value="68" />
+    <att name="Cache Size" value="4" />
+    <att name="Graphic Card" value="Intel HD Graphics 4000" />
+    <att name="Price" value="1207.0" />
+    <att name="Model" value="Spectre XT Pro" />
+    <att name="OS" value="Windows 8" />
+    <att name="DVD" value="Yes" />
+    <att name="Weight" value="2.1" />
+    <att name="CPU Type" value="Intel Core i5-3337U" />
+    <att name="Wireless" value="Yes" />
+    <att name="Webcam" value="Yes" />
+    <att name="CPU Brand" value="Intel" />
+    <att name="HD Size" value="256" />
+  </instance>
+  <instance id="Laptop66" >
+    <att name="HD Type" value="SSD;" />
+    <att name="Brand" value="HP" />
+    <att name="Bluetooth" value="Yes" />
+    <att name="Segment" value="Spectre" />
+    <att name="LCD Inches" value="13.3" />
+    <att name="CPU Speed" value="1.7" />
+    <att name="RAM size" value="4" />
+    <att name="Laptop ID" value="67" />
+    <att name="Cache Size" value="4" />
+    <att name="Graphic Card" value="Intel HD Graphics 4000" />
+    <att name="Price" value="1061.0" />
+    <att name="Model" value="Spectrext XT Pro Ultrabook" />
+    <att name="OS" value="Windows 8" />
+    <att name="DVD" value="Yes" />
+    <att name="Weight" value="2.1" />
+    <att name="CPU Type" value="Intel Core i5-3317U" />
+    <att name="Wireless" value="Yes" />
+    <att name="Webcam" value="Yes" />
+    <att name="CPU Brand" value="Intel" />
+    <att name="HD Size" value="128" />
+  </instance>
+  <instance id="Laptop65" >
+    <att name="HD Type" value="SSD;" />
+    <att name="Brand" value="HP" />
+    <att name="Bluetooth" value="Yes" />
+    <att name="Segment" value="Spectre" />
+    <att name="LCD Inches" value="13.3" />
+    <att name="CPU Speed" value="1.8" />
+    <att name="RAM size" value="4" />
+    <att name="Laptop ID" value="66" />
+    <att name="Cache Size" value="4" />
+    <att name="Graphic Card" value="Intel HD Graphics 4000" />
+    <att name="Price" value="1003.0" />
+    <att name="Model" value="Spectre XT 13-2300ep" />
+    <att name="OS" value="Windows 8" />
+    <att name="DVD" value="Yes" />
+    <att name="Weight" value="2.1" />
+    <att name="CPU Type" value="Intel Core i5-3337U" />
+    <att name="Wireless" value="Yes" />
+    <att name="Webcam" value="Yes" />
+    <att name="CPU Brand" value="Intel" />
+    <att name="HD Size" value="128" />
+  </instance>
+  <instance id="Laptop64" >
+    <att name="HD Type" value="HDD;" />
+    <att name="Brand" value="HP" />
+    <att name="Bluetooth" value="Yes" />
+    <att name="Segment" value="M6" />
+    <att name="LCD Inches" value="15.6" />
+    <att name="CPU Speed" value="1.9" />
+    <att name="RAM size" value="6" />
+    <att name="Laptop ID" value="65" />
+    <att name="Cache Size" value="3" />
+    <att name="Graphic Card" value="AMD Radeon HD7640G" />
+    <att name="Price" value="584.0" />
+    <att name="Model" value="m6-1154sp" />
+    <att name="OS" value="Windows 8" />
+    <att name="DVD" value="Yes" />
+    <att name="Weight" value="2.1" />
+    <att name="CPU Type" value="AMD Quad-Core A8-4500M" />
+    <att name="Wireless" value="Yes" />
+    <att name="Webcam" value="Yes" />
+    <att name="CPU Brand" value="AMD" />
+    <att name="HD Size" value="500" />
+  </instance>
+  <instance id="Laptop63" >
+    <att name="HD Type" value="HDD;" />
+    <att name="Brand" value="HP" />
+    <att name="Bluetooth" value="Yes" />
+    <att name="Segment" value="G6" />
+    <att name="LCD Inches" value="15.6" />
+    <att name="CPU Speed" value="2.2" />
+    <att name="RAM size" value="6" />
+    <att name="Laptop ID" value="64" />
+    <att name="Cache Size" value="4" />
+    <att name="Graphic Card" value="AMD Radeon HD7670M" />
+    <att name="Price" value="787.0" />
+    <att name="Model" value="g6-2314sp" />
+    <att name="OS" value="Windows 8" />
+    <att name="DVD" value="Yes" />
+    <att name="Weight" value="2.1" />
+    <att name="CPU Type" value="Intel Core i7-3632QM" />
+    <att name="Wireless" value="Yes" />
+    <att name="Webcam" value="Yes" />
+    <att name="CPU Brand" value="Intel" />
+    <att name="HD Size" value="500" />
+  </instance>
+  <instance id="Laptop138" >
+    <att name="HD Type" value="HDD;" />
+    <att name="Brand" value="Toshiba" />
+    <att name="Bluetooth" value="Yes" />
+    <att name="Segment" value="Portege" />
+    <att name="LCD Inches" value="13.3" />
+    <att name="CPU Speed" value="3.0" />
+    <att name="RAM size" value="8" />
+    <att name="Laptop ID" value="139" />
+    <att name="Cache Size" value="4" />
+    <att name="Graphic Card" value="Intel HD Graphics 4000" />
+    <att name="Price" value="1330.0" />
+    <att name="Model" value="R930-17W" />
+    <att name="OS" value="Windows 8" />
+    <att name="DVD" value="No" />
+    <att name="Weight" value="1.5" />
+    <att name="CPU Type" value="Intel Core i7-3540M" />
+    <att name="Wireless" value="Yes" />
+    <att name="Webcam" value="Yes" />
+    <att name="CPU Brand" value="Intel" />
+    <att name="HD Size" value="500" />
+  </instance>
+  <instance id="Laptop62" >
+    <att name="HD Type" value="HDD;" />
+    <att name="Brand" value="HP" />
+    <att name="Bluetooth" value="Yes" />
+    <att name="Segment" value="G6" />
+    <att name="LCD Inches" value="15.6" />
+    <att name="CPU Speed" value="2.2" />
+    <att name="RAM size" value="4" />
+    <att name="Laptop ID" value="63" />
+    <att name="Cache Size" value="4" />
+    <att name="Graphic Card" value="AMD Radeon HD7670M" />
+    <att name="Price" value="787.0" />
+    <att name="Model" value="g6-2311sp" />
+    <att name="OS" value="Windows 8" />
+    <att name="DVD" value="Yes" />
+    <att name="Weight" value="2.1" />
+    <att name="CPU Type" value="Intel Core i7-3632QM" />
+    <att name="Wireless" value="Yes" />
+    <att name="Webcam" value="Yes" />
+    <att name="CPU Brand" value="Intel" />
+    <att name="HD Size" value="320" />
+  </instance>
+  <instance id="Laptop139" >
+    <att name="HD Type" value="SSD;" />
+    <att name="Brand" value="Toshiba" />
+    <att name="Bluetooth" value="Yes" />
+    <att name="Segment" value="Portege" />
+    <att name="LCD Inches" value="13.3" />
+    <att name="CPU Speed" value="2.1" />
+    <att name="RAM size" value="8" />
+    <att name="Laptop ID" value="140" />
+    <att name="Cache Size" value="6" />
+    <att name="Graphic Card" value="Intel HD Graphics 4000" />
+    <att name="Price" value="1808.0" />
+    <att name="Model" value="Z930-14L" />
+    <att name="OS" value="Windows 8" />
+    <att name="DVD" value="No" />
+    <att name="Weight" value="1.12" />
+    <att name="CPU Type" value="Intel Core i7-3687U" />
+    <att name="Wireless" value="Yes" />
+    <att name="Webcam" value="Yes" />
+    <att name="CPU Brand" value="Intel" />
+    <att name="HD Size" value="256" />
+  </instance>
+  <instance id="Laptop61" >
+    <att name="HD Type" value="HDD;" />
+    <att name="Brand" value="HP" />
+    <att name="Bluetooth" value="Yes" />
+    <att name="Segment" value="G6" />
+    <att name="LCD Inches" value="15.6" />
+    <att name="CPU Speed" value="2.2" />
+    <att name="RAM size" value="8" />
+    <att name="Laptop ID" value="62" />
+    <att name="Cache Size" value="4" />
+    <att name="Graphic Card" value="AMD Radeon HD7670M" />
+    <att name="Price" value="903.0" />
+    <att name="Model" value="g6-2307sp " />
+    <att name="OS" value="Windows 8" />
+    <att name="DVD" value="Yes" />
+    <att name="Weight" value="2.1" />
+    <att name="CPU Type" value="Intel Core i7-3632QM" />
+    <att name="Wireless" value="Yes" />
+    <att name="Webcam" value="Yes" />
+    <att name="CPU Brand" value="Intel" />
+    <att name="HD Size" value="500" />
+  </instance>
+  <instance id="Laptop60" >
+    <att name="HD Type" value="HDD;" />
+    <att name="Brand" value="HP" />
+    <att name="Bluetooth" value="Yes" />
+    <att name="Segment" value="dv6" />
+    <att name="LCD Inches" value="15.6" />
+    <att name="CPU Speed" value="2.4" />
+    <att name="RAM size" value="6" />
+    <att name="Laptop ID" value="61" />
+    <att name="Cache Size" value="4" />
+    <att name="Graphic Card" value="NVIDIA GeForce GT630M" />
+    <att name="Price" value="1025.0" />
+    <att name="Model" value="dv6-7280sp" />
+    <att name="OS" value="Windows 8" />
+    <att name="DVD" value="Yes" />
+    <att name="Weight" value="2.1" />
+    <att name="CPU Type" value="Intel Core i7-3630QM" />
+    <att name="Wireless" value="Yes" />
+    <att name="Webcam" value="Yes" />
+    <att name="CPU Brand" value="Intel" />
+    <att name="HD Size" value="750" />
+  </instance>
+  <instance id="Laptop134" >
+    <att name="HD Type" value="HDD;" />
+    <att name="Brand" value="Toshiba" />
+    <att name="Bluetooth" value="Yes" />
+    <att name="Segment" value="Portege" />
+    <att name="LCD Inches" value="13.3" />
+    <att name="CPU Speed" value="2.5" />
+    <att name="RAM size" value="4" />
+    <att name="Laptop ID" value="135" />
+    <att name="Cache Size" value="4" />
+    <att name="Graphic Card" value="Intel HD Graphics 4000" />
+    <att name="Price" value="850.0" />
+    <att name="Model" value="R930-17M" />
+    <att name="OS" value="Windows 8" />
+    <att name="DVD" value="No" />
+    <att name="Weight" value="1.5" />
+    <att name="CPU Type" value="Intel Core i3-3120M" />
+    <att name="Wireless" value="Yes" />
+    <att name="Webcam" value="Yes" />
+    <att name="CPU Brand" value="Intel" />
+    <att name="HD Size" value="500" />
+  </instance>
+  <instance id="Laptop135" >
+    <att name="HD Type" value="SSD;" />
+    <att name="Brand" value="Toshiba" />
+    <att name="Bluetooth" value="Yes" />
+    <att name="Segment" value="Portege" />
+    <att name="LCD Inches" value="13.3" />
+    <att name="CPU Speed" value="1.8" />
+    <att name="RAM size" value="4" />
+    <att name="Laptop ID" value="136" />
+    <att name="Cache Size" value="4" />
+    <att name="Graphic Card" value="Intel HD Graphics 4000" />
+    <att name="Price" value="889.0" />
+    <att name="Model" value="Z930-128" />
+    <att name="OS" value="Windows 8" />
+    <att name="DVD" value="No" />
+    <att name="Weight" value="1.12" />
+    <att name="CPU Type" value="Intel Core i3-3217U" />
+    <att name="Wireless" value="Yes" />
+    <att name="Webcam" value="Yes" />
+    <att name="CPU Brand" value="Intel" />
+    <att name="HD Size" value="128" />
+  </instance>
+  <instance id="Laptop136" >
+    <att name="HD Type" value="SSD;" />
+    <att name="Brand" value="Toshiba" />
+    <att name="Bluetooth" value="No" />
+    <att name="Segment" value="Portege" />
+    <att name="LCD Inches" value="13.3" />
+    <att name="CPU Speed" value="1.7" />
+    <att name="RAM size" value="6" />
+    <att name="Laptop ID" value="137" />
+    <att name="Cache Size" value="4" />
+    <att name="Graphic Card" value="Intel HD Graphics 3000" />
+    <att name="Price" value="880.0" />
+    <att name="Model" value="Z830-10Q" />
+    <att name="OS" value="Windows 8" />
+    <att name="DVD" value="No" />
+    <att name="Weight" value="1.12" />
+    <att name="CPU Type" value="Intel Core i5-2557M" />
+    <att name="Wireless" value="Yes" />
+    <att name="Webcam" value="Yes" />
+    <att name="CPU Brand" value="Intel" />
+    <att name="HD Size" value="128" />
+  </instance>
+  <instance id="Laptop137" >
+    <att name="HD Type" value="SSD;" />
+    <att name="Brand" value="Toshiba" />
+    <att name="Bluetooth" value="Yes" />
+    <att name="Segment" value="Portege" />
+    <att name="LCD Inches" value="13.3" />
+    <att name="CPU Speed" value="1.9" />
+    <att name="RAM size" value="4" />
+    <att name="Laptop ID" value="138" />
+    <att name="Cache Size" value="4" />
+    <att name="Graphic Card" value="Intel HD Graphics 4000" />
+    <att name="Price" value="1059.0" />
+    <att name="Model" value="Z930-14M" />
+    <att name="OS" value="Windows 8" />
+    <att name="DVD" value="No" />
+    <att name="Weight" value="1.12" />
+    <att name="CPU Type" value="Intel Core i3-3227U" />
+    <att name="Wireless" value="Yes" />
+    <att name="Webcam" value="Yes" />
+    <att name="CPU Brand" value="Intel" />
+    <att name="HD Size" value="128" />
+  </instance>
+</instances>
+<cb name="LaptopsCaseBase">
+     <case name="Laptop119" />
+     <case name="Laptop118" />
+     <case name="Laptop40" />
+     <case name="Laptop117" />
+     <case name="Laptop41" />
+     <case name="Laptop116" />
+     <case name="Laptop115" />
+     <case name="Laptop114" />
+     <case name="Laptop113" />
+     <case name="Laptop112" />
+     <case name="Laptop46" />
+     <case name="Laptop111" />
+     <case name="Laptop110" />
+     <case name="Laptop47" />
+     <case name="Laptop48" />
+     <case name="Laptop49" />
+     <case name="Laptop42" />
+     <case name="Laptop43" />
+     <case name="Laptop44" />
+     <case name="Laptop45" />
+     <case name="Laptop39" />
+     <case name="Laptop109" />
+     <case name="Laptop128" />
+     <case name="Laptop30" />
+     <case name="Laptop127" />
+     <case name="Laptop129" />
+     <case name="Laptop124" />
+     <case name="Laptop123" />
+     <case name="Laptop126" />
+     <case name="Laptop125" />
+     <case name="Laptop37" />
+     <case name="Laptop120" />
+     <case name="Laptop38" />
+     <case name="Laptop35" />
+     <case name="Laptop122" />
+     <case name="Laptop36" />
+     <case name="Laptop121" />
+     <case name="Laptop33" />
+     <case name="Laptop34" />
+     <case name="Laptop31" />
+     <case name="Laptop32" />
+     <case name="Laptop2" />
+     <case name="Laptop3" />
+     <case name="Laptop4" />
+     <case name="Laptop5" />
+     <case name="Laptop6" />
+     <case name="Laptop7" />
+     <case name="Laptop8" />
+     <case name="Laptop29" />
+     <case name="Laptop9" />
+     <case name="Laptop28" />
+     <case name="Laptop0" />
+     <case name="Laptop1" />
+     <case name="Laptop20" />
+     <case name="Laptop21" />
+     <case name="Laptop22" />
+     <case name="Laptop23" />
+     <case name="Laptop24" />
+     <case name="Laptop25" />
+     <case name="Laptop26" />
+     <case name="Laptop27" />
+     <case name="Laptop93" />
+     <case name="Laptop18" />
+     <case name="Laptop94" />
+     <case name="Laptop17" />
+     <case name="Laptop95" />
+     <case name="Laptop96" />
+     <case name="Laptop19" />
+     <case name="Laptop90" />
+     <case name="Laptop91" />
+     <case name="Laptop92" />
+     <case name="Laptop97" />
+     <case name="Laptop98" />
+     <case name="Laptop99" />
+     <case name="Laptop102" />
+     <case name="Laptop101" />
+     <case name="Laptop104" />
+     <case name="Laptop103" />
+     <case name="Laptop106" />
+     <case name="Laptop105" />
+     <case name="Laptop108" />
+     <case name="Laptop107" />
+     <case name="Laptop11" />
+     <case name="Laptop12" />
+     <case name="Laptop10" />
+     <case name="Laptop15" />
+     <case name="Laptop16" />
+     <case name="Laptop13" />
+     <case name="Laptop100" />
+     <case name="Laptop14" />
+     <case name="Laptop76" />
+     <case name="Laptop75" />
+     <case name="Laptop78" />
+     <case name="Laptop77" />
+     <case name="Laptop79" />
+     <case name="Laptop70" />
+     <case name="Laptop72" />
+     <case name="Laptop71" />
+     <case name="Laptop74" />
+     <case name="Laptop73" />
+     <case name="Laptop89" />
+     <case name="Laptop88" />
+     <case name="Laptop87" />
+     <case name="Laptop86" />
+     <case name="Laptop81" />
+     <case name="Laptop80" />
+     <case name="Laptop85" />
+     <case name="Laptop84" />
+     <case name="Laptop83" />
+     <case name="Laptop82" />
+     <case name="Laptop143" />
+     <case name="Laptop58" />
+     <case name="Laptop144" />
+     <case name="Laptop57" />
+     <case name="Laptop141" />
+     <case name="Laptop142" />
+     <case name="Laptop59" />
+     <case name="Laptop54" />
+     <case name="Laptop140" />
+     <case name="Laptop53" />
+     <case name="Laptop56" />
+     <case name="Laptop55" />
+     <case name="Laptop50" />
+     <case name="Laptop52" />
+     <case name="Laptop51" />
+     <case name="Laptop147" />
+     <case name="Laptop145" />
+     <case name="Laptop146" />
+     <case name="Laptop130" />
+     <case name="Laptop131" />
+     <case name="Laptop132" />
+     <case name="Laptop69" />
+     <case name="Laptop133" />
+     <case name="Laptop68" />
+     <case name="Laptop67" />
+     <case name="Laptop66" />
+     <case name="Laptop65" />
+     <case name="Laptop64" />
+     <case name="Laptop138" />
+     <case name="Laptop63" />
+     <case name="Laptop139" />
+     <case name="Laptop62" />
+     <case name="Laptop61" />
+     <case name="Laptop60" />
+     <case name="Laptop134" />
+     <case name="Laptop135" />
+     <case name="Laptop136" />
+     <case name="Laptop137" />
+</cb>
+</Project>

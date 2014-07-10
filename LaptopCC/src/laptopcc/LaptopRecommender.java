@@ -1,8 +1,3 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package laptopcc;
 
 import java.text.ParseException;
@@ -24,14 +19,12 @@ import de.dfki.mycbr.core.retrieval.Retrieval;
 import de.dfki.mycbr.core.retrieval.Retrieval.RetrievalMethod;
 import de.dfki.mycbr.core.similarity.AmalgamationFct;
 import de.dfki.mycbr.core.similarity.Similarity;
+import de.dfki.mycbr.core.similarity.config.AmalgamationConfig;
 import de.dfki.mycbr.util.Pair;
+import java.util.Arrays;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
-/**
- *
- * @author mario
- */
 public class LaptopRecommender {
 
     private CBREngine engine;
@@ -67,12 +60,25 @@ public class LaptopRecommender {
             String webcam,
             Float weight,
             String wireless,
-            Integer numberOfCases
+            Integer numberOfCases,
+            AmalgamationFct amalgamationFcn
     ) {
         String answer = "";
         Retrieval ret = new Retrieval(myConcept, cb);
 
-        ret.setRetrievalMethod(RetrievalMethod.RETRIEVE_K_SORTED);
+        if (amalgamationFcn.getName().equals("Custom")) {
+            AmalgamationFct newFct = myConcept.addAmalgamationFct(AmalgamationConfig.EUCLIDEAN, "Custom", true);
+            
+            newFct.setActiveFct(myConcept.getAllAttributeDescs().get("CPU Speed"), ResultModel.localCpuSpeed);
+            newFct.setActiveFct(myConcept.getAllAttributeDescs().get("HD Size"), ResultModel.localHdSize);
+            newFct.setActiveFct(myConcept.getAllAttributeDescs().get("Price"), ResultModel.localPrice);
+            newFct.setActiveFct(myConcept.getAllAttributeDescs().get("RAM size"), ResultModel.localRamSize);
+            newFct.setActiveFct(myConcept.getAllAttributeDescs().get("Weight"), ResultModel.localWeight);
+        } else
+            myConcept.setActiveAmalgamFct(amalgamationFcn);
+
+        //ret.setRetrievalMethod(RetrievalMethod.RETRIEVE_K_SORTED);
+        ret.setRetrievalMethod(RetrievalMethod.RETRIEVE_K);
         Instance query = ret.getQueryInstance();
         SymbolDesc bluetoothDesc = (SymbolDesc) myConcept.getAllAttributeDescs().get("Bluetooth");
         query.addAttribute(bluetoothDesc, bluetoothDesc.getAttribute(bluetooth));
@@ -186,8 +192,81 @@ public class LaptopRecommender {
         query.addAttribute(wirelessDesc, wirelessDesc.getAttribute(wireless));
         ret.start();
         List<Pair<Instance, Similarity>> result = ret.getResult();
-        System.out.println(result.toString());
         
+        if (result.size() > 0) {
+            // get the best case's name
+            String casename = result.get(0).getFirst().getName();
+            // get the similarity value
+            Double sim = result.get(0).getSecond().getValue();
+            answer = "\n-----\nBest Match: " + casename + "\nSimilarity: " + sim;
+
+            ArrayList<Hashtable<String, String>> liste = new ArrayList<Hashtable<String, String>>();
+            // if more case results are requested than we have in our case base at all:
+            if (numberOfCases >= cb.getCases().size()) {
+                numberOfCases = cb.getCases().size();
+            } else
+                answer += "\nOther matches:\n";
+
+            for (int i = 1; i < numberOfCases; i++) {
+                if (i < 5)
+                    answer += result.get(i).toString() + "\n";
+                else
+                    break;
+            }
+            answer += "\n-----";
+        } else {
+            answer = "Empty result.";
+        }
+
+        //answer = Arrays.toString(result.toArray());
+
         return answer;
+    }
+
+    /**
+     * This method delivers a Hashtable which contains the Attributs names
+     * (Attributes of the case) combined with their respective values.
+     *
+     * @author weber,koehler,namuth
+     * @param r = An Instance.
+     * @param concept = A Concept
+     * @return List = List containing the Attributes of a case with their
+     * values.
+     */
+    public Hashtable<String, String> getAttributes(Pair<Instance, Similarity> r, Concept concept) {
+
+        Hashtable<String, String> table = new Hashtable<String, String>();
+        ArrayList<String> cats = getCategories(r);
+        // Add the similarity of the case
+        table.put("Sim", String.valueOf(r.getSecond().getValue()));
+        for (String cat : cats) {
+            // Add the Attribute name and its value into the Hashtable
+            table.put(cat, r.getFirst().getAttForDesc(concept.getAllAttributeDescs().get(cat)).getValueAsString());
+        }
+        return table;
+    }
+
+    /**
+     * This Method generates an ArrayList, which contains all Categories of aa
+     * Concept.
+     *
+     * @author weber,koehler,namuth
+     * @param r = An Instance.
+     * @return List = List containing the Attributes names.
+     */
+    public ArrayList<String> getCategories(Pair<Instance, Similarity> r) {
+
+        ArrayList<String> cats = new ArrayList<String>();
+
+        // Read all Attributes of a Concept
+        Set<AttributeDesc> catlist = r.getFirst().getAttributes().keySet();
+
+        for (AttributeDesc cat : catlist) {
+            if (cat != null) {
+                // Add the String literals for each Attribute into the ArrayList
+                cats.add(cat.getName());
+            }
+        }
+        return cats;
     }
 }

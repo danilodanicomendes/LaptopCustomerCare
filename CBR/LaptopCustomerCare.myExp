@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<Project name="LaptopCustomerCare" author="" >
+<exp obj="Laptop" type="Concept" >
+  <desc>
+&#10;    </desc>
+</exp>
+<exp obj="HD Type" c="Laptop" type="AttributeDesc" >
+  <desc>
+&#10;    </desc>
+</exp>
+<exp obj="Brand" c="Laptop" type="AttributeDesc" >
+  <desc>
+&#10;    </desc>
+</exp>
+<exp obj="Bluetooth" c="Laptop" type="AttributeDesc" >
+  <desc>
+&#10;    </desc>
+</exp>
+<exp obj="Segment" c="Laptop" type="AttributeDesc" >
+  <desc>
+&#10;    </desc>
+</exp>
+<exp obj="LCD Inches" c="Laptop" type="AttributeDesc" >
+  <desc>
+&#10;    </desc>
+</exp>
+<exp obj="CPU Speed" c="Laptop" type="AttributeDesc" >
+  <desc>
+&#10;    </desc>
+</exp>
+<exp obj="Laptop ID" c="Laptop" type="AttributeDesc" >
+  <desc>
+&#10;    </desc>
+</exp>
+<exp obj="Cache Size" c="Laptop" type="AttributeDesc" >
+  <desc>
+&#10;    </desc>
+</exp>
+<exp obj="Graphic Card" c="Laptop" type="AttributeDesc" >
+  <desc>
+&#10;    </desc>
+</exp>
+<exp obj="OS" c="Laptop" type="AttributeDesc" >
+  <desc>
+&#10;    </desc>
+</exp>
+<exp obj="Model" c="Laptop" type="AttributeDesc" >
+  <desc>
+&#10;    </desc>
+</exp>
+<exp obj="DVD" c="Laptop" type="AttributeDesc" >
+  <desc>
+&#10;    </desc>
+</exp>
+<exp obj="Weight" c="Laptop" type="AttributeDesc" >
+  <desc>
+&#10;    </desc>
+</exp>
+<exp obj="CPU Type" c="Laptop" type="AttributeDesc" >
+  <desc>
+&#10;    </desc>
+</exp>
+<exp obj="Webcam" c="Laptop" type="AttributeDesc" >
+  <desc>
+&#10;    </desc>
+</exp>
+<exp obj="CPU Brand" c="Laptop" type="AttributeDesc" >
+  <desc>
+  </desc>
+</exp>
+<exp obj="HD Size" c="Laptop" type="AttributeDesc" >
+  <desc>
+&#10;    </desc>
+</exp>
+<exp obj="Yes" c="Laptop" desc="Bluetooth" type="SimpleAttribute" >
+  <desc>
+  </desc>
+</exp>
+</Project>

@@ -1,0 +1,380 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<Project name="LaptopCustomerCare" author="" >
+<svs>
+  <sv name="_others_"/>
+  <sv name="_unknown_"/>
+  <sv name="_undefined_"/>
+<fct name="default function" type="Symbol" mt="PARTNER_QUERY" r="REUSE" t="MAX" symm="true">
+<qsym name="_others_">
+</qsym>
+<qsym name="_unknown_">
+</qsym>
+<qsym name="_undefined_">
+</qsym>
+</fct>
+</svs>
+<model>
+  <concept name="Laptop">
+    <desc name="Brand" type="Symbol" mult="false" >
+      <symbol value="Vaio" />
+      <symbol value="Apple" />
+      <symbol value="HP" />
+      <symbol value="Asus" />
+      <symbol value="Acer" />
+      <symbol value="Toshiba" />
+      <symbol value="Samsung" />
+<fct name="default function" type="Symbol" mt="PARTNER_QUERY" r="REUSE" t="MAX" symm="true">
+<qsym name="Vaio">
+</qsym>
+<qsym name="Apple">
+</qsym>
+<qsym name="HP">
+</qsym>
+<qsym name="Asus">
+</qsym>
+<qsym name="Acer">
+</qsym>
+<qsym name="Toshiba">
+</qsym>
+<qsym name="Samsung">
+</qsym>
+</fct>
+    </desc>
+    <desc name="Model" type="String" mult="false" >
+      <fct name="default function" type="String" symm="true" config="EQUALITY" n="3" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
+    </desc>
+    <desc name="Bluetooth" type="Symbol" mult="false" >
+      <symbol value="Yes" />
+      <symbol value="No" />
+<fct name="default function" type="Symbol" mt="PARTNER_QUERY" r="REUSE" t="MAX" symm="false">
+<qsym name="Yes">
+</qsym>
+<qsym name="No">
+<csym name="Yes" sim="0.7"/>
+</qsym>
+</fct>
+    </desc>
+    <desc name="CPU Speed" type="Float" min="1.1" max="3.0" mult="false" >
+      <fct name="Maximum" type="Float" ltype="POLYNOMIAL_WITH" lparam="5.0" rtype="CONSTANT" rparam="0.0" mode="DIFFERENCE" symm="false" mt="PARTNER_QUERY" r="REUSE" t="MAX" maxForQuotient="10.0" />
+      <fct name="Minimum" type="Float" ltype="CONSTANT" lparam="0.0" rtype="POLYNOMIAL_WITH" rparam="2.0" mode="DIFFERENCE" symm="false" mt="PARTNER_QUERY" r="REUSE" t="MAX" maxForQuotient="10.0" />
+      <fct name="default function" type="Float" ltype="POLYNOMIAL_WITH" lparam="5.0" rtype="POLYNOMIAL_WITH" rparam="2.0" mode="DIFFERENCE" symm="false" mt="PARTNER_QUERY" r="REUSE" t="MAX" maxForQuotient="10.0" />
+      <fct name="Around" type="Float" ltype="POLYNOMIAL_WITH" lparam="5.0" rtype="POLYNOMIAL_WITH" rparam="2.0" mode="DIFFERENCE" symm="false" mt="PARTNER_QUERY" r="REUSE" t="MAX" maxForQuotient="10.0" />
+    </desc>
+    <desc name="HD Type" type="Symbol" mult="true" >
+      <symbol value="SSD" />
+      <symbol value="HDD" />
+<fct name="default function" type="Symbol" mt="PARTNER_QUERY" r="REUSE" t="MAX" symm="true">
+<qsym name="SSD">
+</qsym>
+<qsym name="HDD">
+</qsym>
+</fct>
+    </desc>
+    <desc name="OS" type="Symbol" mult="false" >
+      <symbol value="Windows 8" />
+      <symbol value="Ubuntu" />
+      <symbol value="Windows 7" />
+      <symbol value="Mac OS X Mavericks" />
+<fct name="default function" type="Symbol" mt="PARTNER_QUERY" r="REUSE" t="MAX" symm="true">
+<qsym name="Windows 8">
+</qsym>
+<qsym name="Ubuntu">
+</qsym>
+<qsym name="Windows 7">
+</qsym>
+<qsym name="Mac OS X Mavericks">
+</qsym>
+</fct>
+    </desc>
+    <desc name="HD Size" type="Integer" min="64" max="1006" mult="false" >
+      <fct name="Maximum" type="Integer" ltype="POLYNOMIAL_WITH" lparam="1.0" rtype="CONSTANT" rparam="0.0" mode="DIFFERENCE" symm="false" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
+      <fct name="Minimum" type="Integer" ltype="CONSTANT" lparam="0.0" rtype="POLYNOMIAL_WITH" rparam="1.0" mode="DIFFERENCE" symm="false" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
+      <fct name="default function" type="Integer" ltype="POLYNOMIAL_WITH" lparam="1.0" rtype="POLYNOMIAL_WITH" rparam="1.0" mode="DIFFERENCE" symm="true" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
+      <fct name="Around" type="Integer" ltype="POLYNOMIAL_WITH" lparam="1.0" rtype="POLYNOMIAL_WITH" rparam="1.0" mode="DIFFERENCE" symm="true" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
+    </desc>
+    <desc name="Webcam" type="Symbol" mult="false" >
+      <symbol value="Yes" />
+      <symbol value="No" />
+<fct name="default function" type="Symbol" mt="PARTNER_QUERY" r="REUSE" t="MAX" symm="false">
+<qsym name="Yes">
+</qsym>
+<qsym name="No">
+<csym name="Yes" sim="0.7"/>
+</qsym>
+</fct>
+    </desc>
+    <desc name="DVD" type="Symbol" mult="false" >
+      <symbol value="Yes" />
+      <symbol value="No" />
+<fct name="default function" type="Symbol" mt="PARTNER_QUERY" r="REUSE" t="MAX" symm="false">
+<qsym name="Yes">
+</qsym>
+<qsym name="No">
+<csym name="Yes" sim="0.7"/>
+</qsym>
+</fct>
+    </desc>
+    <desc name="RAM size" type="Integer" min="1" max="32" mult="false" >
+      <fct name="Maximum" type="Integer" ltype="POLYNOMIAL_WITH" lparam="1.0" rtype="POLYNOMIAL_WITH" rparam="0.0" mode="DIFFERENCE" symm="false" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
+      <fct name="Minimum" type="Integer" ltype="CONSTANT" lparam="0.0" rtype="POLYNOMIAL_WITH" rparam="1.0" mode="DIFFERENCE" symm="false" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
+      <fct name="default function" type="Integer" ltype="CONSTANT" lparam="1.0" rtype="CONSTANT" rparam="1.0" mode="DIFFERENCE" symm="true" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
+      <fct name="Around" type="Integer" ltype="POLYNOMIAL_WITH" lparam="1.0" rtype="POLYNOMIAL_WITH" rparam="1.0" mode="DIFFERENCE" symm="true" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
+    </desc>
+    <desc name="Weight" type="Float" min="1.05" max="3.81" mult="false" >
+      <fct name="Maximum" type="Float" ltype="POLYNOMIAL_WITH" lparam="1.0" rtype="CONSTANT" rparam="0.0" mode="DIFFERENCE" symm="false" mt="PARTNER_QUERY" r="REUSE" t="MAX" maxForQuotient="10.0" />
+      <fct name="Minimum" type="Float" ltype="CONSTANT" lparam="0.0" rtype="POLYNOMIAL_WITH" rparam="1.0" mode="DIFFERENCE" symm="false" mt="PARTNER_QUERY" r="REUSE" t="MAX" maxForQuotient="10.0" />
+      <fct name="default function" type="Float" ltype="CONSTANT" lparam="1.0" rtype="CONSTANT" rparam="1.0" mode="DIFFERENCE" symm="true" mt="PARTNER_QUERY" r="REUSE" t="MAX" maxForQuotient="10.0" />
+      <fct name="Around" type="Float" ltype="POLYNOMIAL_WITH" lparam="1.0" rtype="POLYNOMIAL_WITH" rparam="1.0" mode="DIFFERENCE" symm="true" mt="PARTNER_QUERY" r="REUSE" t="MAX" maxForQuotient="10.0" />
+    </desc>
+    <desc name="Graphic Card" type="String" mult="false" >
+      <fct name="default function" type="String" symm="true" config="EQUALITY" n="3" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
+    </desc>
+    <desc name="CPU Type" type="String" mult="false" >
+      <fct name="default function" type="String" symm="true" config="EQUALITY" n="3" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
+    </desc>
+    <desc name="Price" type="Float" min="300.0" max="2349.0" mult="false" >
+      <fct name="Maximum" type="Float" ltype="POLYNOMIAL_WITH" lparam="1.0" rtype="CONSTANT" rparam="0.0" mode="DIFFERENCE" symm="false" mt="PARTNER_QUERY" r="REUSE" t="MAX" maxForQuotient="10.0" />
+      <fct name="Minimum" type="Float" ltype="CONSTANT" lparam="0.0" rtype="POLYNOMIAL_WITH" rparam="1.0" mode="DIFFERENCE" symm="false" mt="PARTNER_QUERY" r="REUSE" t="MAX" maxForQuotient="10.0" />
+      <fct name="default function" type="Float" ltype="POLYNOMIAL_WITH" lparam="0.8" rtype="POLYNOMIAL_WITH" rparam="2.0" mode="DIFFERENCE" symm="false" mt="PARTNER_QUERY" r="REUSE" t="MAX" maxForQuotient="10.0" />
+      <fct name="Around" type="Float" ltype="POLYNOMIAL_WITH" lparam="4.0" rtype="POLYNOMIAL_WITH" rparam="4.0" mode="DIFFERENCE" symm="true" mt="PARTNER_QUERY" r="REUSE" t="MAX" maxForQuotient="10.0" />
+    </desc>
+    <desc name="Segment" type="String" mult="false" >
+      <fct name="default function" type="String" symm="true" config="EQUALITY" n="3" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
+    </desc>
+    <desc name="Wireless" type="Symbol" mult="false" >
+      <symbol value="Yes" />
+      <symbol value="No" />
+<fct name="default function" type="Symbol" mt="PARTNER_QUERY" r="REUSE" t="MAX" symm="false">
+<qsym name="Yes">
+</qsym>
+<qsym name="No">
+<csym name="Yes" sim="0.7"/>
+</qsym>
+</fct>
+    </desc>
+    <desc name="Cache Size" type="Integer" min="1" max="8" mult="false" >
+      <fct name="default function" type="Integer" ltype="POLYNOMIAL_WITH" lparam="2.0" rtype="POLYNOMIAL_WITH" rparam="2.0" mode="DIFFERENCE" symm="true" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
+    </desc>
+    <desc name="CPU Brand" type="Symbol" mult="false" >
+      <symbol value="Intel" />
+      <symbol value="AMD" />
+<fct name="default function" type="Symbol" mt="PARTNER_QUERY" r="REUSE" t="MAX" symm="true">
+<qsym name="Intel">
+</qsym>
+<qsym name="AMD">
+</qsym>
+</fct>
+    </desc>
+    <desc name="Laptop ID" type="Integer" min="1" max="148" mult="false" >
+      <fct name="default function" type="Integer" ltype="STEP_AT" lparam="0.0" rtype="STEP_AT" rparam="0.0" mode="DIFFERENCE" symm="true" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
+    </desc>
+    <desc name="LCD Inches" type="Float" min="10.1" max="17.3" mult="false" >
+      <fct name="default function" type="Float" ltype="POLYNOMIAL_WITH" lparam="2.0" rtype="POLYNOMIAL_WITH" rparam="2.0" mode="DIFFERENCE" symm="true" mt="PARTNER_QUERY" r="REUSE" t="MAX" maxForQuotient="10.0" />
+    </desc>
+    <amalgam name="Student" type="EUCLIDEAN" active="false" >
+      <entry name="Brand" active="true" fct="default function" weight="1.0"/>
+      <entry name="Model" active="true" fct="default function" weight="1.0"/>
+      <entry name="Bluetooth" active="true" fct="default function" weight="1.0"/>
+      <entry name="CPU Speed" active="true" fct="Around" weight="3.0"/>
+      <entry name="HD Type" active="true" fct="default function" weight="1.0"/>
+      <entry name="OS" active="true" fct="default function" weight="2.0"/>
+      <entry name="HD Size" active="true" fct="Around" weight="4.0"/>
+      <entry name="Webcam" active="true" fct="default function" weight="1.0"/>
+      <entry name="DVD" active="true" fct="default function" weight="1.0"/>
+      <entry name="RAM size" active="true" fct="Around" weight="2.0"/>
+      <entry name="Weight" active="true" fct="Maximum" weight="5.0"/>
+      <entry name="Wireless" active="true" fct="default function" weight="5.0"/>
+      <entry name="Segment" active="true" fct="default function" weight="1.0"/>
+      <entry name="Price" active="true" fct="Maximum" weight="5.0"/>
+      <entry name="CPU Type" active="true" fct="default function" weight="3.0"/>
+      <entry name="Graphic Card" active="true" fct="default function" weight="1.0"/>
+      <entry name="Cache Size" active="true" fct="default function" weight="1.0"/>
+      <entry name="Laptop ID" active="false" fct="default function" weight="0.0"/>
+      <entry name="CPU Brand" active="true" fct="default function" weight="1.0"/>
+      <entry name="LCD Inches" active="true" fct="default function" weight="5.0"/>
+    </amalgam>
+    <amalgam name="Designer" type="EUCLIDEAN" active="false" >
+      <entry name="Brand" active="true" fct="default function" weight="5.0"/>
+      <entry name="Model" active="true" fct="default function" weight="1.0"/>
+      <entry name="Bluetooth" active="true" fct="default function" weight="1.0"/>
+      <entry name="CPU Speed" active="true" fct="Around" weight="5.0"/>
+      <entry name="HD Type" active="true" fct="default function" weight="1.0"/>
+      <entry name="OS" active="true" fct="default function" weight="1.0"/>
+      <entry name="HD Size" active="true" fct="Around" weight="10.0"/>
+      <entry name="Webcam" active="true" fct="default function" weight="1.0"/>
+      <entry name="DVD" active="true" fct="default function" weight="1.0"/>
+      <entry name="RAM size" active="true" fct="Around" weight="5.0"/>
+      <entry name="Weight" active="true" fct="Around" weight="1.0"/>
+      <entry name="Wireless" active="true" fct="default function" weight="1.0"/>
+      <entry name="Segment" active="true" fct="default function" weight="1.0"/>
+      <entry name="Price" active="true" fct="Around" weight="1.0"/>
+      <entry name="CPU Type" active="true" fct="default function" weight="5.0"/>
+      <entry name="Graphic Card" active="true" fct="default function" weight="15.0"/>
+      <entry name="Cache Size" active="true" fct="default function" weight="3.0"/>
+      <entry name="Laptop ID" active="false" fct="default function" weight="0.0"/>
+      <entry name="CPU Brand" active="true" fct="default function" weight="1.0"/>
+      <entry name="LCD Inches" active="true" fct="default function" weight="15.0"/>
+    </amalgam>
+    <amalgam name="BigSpender" type="EUCLIDEAN" active="false" >
+      <entry name="Brand" active="true" fct="default function" weight="30.0"/>
+      <entry name="Model" active="true" fct="default function" weight="1.0"/>
+      <entry name="Bluetooth" active="true" fct="default function" weight="1.0"/>
+      <entry name="CPU Speed" active="true" fct="Minimum" weight="20.0"/>
+      <entry name="HD Type" active="true" fct="default function" weight="1.0"/>
+      <entry name="OS" active="true" fct="default function" weight="1.0"/>
+      <entry name="HD Size" active="true" fct="Minimum" weight="1.0"/>
+      <entry name="Webcam" active="true" fct="default function" weight="1.0"/>
+      <entry name="DVD" active="true" fct="default function" weight="1.0"/>
+      <entry name="RAM size" active="true" fct="Minimum" weight="10.0"/>
+      <entry name="Weight" active="true" fct="Around" weight="1.0"/>
+      <entry name="Wireless" active="true" fct="default function" weight="1.0"/>
+      <entry name="Segment" active="true" fct="default function" weight="1.0"/>
+      <entry name="Price" active="true" fct="Minimum" weight="1.0"/>
+      <entry name="CPU Type" active="true" fct="default function" weight="1.0"/>
+      <entry name="Graphic Card" active="true" fct="default function" weight="20.0"/>
+      <entry name="Cache Size" active="true" fct="default function" weight="1.0"/>
+      <entry name="Laptop ID" active="false" fct="default function" weight="0.0"/>
+      <entry name="CPU Brand" active="true" fct="default function" weight="1.0"/>
+      <entry name="LCD Inches" active="true" fct="default function" weight="10.0"/>
+    </amalgam>
+    <amalgam name="CommonTeen" type="WEIGHTED_SUM" active="false" >
+      <entry name="Brand" active="true" fct="default function" weight="50.0"/>
+      <entry name="Model" active="false" fct="default function" weight="1.0"/>
+      <entry name="Bluetooth" active="false" fct="default function" weight="1.0"/>
+      <entry name="CPU Speed" active="false" fct="Around" weight="1.0"/>
+      <entry name="HD Type" active="false" fct="default function" weight="1.0"/>
+      <entry name="OS" active="true" fct="default function" weight="15.0"/>
+      <entry name="HD Size" active="true" fct="Minimum" weight="10.0"/>
+      <entry name="Webcam" active="true" fct="default function" weight="100.0"/>
+      <entry name="DVD" active="false" fct="default function" weight="1.0"/>
+      <entry name="RAM size" active="false" fct="default function" weight="1.0"/>
+      <entry name="Weight" active="true" fct="Around" weight="10.0"/>
+      <entry name="Wireless" active="true" fct="default function" weight="100.0"/>
+      <entry name="Segment" active="true" fct="default function" weight="20.0"/>
+      <entry name="Price" active="true" fct="Minimum" weight="1.0"/>
+      <entry name="CPU Type" active="false" fct="default function" weight="1.0"/>
+      <entry name="Graphic Card" active="false" fct="default function" weight="1.0"/>
+      <entry name="Cache Size" active="false" fct="default function" weight="1.0"/>
+      <entry name="Laptop ID" active="false" fct="default function" weight="0.0"/>
+      <entry name="CPU Brand" active="false" fct="default function" weight="1.0"/>
+      <entry name="LCD Inches" active="true" fct="default function" weight="15.0"/>
+    </amalgam>
+    <amalgam name="Writer" type="EUCLIDEAN" active="false" >
+      <entry name="Brand" active="true" fct="default function" weight="5.0"/>
+      <entry name="Model" active="true" fct="default function" weight="1.0"/>
+      <entry name="Bluetooth" active="true" fct="default function" weight="1.0"/>
+      <entry name="CPU Speed" active="true" fct="Around" weight="1.0"/>
+      <entry name="HD Type" active="true" fct="default function" weight="1.0"/>
+      <entry name="OS" active="true" fct="default function" weight="3.0"/>
+      <entry name="HD Size" active="true" fct="Around" weight="5.0"/>
+      <entry name="Webcam" active="true" fct="default function" weight="1.0"/>
+      <entry name="DVD" active="true" fct="default function" weight="1.0"/>
+      <entry name="RAM size" active="true" fct="Around" weight="4.0"/>
+      <entry name="Weight" active="true" fct="Around" weight="5.0"/>
+      <entry name="Wireless" active="true" fct="default function" weight="5.0"/>
+      <entry name="Segment" active="true" fct="default function" weight="1.0"/>
+      <entry name="Price" active="true" fct="Around" weight="2.0"/>
+      <entry name="CPU Type" active="true" fct="default function" weight="1.0"/>
+      <entry name="Graphic Card" active="true" fct="default function" weight="1.0"/>
+      <entry name="Cache Size" active="true" fct="default function" weight="1.0"/>
+      <entry name="Laptop ID" active="false" fct="default function" weight="0.0"/>
+      <entry name="CPU Brand" active="true" fct="default function" weight="1.0"/>
+      <entry name="LCD Inches" active="true" fct="default function" weight="6.0"/>
+    </amalgam>
+    <amalgam name="BrandWorshiper" type="WEIGHTED_SUM" active="false" >
+      <entry name="Brand" active="true" fct="default function" weight="100.0"/>
+      <entry name="Model" active="true" fct="default function" weight="1.0"/>
+      <entry name="Bluetooth" active="true" fct="default function" weight="1.0"/>
+      <entry name="CPU Speed" active="true" fct="Around" weight="1.0"/>
+      <entry name="HD Type" active="true" fct="default function" weight="1.0"/>
+      <entry name="OS" active="true" fct="default function" weight="1.0"/>
+      <entry name="HD Size" active="true" fct="Around" weight="1.0"/>
+      <entry name="Webcam" active="true" fct="default function" weight="1.0"/>
+      <entry name="DVD" active="true" fct="default function" weight="1.0"/>
+      <entry name="RAM size" active="true" fct="Around" weight="1.0"/>
+      <entry name="Weight" active="true" fct="Around" weight="1.0"/>
+      <entry name="Wireless" active="true" fct="default function" weight="1.0"/>
+      <entry name="Segment" active="true" fct="default function" weight="1.0"/>
+      <entry name="Price" active="true" fct="Around" weight="1.0"/>
+      <entry name="CPU Type" active="true" fct="default function" weight="1.0"/>
+      <entry name="Graphic Card" active="true" fct="default function" weight="1.0"/>
+      <entry name="Cache Size" active="true" fct="default function" weight="1.0"/>
+      <entry name="Laptop ID" active="false" fct="default function" weight="0.0"/>
+      <entry name="CPU Brand" active="true" fct="default function" weight="100.0"/>
+      <entry name="LCD Inches" active="true" fct="default function" weight="1.0"/>
+    </amalgam>
+    <amalgam name="Work" type="EUCLIDEAN" active="false" >
+      <entry name="Brand" active="true" fct="default function" weight="1.0"/>
+      <entry name="Model" active="true" fct="default function" weight="1.0"/>
+      <entry name="Bluetooth" active="true" fct="default function" weight="1.0"/>
+      <entry name="CPU Speed" active="true" fct="Around" weight="10.0"/>
+      <entry name="HD Type" active="true" fct="default function" weight="1.0"/>
+      <entry name="OS" active="true" fct="default function" weight="15.0"/>
+      <entry name="HD Size" active="true" fct="Around" weight="1.0"/>
+      <entry name="Webcam" active="true" fct="default function" weight="1.0"/>
+      <entry name="DVD" active="true" fct="default function" weight="1.0"/>
+      <entry name="RAM size" active="true" fct="Around" weight="4.0"/>
+      <entry name="Weight" active="true" fct="Around" weight="1.0"/>
+      <entry name="Wireless" active="true" fct="default function" weight="3.0"/>
+      <entry name="Segment" active="true" fct="default function" weight="1.0"/>
+      <entry name="Price" active="true" fct="Maximum" weight="10.0"/>
+      <entry name="CPU Type" active="true" fct="default function" weight="10.0"/>
+      <entry name="Graphic Card" active="true" fct="default function" weight="5.0"/>
+      <entry name="Cache Size" active="true" fct="default function" weight="1.0"/>
+      <entry name="Laptop ID" active="false" fct="default function" weight="0.0"/>
+      <entry name="CPU Brand" active="true" fct="default function" weight="1.0"/>
+      <entry name="LCD Inches" active="true" fct="default function" weight="1.0"/>
+    </amalgam>
+    <amalgam name="Gamer" type="EUCLIDEAN" active="false" >
+      <entry name="Brand" active="true" fct="default function" weight="1.0"/>
+      <entry name="Model" active="true" fct="default function" weight="1.0"/>
+      <entry name="Bluetooth" active="true" fct="default function" weight="1.0"/>
+      <entry name="CPU Speed" active="true" fct="Around" weight="10.0"/>
+      <entry name="HD Type" active="true" fct="default function" weight="1.0"/>
+      <entry name="OS" active="true" fct="default function" weight="1.0"/>
+      <entry name="HD Size" active="true" fct="Around" weight="1.0"/>
+      <entry name="Webcam" active="true" fct="default function" weight="1.0"/>
+      <entry name="DVD" active="true" fct="default function" weight="1.0"/>
+      <entry name="RAM size" active="true" fct="Around" weight="4.0"/>
+      <entry name="Weight" active="true" fct="Around" weight="1.0"/>
+      <entry name="Wireless" active="true" fct="default function" weight="1.0"/>
+      <entry name="Segment" active="true" fct="default function" weight="1.0"/>
+      <entry name="Price" active="true" fct="Around" weight="1.0"/>
+      <entry name="CPU Type" active="true" fct="default function" weight="10.0"/>
+      <entry name="Graphic Card" active="true" fct="default function" weight="8.0"/>
+      <entry name="Cache Size" active="true" fct="default function" weight="1.0"/>
+      <entry name="Laptop ID" active="false" fct="default function" weight="0.0"/>
+      <entry name="CPU Brand" active="true" fct="default function" weight="1.0"/>
+      <entry name="LCD Inches" active="true" fct="default function" weight="2.0"/>
+    </amalgam>
+    <amalgam name="Economic" type="EUCLIDEAN" active="true" >
+      <entry name="Brand" active="true" fct="default function" weight="1.0"/>
+      <entry name="Model" active="true" fct="default function" weight="1.0"/>
+      <entry name="Bluetooth" active="true" fct="default function" weight="1.0"/>
+      <entry name="CPU Speed" active="true" fct="Maximum" weight="1.0"/>
+      <entry name="HD Type" active="true" fct="default function" weight="1.0"/>
+      <entry name="OS" active="true" fct="default function" weight="1.0"/>
+      <entry name="HD Size" active="true" fct="Maximum" weight="1.0"/>
+      <entry name="Webcam" active="true" fct="default function" weight="1.0"/>
+      <entry name="DVD" active="true" fct="default function" weight="1.0"/>
+      <entry name="RAM size" active="true" fct="Maximum" weight="1.0"/>
+      <entry name="Weight" active="true" fct="Maximum" weight="1.0"/>
+      <entry name="Wireless" active="true" fct="default function" weight="1.0"/>
+      <entry name="Segment" active="true" fct="default function" weight="1.0"/>
+      <entry name="Price" active="true" fct="Maximum" weight="30.0"/>
+      <entry name="CPU Type" active="true" fct="default function" weight="1.0"/>
+      <entry name="Graphic Card" active="true" fct="default function" weight="1.0"/>
+      <entry name="Cache Size" active="true" fct="default function" weight="1.0"/>
+      <entry name="Laptop ID" active="false" fct="default function" weight="0.0"/>
+      <entry name="CPU Brand" active="true" fct="default function" weight="1.0"/>
+      <entry name="LCD Inches" active="true" fct="default function" weight="1.0"/>
+    </amalgam>
+  </concept>
+</model>
+<hierarchy>
+  <fct name="default function" type="Taxonomy" mt="PARTNER_QUERY" r="REUSE" t="MAX" qconfig="INNER_NODES_ANY" cconfig="INNER_NODES_ANY" top="inheritanceDesc" sim="0.0" symm="true" >
+    <node name="Laptop" sim="1.0" parent="inheritanceDesc" />
+  </fct>
+</hierarchy>
+<cases no="148" cb="LaptopsCaseBase"/>
+</Project>
