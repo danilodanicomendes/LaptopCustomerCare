@@ -3,7 +3,7 @@ LAPTOP COSTUMER CARE
 ========================
 
 Project made for a Computer Engineering degree course, named Knowledge and Reasoning.
-The main goal is to help picking a specific laptop according to the costumer's preferences.
+The main goal is to help picking a specific laptop according to the costumer's preferences using a paradigm model know as CBR (Case Based Reasoning).
 
 This implemented system uses a myCBR project to generate similarities to the inputs and gives a list of the most similar laptop.
 GUI is made in Java using Netbeans and myCBR API: http://mycbr-project.net/
